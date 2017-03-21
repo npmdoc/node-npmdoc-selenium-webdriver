@@ -6,7 +6,7 @@
 <tspan x="10" y="58">&gt; (set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)</tspan>
 <tspan x="10" y="74"></tspan>
 <tspan x="10" y="90"></tspan>
-<tspan x="10" y="106">[MODE_BUILD=npmTest] - 2017-03-21T14:29:40Z - npm-testing /home/travis/build/npmdoc/node-npmdoc-\</tspan>
+<tspan x="10" y="106">[MODE_BUILD=npmTest] - 2017-03-21T14:48:58Z - npm-testing /home/travis/build/npmdoc/node-npmdoc-\</tspan>
 <tspan x="10" y="122">selenium-webdriver</tspan>
 <tspan x="10" y="138"></tspan>
 <tspan x="10" y="154"></tspan>
@@ -14,77 +14,77 @@
 <tspan x="10" y="186">-selenium-webdriver/test.js</tspan>
 <tspan x="10" y="202">merging file:///home/travis/build/npmdoc/node-npmdoc-selenium-webdriver/tmp/build/test-report.js\</tspan>
 <tspan x="10" y="218">on to test-report</tspan>
-<tspan x="10" y="234">&gt; server listening on http-port 63242</tspan>
+<tspan x="10" y="234">&gt; server listening on http-port 55781</tspan>
 <tspan x="10" y="250">created apidoc file:///home/travis/build/npmdoc/node-npmdoc-selenium-webdriver/tmp/build/apidoc.\</tspan>
 <tspan x="10" y="266">html</tspan>
 <tspan x="10" y="282"></tspan>
 <tspan x="10" y="298"></tspan>
 <tspan x="10" y="314">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-selenium-webdriv\</tspan>
-<tspan x="10" y="330">er/tmp/electron.15af14602dc0.781caa324cc8a.html</tspan>
+<tspan x="10" y="330">er/tmp/electron.15af157b0b00.484a639236f23.html</tspan>
 <tspan x="10" y="346"></tspan>
 <tspan x="10" y="362">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 <tspan x="10" y="378">merging file:///home/travis/build/npmdoc/node-npmdoc-selenium-webdriver/tmp/build/test-report.js\</tspan>
 <tspan x="10" y="394">on to test-report</tspan>
 <tspan x="10" y="410">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="426">[4939:0321/142942:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="442">[4939:0321/142942:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="458">[4956:0321/142942:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
-<tspan x="10" y="474">in process gpu-process. </tspan>
-<tspan x="10" y="490">[4939:0321/142942:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
-<tspan x="10" y="506">[node test-case 1 of 6 passed] - testCase_buildLib_default</tspan>
-<tspan x="10" y="522">[node test-case 2 of 6 passed] - testCase_buildReadme_default</tspan>
-<tspan x="10" y="538">[node test-case 3 of 6 passed] - testCase_buildTest_default</tspan>
+<tspan x="10" y="426">[4958:0321/144901:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="442">[4958:0321/144901:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="458">[node test-case 1 of 6 passed] - testCase_buildLib_default</tspan>
+<tspan x="10" y="474">[node test-case 2 of 6 passed] - testCase_buildReadme_default</tspan>
+<tspan x="10" y="490">[node test-case 3 of 6 passed] - testCase_buildTest_default</tspan>
+<tspan x="10" y="506"></tspan>
+<tspan x="10" y="522">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-selenium-webdriv\</tspan>
+<tspan x="10" y="538">er/tmp/electron.15af157b44a0.a5e8ef5745694.html</tspan>
 <tspan x="10" y="554"></tspan>
-<tspan x="10" y="570">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-selenium-webdriv\</tspan>
-<tspan x="10" y="586">er/tmp/electron.15af14606870.b6f1a29e9a3ea.html</tspan>
-<tspan x="10" y="602"></tspan>
-<tspan x="10" y="618">(node:4925) DeprecationWarning: node --debug is deprecated. Please use node --inspect instead.</tspan>
+<tspan x="10" y="570">[4976:0321/144901:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
+<tspan x="10" y="586">in process gpu-process. </tspan>
+<tspan x="10" y="602">(node:4944) DeprecationWarning: node --debug is deprecated. Please use node --inspect instead.</tspan>
+<tspan x="10" y="618">[4958:0321/144901:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
 <tspan x="10" y="634">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 <tspan x="10" y="650"></tspan>
 <tspan x="10" y="666">browserTest - opened url file:///home/travis/build/npmdoc/node-npmdoc-selenium-webdriver/tmp/bui\</tspan>
 <tspan x="10" y="682">ld/apidoc.html</tspan>
 <tspan x="10" y="698"></tspan>
-<tspan x="10" y="714">&gt; server listening on http-port 33191</tspan>
+<tspan x="10" y="714">&gt; server listening on http-port 56962</tspan>
 <tspan x="10" y="730">merging file:///home/travis/build/npmdoc/node-npmdoc-selenium-webdriver/tmp/build/test-report.js\</tspan>
 <tspan x="10" y="746">on to test-report</tspan>
 <tspan x="10" y="762">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="778">[4994:0321/142943:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="794">[4994:0321/142943:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="810">[5025:0321/142943:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
+<tspan x="10" y="778">[5011:0321/144902:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="794">[5011:0321/144902:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="810">[5043:0321/144902:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
 <tspan x="10" y="826">in process gpu-process. </tspan>
-<tspan x="10" y="842">[4994:0321/142943:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
+<tspan x="10" y="842">[5011:0321/144902:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
 <tspan x="10" y="858"></tspan>
-<tspan x="10" y="874">browserTest - opened url http://127.0.0.1:63242?modeTest=1</tspan>
+<tspan x="10" y="874">browserTest - opened url http://127.0.0.1:55781?modeTest=1</tspan>
 <tspan x="10" y="890"></tspan>
-<tspan x="10" y="906">[4994:0321/142945:INFO:CONSOLE(203)] "----------|-----------|-----------|-----------|-----------\</tspan>
+<tspan x="10" y="906">[5011:0321/144904:INFO:CONSOLE(203)] "----------|-----------|-----------|-----------|-----------\</tspan>
 <tspan x="10" y="922">|</tspan>
 <tspan x="10" y="938">File      |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
 <tspan x="10" y="954">----------|-----------|-----------|-----------|-----------|</tspan>
 <tspan x="10" y="970">----------|-----------|-----------|-----------|-----------|</tspan>
 <tspan x="10" y="986">All files |       100 |       100 |       100 |       100 |</tspan>
 <tspan x="10" y="1002">----------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="1018">", source: file:///home/travis/build/npmdoc/node-npmdoc-selenium-webdriver/tmp/electron.15af1460\</tspan>
-<tspan x="10" y="1034">6870.b6f1a29e9a3ea.html (203)</tspan>
-<tspan x="10" y="1050">[4994:0321/142945:INFO:CONSOLE(203)] "created coverage file:///tmp/build/coverage.html/index.htm\</tspan>
-<tspan x="10" y="1066">l", source: file:///home/travis/build/npmdoc/node-npmdoc-selenium-webdriver/tmp/electron.15af146\</tspan>
-<tspan x="10" y="1082">06870.b6f1a29e9a3ea.html (203)</tspan>
-<tspan x="10" y="1098"></tspan>
-<tspan x="10" y="1114">browserTest - created screen-capture file:///home/travis/build/npmdoc/node-npmdoc-selenium-webdr\</tspan>
-<tspan x="10" y="1130">iver/tmp/build/screen-capture.npmTest.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-se\</tspan>
-<tspan x="10" y="1146">lenium-webdriver_2Ftmp_2Fbuild_2Fapidoc.html.png</tspan>
-<tspan x="10" y="1162"></tspan>
+<tspan x="10" y="1018">", source: file:///home/travis/build/npmdoc/node-npmdoc-selenium-webdriver/tmp/electron.15af157b\</tspan>
+<tspan x="10" y="1034">44a0.a5e8ef5745694.html (203)</tspan>
+<tspan x="10" y="1050">[5011:0321/144904:INFO:CONSOLE(203)] "created coverage file:///tmp/build/coverage.html/index.htm\</tspan>
+<tspan x="10" y="1066">l", source: file:///home/travis/build/npmdoc/node-npmdoc-selenium-webdriver/tmp/electron.15af157\</tspan>
+<tspan x="10" y="1082">b44a0.a5e8ef5745694.html (203)</tspan>
+<tspan x="10" y="1098">[node test-case 4 of 6 passed] - testCase_buildApp_default</tspan>
+<tspan x="10" y="1114"></tspan>
+<tspan x="10" y="1130">browserTest - created screen-capture file:///home/travis/build/npmdoc/node-npmdoc-selenium-webdr\</tspan>
+<tspan x="10" y="1146">iver/tmp/build/screen-capture.npmTest.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-se\</tspan>
+<tspan x="10" y="1162">lenium-webdriver_2Ftmp_2Fbuild_2Fapidoc.html.png</tspan>
 <tspan x="10" y="1178"></tspan>
-<tspan x="10" y="1194">browserTest - exit-code 0 - file:///home/travis/build/npmdoc/node-npmdoc-selenium-webdriver/tmp/\</tspan>
-<tspan x="10" y="1210">build/apidoc.html</tspan>
-<tspan x="10" y="1226"></tspan>
-<tspan x="10" y="1242">[node test-case 4 of 6 passed] - testCase_buildApidoc_default</tspan>
-<tspan x="10" y="1258">[node test-case 5 of 6 passed] - testCase_buildApp_default</tspan>
+<tspan x="10" y="1194"></tspan>
+<tspan x="10" y="1210">browserTest - exit-code 0 - file:///home/travis/build/npmdoc/node-npmdoc-selenium-webdriver/tmp/\</tspan>
+<tspan x="10" y="1226">build/apidoc.html</tspan>
+<tspan x="10" y="1242"></tspan>
+<tspan x="10" y="1258">[node test-case 5 of 6 passed] - testCase_buildApidoc_default</tspan>
 <tspan x="10" y="1274"></tspan>
 <tspan x="10" y="1290">browserTest - created screen-capture file:///home/travis/build/npmdoc/node-npmdoc-selenium-webdr\</tspan>
 <tspan x="10" y="1306">iver/tmp/build/screen-capture.npmTest.browser..png</tspan>
 <tspan x="10" y="1322"></tspan>
 <tspan x="10" y="1338"></tspan>
-<tspan x="10" y="1354">browserTest - exit-code 0 - http://127.0.0.1:63242?modeTest=1</tspan>
+<tspan x="10" y="1354">browserTest - exit-code 0 - http://127.0.0.1:55781?modeTest=1</tspan>
 <tspan x="10" y="1370"></tspan>
 <tspan x="10" y="1386"></tspan>
 <tspan x="10" y="1402">browserTest - merged coverage from /home/travis/build/npmdoc/node-npmdoc-selenium-webdriver/tmp/\</tspan>
@@ -112,8 +112,8 @@
 <tspan x="10" y="1754">on to test-report</tspan>
 <tspan x="10" y="1770"></tspan>
 <tspan x="10" y="1786">-------------------------------------------------------</tspan>
-<tspan x="10" y="1802">| test-report - buildNpmdoc - node - linux v7.7.3 - 2017-03-21T14:29:30.005Z</tspan>
-<tspan x="10" y="1818">|   17889 ms            0 failed        6 passed      |</tspan>
+<tspan x="10" y="1802">| test-report - buildNpmdoc - node - linux v7.7.3 - 2017-03-21T14:48:46.169Z</tspan>
+<tspan x="10" y="1818">|   20310 ms            0 failed        6 passed      |</tspan>
 <tspan x="10" y="1834">-------------------------------------------------------</tspan>
 <tspan x="10" y="1850"></tspan>
 <tspan x="10" y="1866">created test-report file:///home/travis/build/npmdoc/node-npmdoc-selenium-webdriver/tmp/build/te\</tspan>
@@ -123,6 +123,6 @@
 <tspan x="10" y="1930">npmTest - 0 failed tests</tspan>
 <tspan x="10" y="1946"></tspan>
 <tspan x="10" y="1962"></tspan>
-<tspan x="10" y="1978">[MODE_BUILD=npmTest] - 2017-03-21T14:29:50Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="1978">[MODE_BUILD=npmTest] - 2017-03-21T14:49:09Z - EXIT_CODE - 0</tspan>
 </text>
 </svg>
