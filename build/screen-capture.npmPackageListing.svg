@@ -1,427 +1,427 @@
 <svg height="6782" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="6782" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  1.  2017-03-25 14:17:50 +0000    32932 byte  CHANGES.md</tspan>
-<tspan x="10" y="42">  2.  2017-03-25 14:17:50 +0000    11365 byte  LICENSE</tspan>
-<tspan x="10" y="58">  3.  2017-03-25 14:17:50 +0000       89 byte  NOTICE</tspan>
-<tspan x="10" y="74">  4.  2017-03-25 14:17:50 +0000     9673 byte  README.md</tspan>
-<tspan x="10" y="90">  5.  2017-03-25 14:17:50 +0000    24287 byte  chrome.js</tspan>
-<tspan x="10" y="106">  6.  2017-03-25 14:17:50 +0000     9915 byte  edge.js</tspan>
-<tspan x="10" y="122">  7.  2017-03-25 14:17:50 +0000     2262 byte  example/async_await_test.js</tspan>
-<tspan x="10" y="138">  8.  2017-03-25 14:17:50 +0000     1650 byte  example/chrome_android.js</tspan>
-<tspan x="10" y="154">  9.  2017-03-25 14:17:50 +0000     1628 byte  example/chrome_mobile_emulation.js</tspan>
-<tspan x="10" y="170"> 10.  2017-03-25 14:17:50 +0000     2739 byte  example/firefox_channels.js</tspan>
-<tspan x="10" y="186"> 11.  2017-03-25 14:17:50 +0000     1994 byte  example/google_search.js</tspan>
-<tspan x="10" y="202"> 12.  2017-03-25 14:17:50 +0000     1733 byte  example/google_search_generator.js</tspan>
-<tspan x="10" y="218"> 13.  2017-03-25 14:17:50 +0000     2297 byte  example/google_search_test.js</tspan>
-<tspan x="10" y="234"> 14.  2017-03-25 14:17:50 +0000     1388 byte  example/logging.js</tspan>
-<tspan x="10" y="250"> 15.  2017-03-25 14:17:50 +0000     1976 byte  example/parallel_flows.js</tspan>
-<tspan x="10" y="266"> 16.  2017-03-25 14:17:50 +0000    10763 byte  firefox/binary.js</tspan>
-<tspan x="10" y="282"> 17.  2017-03-25 14:17:50 +0000     5199 byte  firefox/extension.js</tspan>
-<tspan x="10" y="298"> 18.  2017-03-25 14:17:50 +0000    22846 byte  firefox/index.js</tspan>
-<tspan x="10" y="314"> 19.  2017-03-25 14:17:50 +0000    12979 byte  firefox/profile.js</tspan>
-<tspan x="10" y="330"> 20.  2017-03-25 14:17:50 +0000     7491 byte  http/index.js</tspan>
-<tspan x="10" y="346"> 21.  2017-03-25 14:17:50 +0000     5145 byte  http/util.js</tspan>
-<tspan x="10" y="362"> 22.  2017-03-25 14:17:50 +0000    13817 byte  ie.js</tspan>
-<tspan x="10" y="378"> 23.  2017-03-25 14:17:50 +0000    22731 byte  index.js</tspan>
-<tspan x="10" y="394"> 24.  2017-03-25 14:17:50 +0000     4263 byte  io/exec.js</tspan>
-<tspan x="10" y="410"> 25.  2017-03-25 14:17:50 +0000     7900 byte  io/index.js</tspan>
-<tspan x="10" y="426"> 26.  2017-03-25 14:17:50 +0000      281 byte  lib/README</tspan>
-<tspan x="10" y="442"> 27.  2017-03-25 14:17:50 +0000    19786 byte  lib/actions.js</tspan>
-<tspan x="10" y="458"> 28.  2017-03-25 14:17:50 +0000     8079 byte  lib/atoms/getAttribute.js</tspan>
-<tspan x="10" y="474"> 29.  2017-03-25 14:17:50 +0000    45635 byte  lib/atoms/is-displayed.js</tspan>
-<tspan x="10" y="490"> 30.  2017-03-25 14:17:50 +0000     7830 byte  lib/by.js</tspan>
-<tspan x="10" y="506"> 31.  2017-03-25 14:17:50 +0000    12314 byte  lib/capabilities.js</tspan>
-<tspan x="10" y="522"> 32.  2017-03-25 14:17:50 +0000     6989 byte  lib/command.js</tspan>
-<tspan x="10" y="538"> 33.  2017-03-25 14:17:50 +0000     1190 byte  lib/devmode.js</tspan>
-<tspan x="10" y="554"> 34.  2017-03-25 14:17:50 +0000    16346 byte  lib/error.js</tspan>
-<tspan x="10" y="570"> 35.  2017-03-25 14:17:50 +0000     6170 byte  lib/events.js</tspan>
-<tspan x="10" y="586"> 36.  2017-03-25 14:17:50 +0000     2866 byte  lib/firefox/webdriver.json</tspan>
-<tspan x="10" y="602"> 37.  2017-03-25 14:17:50 +0000   703396 byte  lib/firefox/webdriver.xpi</tspan>
-<tspan x="10" y="618"> 38.  2017-03-25 14:17:50 +0000    21041 byte  lib/http.js</tspan>
-<tspan x="10" y="634"> 39.  2017-03-25 14:17:50 +0000     5099 byte  lib/input.js</tspan>
-<tspan x="10" y="650"> 40.  2017-03-25 14:17:50 +0000    17758 byte  lib/logging.js</tspan>
-<tspan x="10" y="666"> 41.  2017-03-25 14:17:50 +0000   102404 byte  lib/promise.js</tspan>
-<tspan x="10" y="682"> 42.  2017-03-25 14:17:50 +0000     3963 byte  lib/proxy.js</tspan>
-<tspan x="10" y="698"> 43.  2017-03-25 14:17:50 +0000     2059 byte  lib/session.js</tspan>
-<tspan x="10" y="714"> 44.  2017-03-25 14:17:50 +0000     1450 byte  lib/symbols.js</tspan>
-<tspan x="10" y="730"> 45.  2017-03-25 14:17:50 +0000     3713 byte  lib/test/build.js</tspan>
-<tspan x="10" y="746"> 46.  2017-03-25 14:17:50 +0000      335 byte  lib/test/data/ClickTest_testClicksASurroundingStr\</tspan>
+<tspan x="10" y="26">  1.  2017-03-25 16:15:50 +0000    32932 byte  CHANGES.md</tspan>
+<tspan x="10" y="42">  2.  2017-03-25 16:15:50 +0000    11365 byte  LICENSE</tspan>
+<tspan x="10" y="58">  3.  2017-03-25 16:15:50 +0000       89 byte  NOTICE</tspan>
+<tspan x="10" y="74">  4.  2017-03-25 16:15:50 +0000     9673 byte  README.md</tspan>
+<tspan x="10" y="90">  5.  2017-03-25 16:15:50 +0000    24287 byte  chrome.js</tspan>
+<tspan x="10" y="106">  6.  2017-03-25 16:15:50 +0000     9915 byte  edge.js</tspan>
+<tspan x="10" y="122">  7.  2017-03-25 16:15:50 +0000     2262 byte  example/async_await_test.js</tspan>
+<tspan x="10" y="138">  8.  2017-03-25 16:15:50 +0000     1650 byte  example/chrome_android.js</tspan>
+<tspan x="10" y="154">  9.  2017-03-25 16:15:50 +0000     1628 byte  example/chrome_mobile_emulation.js</tspan>
+<tspan x="10" y="170"> 10.  2017-03-25 16:15:50 +0000     2739 byte  example/firefox_channels.js</tspan>
+<tspan x="10" y="186"> 11.  2017-03-25 16:15:50 +0000     1994 byte  example/google_search.js</tspan>
+<tspan x="10" y="202"> 12.  2017-03-25 16:15:50 +0000     1733 byte  example/google_search_generator.js</tspan>
+<tspan x="10" y="218"> 13.  2017-03-25 16:15:50 +0000     2297 byte  example/google_search_test.js</tspan>
+<tspan x="10" y="234"> 14.  2017-03-25 16:15:50 +0000     1388 byte  example/logging.js</tspan>
+<tspan x="10" y="250"> 15.  2017-03-25 16:15:50 +0000     1976 byte  example/parallel_flows.js</tspan>
+<tspan x="10" y="266"> 16.  2017-03-25 16:15:50 +0000    10763 byte  firefox/binary.js</tspan>
+<tspan x="10" y="282"> 17.  2017-03-25 16:15:50 +0000     5199 byte  firefox/extension.js</tspan>
+<tspan x="10" y="298"> 18.  2017-03-25 16:15:50 +0000    22846 byte  firefox/index.js</tspan>
+<tspan x="10" y="314"> 19.  2017-03-25 16:15:50 +0000    12979 byte  firefox/profile.js</tspan>
+<tspan x="10" y="330"> 20.  2017-03-25 16:15:50 +0000     7491 byte  http/index.js</tspan>
+<tspan x="10" y="346"> 21.  2017-03-25 16:15:50 +0000     5145 byte  http/util.js</tspan>
+<tspan x="10" y="362"> 22.  2017-03-25 16:15:50 +0000    13817 byte  ie.js</tspan>
+<tspan x="10" y="378"> 23.  2017-03-25 16:15:50 +0000    22731 byte  index.js</tspan>
+<tspan x="10" y="394"> 24.  2017-03-25 16:15:50 +0000     4263 byte  io/exec.js</tspan>
+<tspan x="10" y="410"> 25.  2017-03-25 16:15:50 +0000     7900 byte  io/index.js</tspan>
+<tspan x="10" y="426"> 26.  2017-03-25 16:15:50 +0000      281 byte  lib/README</tspan>
+<tspan x="10" y="442"> 27.  2017-03-25 16:15:50 +0000    19786 byte  lib/actions.js</tspan>
+<tspan x="10" y="458"> 28.  2017-03-25 16:15:50 +0000     8079 byte  lib/atoms/getAttribute.js</tspan>
+<tspan x="10" y="474"> 29.  2017-03-25 16:15:50 +0000    45635 byte  lib/atoms/is-displayed.js</tspan>
+<tspan x="10" y="490"> 30.  2017-03-25 16:15:50 +0000     7830 byte  lib/by.js</tspan>
+<tspan x="10" y="506"> 31.  2017-03-25 16:15:50 +0000    12314 byte  lib/capabilities.js</tspan>
+<tspan x="10" y="522"> 32.  2017-03-25 16:15:50 +0000     6989 byte  lib/command.js</tspan>
+<tspan x="10" y="538"> 33.  2017-03-25 16:15:50 +0000     1190 byte  lib/devmode.js</tspan>
+<tspan x="10" y="554"> 34.  2017-03-25 16:15:50 +0000    16346 byte  lib/error.js</tspan>
+<tspan x="10" y="570"> 35.  2017-03-25 16:15:50 +0000     6170 byte  lib/events.js</tspan>
+<tspan x="10" y="586"> 36.  2017-03-25 16:15:50 +0000     2866 byte  lib/firefox/webdriver.json</tspan>
+<tspan x="10" y="602"> 37.  2017-03-25 16:15:50 +0000   703396 byte  lib/firefox/webdriver.xpi</tspan>
+<tspan x="10" y="618"> 38.  2017-03-25 16:15:50 +0000    21041 byte  lib/http.js</tspan>
+<tspan x="10" y="634"> 39.  2017-03-25 16:15:50 +0000     5099 byte  lib/input.js</tspan>
+<tspan x="10" y="650"> 40.  2017-03-25 16:15:50 +0000    17758 byte  lib/logging.js</tspan>
+<tspan x="10" y="666"> 41.  2017-03-25 16:15:50 +0000   102404 byte  lib/promise.js</tspan>
+<tspan x="10" y="682"> 42.  2017-03-25 16:15:50 +0000     3963 byte  lib/proxy.js</tspan>
+<tspan x="10" y="698"> 43.  2017-03-25 16:15:50 +0000     2059 byte  lib/session.js</tspan>
+<tspan x="10" y="714"> 44.  2017-03-25 16:15:50 +0000     1450 byte  lib/symbols.js</tspan>
+<tspan x="10" y="730"> 45.  2017-03-25 16:15:50 +0000     3713 byte  lib/test/build.js</tspan>
+<tspan x="10" y="746"> 46.  2017-03-25 16:15:50 +0000      335 byte  lib/test/data/ClickTest_testClicksASurroundingStr\</tspan>
 <tspan x="10" y="762">ongTag.html</tspan>
-<tspan x="10" y="778"> 47.  2017-03-25 14:17:50 +0000      473 byte  lib/test/data/Page.aspx</tspan>
-<tspan x="10" y="794"> 48.  2017-03-25 14:17:50 +0000      926 byte  lib/test/data/Page.aspx.cs</tspan>
-<tspan x="10" y="810"> 49.  2017-03-25 14:17:50 +0000      352 byte  lib/test/data/Redirect.aspx</tspan>
-<tspan x="10" y="826"> 50.  2017-03-25 14:17:50 +0000      175 byte  lib/test/data/Redirect.aspx.cs</tspan>
-<tspan x="10" y="842"> 51.  2017-03-25 14:17:50 +0000    29552 byte  lib/test/data/Settings.StyleCop</tspan>
-<tspan x="10" y="858"> 52.  2017-03-25 14:17:50 +0000     2592 byte  lib/test/data/Web.Config</tspan>
-<tspan x="10" y="874"> 53.  2017-03-25 14:17:50 +0000      322 byte  lib/test/data/actualXhtmlPage.xhtml</tspan>
-<tspan x="10" y="890"> 54.  2017-03-25 14:17:50 +0000     2160 byte  lib/test/data/ajaxy_page.html</tspan>
-<tspan x="10" y="906"> 55.  2017-03-25 14:17:50 +0000     3229 byte  lib/test/data/alerts.html</tspan>
-<tspan x="10" y="922"> 56.  2017-03-25 14:17:50 +0000     2109 byte  lib/test/data/banner.gif</tspan>
-<tspan x="10" y="938"> 57.  2017-03-25 14:17:50 +0000    14085 byte  lib/test/data/beach.jpg</tspan>
-<tspan x="10" y="954"> 58.  2017-03-25 14:17:50 +0000       60 byte  lib/test/data/blank.html</tspan>
-<tspan x="10" y="970"> 59.  2017-03-25 14:17:50 +0000     1056 byte  lib/test/data/bodyTypingTest.html</tspan>
-<tspan x="10" y="986"> 60.  2017-03-25 14:17:50 +0000      694 byte  lib/test/data/booleanAttributes.html</tspan>
-<tspan x="10" y="1002"> 61.  2017-03-25 14:17:50 +0000      125 byte  lib/test/data/child/childPage.html</tspan>
-<tspan x="10" y="1018"> 62.  2017-03-25 14:17:50 +0000      141 byte  lib/test/data/child/grandchild/grandchildPage.htm\</tspan>
+<tspan x="10" y="778"> 47.  2017-03-25 16:15:50 +0000      473 byte  lib/test/data/Page.aspx</tspan>
+<tspan x="10" y="794"> 48.  2017-03-25 16:15:50 +0000      926 byte  lib/test/data/Page.aspx.cs</tspan>
+<tspan x="10" y="810"> 49.  2017-03-25 16:15:50 +0000      352 byte  lib/test/data/Redirect.aspx</tspan>
+<tspan x="10" y="826"> 50.  2017-03-25 16:15:50 +0000      175 byte  lib/test/data/Redirect.aspx.cs</tspan>
+<tspan x="10" y="842"> 51.  2017-03-25 16:15:50 +0000    29552 byte  lib/test/data/Settings.StyleCop</tspan>
+<tspan x="10" y="858"> 52.  2017-03-25 16:15:50 +0000     2592 byte  lib/test/data/Web.Config</tspan>
+<tspan x="10" y="874"> 53.  2017-03-25 16:15:50 +0000      322 byte  lib/test/data/actualXhtmlPage.xhtml</tspan>
+<tspan x="10" y="890"> 54.  2017-03-25 16:15:50 +0000     2160 byte  lib/test/data/ajaxy_page.html</tspan>
+<tspan x="10" y="906"> 55.  2017-03-25 16:15:50 +0000     3229 byte  lib/test/data/alerts.html</tspan>
+<tspan x="10" y="922"> 56.  2017-03-25 16:15:50 +0000     2109 byte  lib/test/data/banner.gif</tspan>
+<tspan x="10" y="938"> 57.  2017-03-25 16:15:50 +0000    14085 byte  lib/test/data/beach.jpg</tspan>
+<tspan x="10" y="954"> 58.  2017-03-25 16:15:50 +0000       60 byte  lib/test/data/blank.html</tspan>
+<tspan x="10" y="970"> 59.  2017-03-25 16:15:50 +0000     1056 byte  lib/test/data/bodyTypingTest.html</tspan>
+<tspan x="10" y="986"> 60.  2017-03-25 16:15:50 +0000      694 byte  lib/test/data/booleanAttributes.html</tspan>
+<tspan x="10" y="1002"> 61.  2017-03-25 16:15:50 +0000      125 byte  lib/test/data/child/childPage.html</tspan>
+<tspan x="10" y="1018"> 62.  2017-03-25 16:15:50 +0000      141 byte  lib/test/data/child/grandchild/grandchildPage.htm\</tspan>
 <tspan x="10" y="1034">l</tspan>
-<tspan x="10" y="1050"> 63.  2017-03-25 14:17:50 +0000      797 byte  lib/test/data/clickEventPage.html</tspan>
-<tspan x="10" y="1066"> 64.  2017-03-25 14:17:50 +0000      227 byte  lib/test/data/click_frames.html</tspan>
-<tspan x="10" y="1082"> 65.  2017-03-25 14:17:50 +0000     1047 byte  lib/test/data/click_jacker.html</tspan>
-<tspan x="10" y="1098"> 66.  2017-03-25 14:17:50 +0000      355 byte  lib/test/data/click_out_of_bounds.html</tspan>
-<tspan x="10" y="1114"> 67.  2017-03-25 14:17:50 +0000     2402 byte  lib/test/data/click_out_of_bounds_overflow.html</tspan>
-<tspan x="10" y="1130"> 68.  2017-03-25 14:17:50 +0000      583 byte  lib/test/data/click_rtl.html</tspan>
-<tspan x="10" y="1146"> 69.  2017-03-25 14:17:50 +0000      333 byte  lib/test/data/click_source.html</tspan>
-<tspan x="10" y="1162"> 70.  2017-03-25 14:17:50 +0000      141 byte  lib/test/data/click_tests/click_iframe.html</tspan>
-<tspan x="10" y="1178"> 71.  2017-03-25 14:17:50 +0000      174 byte  lib/test/data/click_tests/click_in_iframe.html</tspan>
-<tspan x="10" y="1194"> 72.  2017-03-25 14:17:50 +0000     1344 byte  lib/test/data/click_tests/disappearing_element.ht\</tspan>
+<tspan x="10" y="1050"> 63.  2017-03-25 16:15:50 +0000      797 byte  lib/test/data/clickEventPage.html</tspan>
+<tspan x="10" y="1066"> 64.  2017-03-25 16:15:50 +0000      227 byte  lib/test/data/click_frames.html</tspan>
+<tspan x="10" y="1082"> 65.  2017-03-25 16:15:50 +0000     1047 byte  lib/test/data/click_jacker.html</tspan>
+<tspan x="10" y="1098"> 66.  2017-03-25 16:15:50 +0000      355 byte  lib/test/data/click_out_of_bounds.html</tspan>
+<tspan x="10" y="1114"> 67.  2017-03-25 16:15:50 +0000     2402 byte  lib/test/data/click_out_of_bounds_overflow.html</tspan>
+<tspan x="10" y="1130"> 68.  2017-03-25 16:15:50 +0000      583 byte  lib/test/data/click_rtl.html</tspan>
+<tspan x="10" y="1146"> 69.  2017-03-25 16:15:50 +0000      333 byte  lib/test/data/click_source.html</tspan>
+<tspan x="10" y="1162"> 70.  2017-03-25 16:15:50 +0000      141 byte  lib/test/data/click_tests/click_iframe.html</tspan>
+<tspan x="10" y="1178"> 71.  2017-03-25 16:15:50 +0000      174 byte  lib/test/data/click_tests/click_in_iframe.html</tspan>
+<tspan x="10" y="1194"> 72.  2017-03-25 16:15:50 +0000     1344 byte  lib/test/data/click_tests/disappearing_element.ht\</tspan>
 <tspan x="10" y="1210">ml</tspan>
-<tspan x="10" y="1226"> 73.  2017-03-25 14:17:50 +0000      566 byte  lib/test/data/click_tests/google_map.html</tspan>
-<tspan x="10" y="1242"> 74.  2017-03-25 14:17:50 +0000    26209 byte  lib/test/data/click_tests/google_map.png</tspan>
-<tspan x="10" y="1258"> 75.  2017-03-25 14:17:50 +0000      629 byte  lib/test/data/click_tests/html5_submit_buttons.ht\</tspan>
+<tspan x="10" y="1226"> 73.  2017-03-25 16:15:50 +0000      566 byte  lib/test/data/click_tests/google_map.html</tspan>
+<tspan x="10" y="1242"> 74.  2017-03-25 16:15:50 +0000    26209 byte  lib/test/data/click_tests/google_map.png</tspan>
+<tspan x="10" y="1258"> 75.  2017-03-25 16:15:50 +0000      629 byte  lib/test/data/click_tests/html5_submit_buttons.ht\</tspan>
 <tspan x="10" y="1274">ml</tspan>
-<tspan x="10" y="1290"> 76.  2017-03-25 14:17:50 +0000      164 byte  lib/test/data/click_tests/issue5237.html</tspan>
-<tspan x="10" y="1306"> 77.  2017-03-25 14:17:50 +0000      107 byte  lib/test/data/click_tests/issue5237_frame.html</tspan>
-<tspan x="10" y="1322"> 78.  2017-03-25 14:17:50 +0000      133 byte  lib/test/data/click_tests/issue5237_target.html</tspan>
-<tspan x="10" y="1338"> 79.  2017-03-25 14:17:50 +0000      439 byte  lib/test/data/click_tests/link_that_wraps.html</tspan>
-<tspan x="10" y="1354"> 80.  2017-03-25 14:17:50 +0000      119 byte  lib/test/data/click_tests/mapped_page1.html</tspan>
-<tspan x="10" y="1370"> 81.  2017-03-25 14:17:50 +0000      119 byte  lib/test/data/click_tests/mapped_page2.html</tspan>
-<tspan x="10" y="1386"> 82.  2017-03-25 14:17:50 +0000      119 byte  lib/test/data/click_tests/mapped_page3.html</tspan>
-<tspan x="10" y="1402"> 83.  2017-03-25 14:17:50 +0000     1482 byte  lib/test/data/click_tests/overlapping_elements.ht\</tspan>
+<tspan x="10" y="1290"> 76.  2017-03-25 16:15:50 +0000      164 byte  lib/test/data/click_tests/issue5237.html</tspan>
+<tspan x="10" y="1306"> 77.  2017-03-25 16:15:50 +0000      107 byte  lib/test/data/click_tests/issue5237_frame.html</tspan>
+<tspan x="10" y="1322"> 78.  2017-03-25 16:15:50 +0000      133 byte  lib/test/data/click_tests/issue5237_target.html</tspan>
+<tspan x="10" y="1338"> 79.  2017-03-25 16:15:50 +0000      439 byte  lib/test/data/click_tests/link_that_wraps.html</tspan>
+<tspan x="10" y="1354"> 80.  2017-03-25 16:15:50 +0000      119 byte  lib/test/data/click_tests/mapped_page1.html</tspan>
+<tspan x="10" y="1370"> 81.  2017-03-25 16:15:50 +0000      119 byte  lib/test/data/click_tests/mapped_page2.html</tspan>
+<tspan x="10" y="1386"> 82.  2017-03-25 16:15:50 +0000      119 byte  lib/test/data/click_tests/mapped_page3.html</tspan>
+<tspan x="10" y="1402"> 83.  2017-03-25 16:15:50 +0000     1482 byte  lib/test/data/click_tests/overlapping_elements.ht\</tspan>
 <tspan x="10" y="1418">ml</tspan>
-<tspan x="10" y="1434"> 84.  2017-03-25 14:17:50 +0000     2468 byte  lib/test/data/click_tests/partially_overlapping_e\</tspan>
+<tspan x="10" y="1434"> 84.  2017-03-25 16:15:50 +0000     2468 byte  lib/test/data/click_tests/partially_overlapping_e\</tspan>
 <tspan x="10" y="1450">lements.html</tspan>
-<tspan x="10" y="1466"> 85.  2017-03-25 14:17:50 +0000      468 byte  lib/test/data/click_tests/span_that_wraps.html</tspan>
-<tspan x="10" y="1482"> 86.  2017-03-25 14:17:50 +0000      132 byte  lib/test/data/click_tests/submitted_page.html</tspan>
-<tspan x="10" y="1498"> 87.  2017-03-25 14:17:50 +0000      576 byte  lib/test/data/click_tests/wrapped_overlapping_ele\</tspan>
+<tspan x="10" y="1466"> 85.  2017-03-25 16:15:50 +0000      468 byte  lib/test/data/click_tests/span_that_wraps.html</tspan>
+<tspan x="10" y="1482"> 86.  2017-03-25 16:15:50 +0000      132 byte  lib/test/data/click_tests/submitted_page.html</tspan>
+<tspan x="10" y="1498"> 87.  2017-03-25 16:15:50 +0000      576 byte  lib/test/data/click_tests/wrapped_overlapping_ele\</tspan>
 <tspan x="10" y="1514">ments.html</tspan>
-<tspan x="10" y="1530"> 88.  2017-03-25 14:17:50 +0000      211 byte  lib/test/data/click_too_big.html</tspan>
-<tspan x="10" y="1546"> 89.  2017-03-25 14:17:50 +0000      365 byte  lib/test/data/click_too_big_in_frame.html</tspan>
-<tspan x="10" y="1562"> 90.  2017-03-25 14:17:50 +0000     1247 byte  lib/test/data/clicks.html</tspan>
-<tspan x="10" y="1578"> 91.  2017-03-25 14:17:50 +0000      213 byte  lib/test/data/closeable_window.html</tspan>
-<tspan x="10" y="1594"> 92.  2017-03-25 14:17:50 +0000     2643 byte  lib/test/data/cn-test.html</tspan>
-<tspan x="10" y="1610"> 93.  2017-03-25 14:17:50 +0000      713 byte  lib/test/data/colorPage.html</tspan>
-<tspan x="10" y="1626"> 94.  2017-03-25 14:17:50 +0000     1690 byte  lib/test/data/cookies.html</tspan>
-<tspan x="10" y="1642"> 95.  2017-03-25 14:17:50 +0000      233 byte  lib/test/data/coordinates_tests/element_in_frame.\</tspan>
+<tspan x="10" y="1530"> 88.  2017-03-25 16:15:50 +0000      211 byte  lib/test/data/click_too_big.html</tspan>
+<tspan x="10" y="1546"> 89.  2017-03-25 16:15:50 +0000      365 byte  lib/test/data/click_too_big_in_frame.html</tspan>
+<tspan x="10" y="1562"> 90.  2017-03-25 16:15:50 +0000     1247 byte  lib/test/data/clicks.html</tspan>
+<tspan x="10" y="1578"> 91.  2017-03-25 16:15:50 +0000      213 byte  lib/test/data/closeable_window.html</tspan>
+<tspan x="10" y="1594"> 92.  2017-03-25 16:15:50 +0000     2643 byte  lib/test/data/cn-test.html</tspan>
+<tspan x="10" y="1610"> 93.  2017-03-25 16:15:50 +0000      713 byte  lib/test/data/colorPage.html</tspan>
+<tspan x="10" y="1626"> 94.  2017-03-25 16:15:50 +0000     1690 byte  lib/test/data/cookies.html</tspan>
+<tspan x="10" y="1642"> 95.  2017-03-25 16:15:50 +0000      233 byte  lib/test/data/coordinates_tests/element_in_frame.\</tspan>
 <tspan x="10" y="1658">html</tspan>
-<tspan x="10" y="1674"> 96.  2017-03-25 14:17:50 +0000      238 byte  lib/test/data/coordinates_tests/element_in_nested\</tspan>
+<tspan x="10" y="1674"> 96.  2017-03-25 16:15:50 +0000      238 byte  lib/test/data/coordinates_tests/element_in_nested\</tspan>
 <tspan x="10" y="1690">_frame.html</tspan>
-<tspan x="10" y="1706"> 97.  2017-03-25 14:17:50 +0000      310 byte  lib/test/data/coordinates_tests/page_with_element\</tspan>
+<tspan x="10" y="1706"> 97.  2017-03-25 16:15:50 +0000      310 byte  lib/test/data/coordinates_tests/page_with_element\</tspan>
 <tspan x="10" y="1722">_out_of_view.html</tspan>
-<tspan x="10" y="1738"> 98.  2017-03-25 14:17:50 +0000      188 byte  lib/test/data/coordinates_tests/page_with_empty_e\</tspan>
+<tspan x="10" y="1738"> 98.  2017-03-25 16:15:50 +0000      188 byte  lib/test/data/coordinates_tests/page_with_empty_e\</tspan>
 <tspan x="10" y="1754">lement.html</tspan>
-<tspan x="10" y="1770"> 99.  2017-03-25 14:17:50 +0000      369 byte  lib/test/data/coordinates_tests/page_with_fixed_e\</tspan>
+<tspan x="10" y="1770"> 99.  2017-03-25 16:15:50 +0000      369 byte  lib/test/data/coordinates_tests/page_with_fixed_e\</tspan>
 <tspan x="10" y="1786">lement.html</tspan>
-<tspan x="10" y="1802">100.  2017-03-25 14:17:50 +0000      279 byte  lib/test/data/coordinates_tests/page_with_hidden_\</tspan>
+<tspan x="10" y="1802">100.  2017-03-25 16:15:50 +0000      279 byte  lib/test/data/coordinates_tests/page_with_hidden_\</tspan>
 <tspan x="10" y="1818">element.html</tspan>
-<tspan x="10" y="1834">101.  2017-03-25 14:17:50 +0000      280 byte  lib/test/data/coordinates_tests/page_with_invisib\</tspan>
+<tspan x="10" y="1834">101.  2017-03-25 16:15:50 +0000      280 byte  lib/test/data/coordinates_tests/page_with_invisib\</tspan>
 <tspan x="10" y="1850">le_element.html</tspan>
-<tspan x="10" y="1866">102.  2017-03-25 14:17:50 +0000      276 byte  lib/test/data/coordinates_tests/page_with_transpa\</tspan>
+<tspan x="10" y="1866">102.  2017-03-25 16:15:50 +0000      276 byte  lib/test/data/coordinates_tests/page_with_transpa\</tspan>
 <tspan x="10" y="1882">rent_element.html</tspan>
-<tspan x="10" y="1898">103.  2017-03-25 14:17:50 +0000      243 byte  lib/test/data/coordinates_tests/simple_page.html</tspan>
-<tspan x="10" y="1914">104.  2017-03-25 14:17:50 +0000      260 byte  lib/test/data/css/ui-lightness/images/ui-bg_diago\</tspan>
+<tspan x="10" y="1898">103.  2017-03-25 16:15:50 +0000      243 byte  lib/test/data/coordinates_tests/simple_page.html</tspan>
+<tspan x="10" y="1914">104.  2017-03-25 16:15:50 +0000      260 byte  lib/test/data/css/ui-lightness/images/ui-bg_diago\</tspan>
 <tspan x="10" y="1930">nals-thick_18_b81900_40x40.png</tspan>
-<tspan x="10" y="1946">105.  2017-03-25 14:17:50 +0000      251 byte  lib/test/data/css/ui-lightness/images/ui-bg_diago\</tspan>
+<tspan x="10" y="1946">105.  2017-03-25 16:15:50 +0000      251 byte  lib/test/data/css/ui-lightness/images/ui-bg_diago\</tspan>
 <tspan x="10" y="1962">nals-thick_20_666666_40x40.png</tspan>
-<tspan x="10" y="1978">106.  2017-03-25 14:17:50 +0000      178 byte  lib/test/data/css/ui-lightness/images/ui-bg_flat_\</tspan>
+<tspan x="10" y="1978">106.  2017-03-25 16:15:50 +0000      178 byte  lib/test/data/css/ui-lightness/images/ui-bg_flat_\</tspan>
 <tspan x="10" y="1994">10_000000_40x100.png</tspan>
-<tspan x="10" y="2010">107.  2017-03-25 14:17:50 +0000      104 byte  lib/test/data/css/ui-lightness/images/ui-bg_glass\</tspan>
+<tspan x="10" y="2010">107.  2017-03-25 16:15:50 +0000      104 byte  lib/test/data/css/ui-lightness/images/ui-bg_glass\</tspan>
 <tspan x="10" y="2026">_100_f6f6f6_1x400.png</tspan>
-<tspan x="10" y="2042">108.  2017-03-25 14:17:50 +0000      125 byte  lib/test/data/css/ui-lightness/images/ui-bg_glass\</tspan>
+<tspan x="10" y="2042">108.  2017-03-25 16:15:50 +0000      125 byte  lib/test/data/css/ui-lightness/images/ui-bg_glass\</tspan>
 <tspan x="10" y="2058">_100_fdf5ce_1x400.png</tspan>
-<tspan x="10" y="2074">109.  2017-03-25 14:17:50 +0000      105 byte  lib/test/data/css/ui-lightness/images/ui-bg_glass\</tspan>
+<tspan x="10" y="2074">109.  2017-03-25 16:15:50 +0000      105 byte  lib/test/data/css/ui-lightness/images/ui-bg_glass\</tspan>
 <tspan x="10" y="2090">_65_ffffff_1x400.png</tspan>
-<tspan x="10" y="2106">110.  2017-03-25 14:17:50 +0000     3762 byte  lib/test/data/css/ui-lightness/images/ui-bg_gloss\</tspan>
+<tspan x="10" y="2106">110.  2017-03-25 16:15:50 +0000     3762 byte  lib/test/data/css/ui-lightness/images/ui-bg_gloss\</tspan>
 <tspan x="10" y="2122">-wave_35_f6a828_500x100.png</tspan>
-<tspan x="10" y="2138">111.  2017-03-25 14:17:50 +0000       90 byte  lib/test/data/css/ui-lightness/images/ui-bg_highl\</tspan>
+<tspan x="10" y="2138">111.  2017-03-25 16:15:50 +0000       90 byte  lib/test/data/css/ui-lightness/images/ui-bg_highl\</tspan>
 <tspan x="10" y="2154">ight-soft_100_eeeeee_1x100.png</tspan>
-<tspan x="10" y="2170">112.  2017-03-25 14:17:50 +0000      129 byte  lib/test/data/css/ui-lightness/images/ui-bg_highl\</tspan>
+<tspan x="10" y="2170">112.  2017-03-25 16:15:50 +0000      129 byte  lib/test/data/css/ui-lightness/images/ui-bg_highl\</tspan>
 <tspan x="10" y="2186">ight-soft_75_ffe45c_1x100.png</tspan>
-<tspan x="10" y="2202">113.  2017-03-25 14:17:50 +0000     4369 byte  lib/test/data/css/ui-lightness/images/ui-icons_22\</tspan>
+<tspan x="10" y="2202">113.  2017-03-25 16:15:50 +0000     4369 byte  lib/test/data/css/ui-lightness/images/ui-icons_22\</tspan>
 <tspan x="10" y="2218">2222_256x240.png</tspan>
-<tspan x="10" y="2234">114.  2017-03-25 14:17:50 +0000     4369 byte  lib/test/data/css/ui-lightness/images/ui-icons_22\</tspan>
+<tspan x="10" y="2234">114.  2017-03-25 16:15:50 +0000     4369 byte  lib/test/data/css/ui-lightness/images/ui-icons_22\</tspan>
 <tspan x="10" y="2250">8ef1_256x240.png</tspan>
-<tspan x="10" y="2266">115.  2017-03-25 14:17:50 +0000     4369 byte  lib/test/data/css/ui-lightness/images/ui-icons_ef\</tspan>
+<tspan x="10" y="2266">115.  2017-03-25 16:15:50 +0000     4369 byte  lib/test/data/css/ui-lightness/images/ui-icons_ef\</tspan>
 <tspan x="10" y="2282">8c08_256x240.png</tspan>
-<tspan x="10" y="2298">116.  2017-03-25 14:17:50 +0000     4369 byte  lib/test/data/css/ui-lightness/images/ui-icons_ff\</tspan>
+<tspan x="10" y="2298">116.  2017-03-25 16:15:50 +0000     4369 byte  lib/test/data/css/ui-lightness/images/ui-icons_ff\</tspan>
 <tspan x="10" y="2314">d27a_256x240.png</tspan>
-<tspan x="10" y="2330">117.  2017-03-25 14:17:50 +0000     4369 byte  lib/test/data/css/ui-lightness/images/ui-icons_ff\</tspan>
+<tspan x="10" y="2330">117.  2017-03-25 16:15:50 +0000     4369 byte  lib/test/data/css/ui-lightness/images/ui-icons_ff\</tspan>
 <tspan x="10" y="2346">ffff_256x240.png</tspan>
-<tspan x="10" y="2362">118.  2017-03-25 14:17:50 +0000    34146 byte  lib/test/data/css/ui-lightness/jquery-ui-1.8.10.c\</tspan>
+<tspan x="10" y="2362">118.  2017-03-25 16:15:50 +0000    34146 byte  lib/test/data/css/ui-lightness/jquery-ui-1.8.10.c\</tspan>
 <tspan x="10" y="2378">ustom.css</tspan>
-<tspan x="10" y="2394">119.  2017-03-25 14:17:50 +0000     1634 byte  lib/test/data/cssTransform.html</tspan>
-<tspan x="10" y="2410">120.  2017-03-25 14:17:50 +0000      418 byte  lib/test/data/cssTransform2.html</tspan>
-<tspan x="10" y="2426">121.  2017-03-25 14:17:50 +0000      217 byte  lib/test/data/document_write_in_onload.html</tspan>
-<tspan x="10" y="2442">122.  2017-03-25 14:17:50 +0000     1378 byte  lib/test/data/dragAndDropInsideScrolledDiv.html</tspan>
-<tspan x="10" y="2458">123.  2017-03-25 14:17:50 +0000     1727 byte  lib/test/data/dragAndDropTest.html</tspan>
-<tspan x="10" y="2474">124.  2017-03-25 14:17:50 +0000     2879 byte  lib/test/data/dragDropOverflow.html</tspan>
-<tspan x="10" y="2490">125.  2017-03-25 14:17:50 +0000     2623 byte  lib/test/data/draggableLists.html</tspan>
-<tspan x="10" y="2506">126.  2017-03-25 14:17:50 +0000     1742 byte  lib/test/data/droppableItems.html</tspan>
-<tspan x="10" y="2522">127.  2017-03-25 14:17:50 +0000     1094 byte  lib/test/data/dynamic.html</tspan>
-<tspan x="10" y="2538">128.  2017-03-25 14:17:50 +0000     1103 byte  lib/test/data/dynamicallyModifiedPage.html</tspan>
-<tspan x="10" y="2554">129.  2017-03-25 14:17:50 +0000      297 byte  lib/test/data/errors.html</tspan>
-<tspan x="10" y="2570">130.  2017-03-25 14:17:50 +0000     7289 byte  lib/test/data/firefox/jetpack-sample.xpi</tspan>
-<tspan x="10" y="2586">131.  2017-03-25 14:17:50 +0000     1551 byte  lib/test/data/firefox/sample.xpi</tspan>
-<tspan x="10" y="2602">132.  2017-03-25 14:17:50 +0000      280 byte  lib/test/data/fixedFooterNoScroll.html</tspan>
-<tspan x="10" y="2618">133.  2017-03-25 14:17:50 +0000      264 byte  lib/test/data/fixedFooterNoScrollQuirksMode.html</tspan>
-<tspan x="10" y="2634">134.  2017-03-25 14:17:50 +0000     6489 byte  lib/test/data/formPage.html</tspan>
-<tspan x="10" y="2650">135.  2017-03-25 14:17:50 +0000     1408 byte  lib/test/data/formSelectionPage.html</tspan>
-<tspan x="10" y="2666">136.  2017-03-25 14:17:50 +0000      922 byte  lib/test/data/form_handling_js_submit.html</tspan>
-<tspan x="10" y="2682">137.  2017-03-25 14:17:50 +0000       89 byte  lib/test/data/framePage3.html</tspan>
-<tspan x="10" y="2698">138.  2017-03-25 14:17:50 +0000      482 byte  lib/test/data/frameScrollChild.html</tspan>
-<tspan x="10" y="2714">139.  2017-03-25 14:17:50 +0000      329 byte  lib/test/data/frameScrollPage.html</tspan>
-<tspan x="10" y="2730">140.  2017-03-25 14:17:50 +0000      206 byte  lib/test/data/frameScrollParent.html</tspan>
-<tspan x="10" y="2746">141.  2017-03-25 14:17:50 +0000      350 byte  lib/test/data/frameWithAnimals.html</tspan>
-<tspan x="10" y="2762">142.  2017-03-25 14:17:50 +0000      147 byte  lib/test/data/frame_switching_tests/bug4876.html</tspan>
-<tspan x="10" y="2778">143.  2017-03-25 14:17:50 +0000      213 byte  lib/test/data/frame_switching_tests/bug4876_ifram\</tspan>
+<tspan x="10" y="2394">119.  2017-03-25 16:15:50 +0000     1634 byte  lib/test/data/cssTransform.html</tspan>
+<tspan x="10" y="2410">120.  2017-03-25 16:15:50 +0000      418 byte  lib/test/data/cssTransform2.html</tspan>
+<tspan x="10" y="2426">121.  2017-03-25 16:15:50 +0000      217 byte  lib/test/data/document_write_in_onload.html</tspan>
+<tspan x="10" y="2442">122.  2017-03-25 16:15:50 +0000     1378 byte  lib/test/data/dragAndDropInsideScrolledDiv.html</tspan>
+<tspan x="10" y="2458">123.  2017-03-25 16:15:50 +0000     1727 byte  lib/test/data/dragAndDropTest.html</tspan>
+<tspan x="10" y="2474">124.  2017-03-25 16:15:50 +0000     2879 byte  lib/test/data/dragDropOverflow.html</tspan>
+<tspan x="10" y="2490">125.  2017-03-25 16:15:50 +0000     2623 byte  lib/test/data/draggableLists.html</tspan>
+<tspan x="10" y="2506">126.  2017-03-25 16:15:50 +0000     1742 byte  lib/test/data/droppableItems.html</tspan>
+<tspan x="10" y="2522">127.  2017-03-25 16:15:50 +0000     1094 byte  lib/test/data/dynamic.html</tspan>
+<tspan x="10" y="2538">128.  2017-03-25 16:15:50 +0000     1103 byte  lib/test/data/dynamicallyModifiedPage.html</tspan>
+<tspan x="10" y="2554">129.  2017-03-25 16:15:50 +0000      297 byte  lib/test/data/errors.html</tspan>
+<tspan x="10" y="2570">130.  2017-03-25 16:15:50 +0000     7289 byte  lib/test/data/firefox/jetpack-sample.xpi</tspan>
+<tspan x="10" y="2586">131.  2017-03-25 16:15:50 +0000     1551 byte  lib/test/data/firefox/sample.xpi</tspan>
+<tspan x="10" y="2602">132.  2017-03-25 16:15:50 +0000      280 byte  lib/test/data/fixedFooterNoScroll.html</tspan>
+<tspan x="10" y="2618">133.  2017-03-25 16:15:50 +0000      264 byte  lib/test/data/fixedFooterNoScrollQuirksMode.html</tspan>
+<tspan x="10" y="2634">134.  2017-03-25 16:15:50 +0000     6489 byte  lib/test/data/formPage.html</tspan>
+<tspan x="10" y="2650">135.  2017-03-25 16:15:50 +0000     1408 byte  lib/test/data/formSelectionPage.html</tspan>
+<tspan x="10" y="2666">136.  2017-03-25 16:15:50 +0000      922 byte  lib/test/data/form_handling_js_submit.html</tspan>
+<tspan x="10" y="2682">137.  2017-03-25 16:15:50 +0000       89 byte  lib/test/data/framePage3.html</tspan>
+<tspan x="10" y="2698">138.  2017-03-25 16:15:50 +0000      482 byte  lib/test/data/frameScrollChild.html</tspan>
+<tspan x="10" y="2714">139.  2017-03-25 16:15:50 +0000      329 byte  lib/test/data/frameScrollPage.html</tspan>
+<tspan x="10" y="2730">140.  2017-03-25 16:15:50 +0000      206 byte  lib/test/data/frameScrollParent.html</tspan>
+<tspan x="10" y="2746">141.  2017-03-25 16:15:50 +0000      350 byte  lib/test/data/frameWithAnimals.html</tspan>
+<tspan x="10" y="2762">142.  2017-03-25 16:15:50 +0000      147 byte  lib/test/data/frame_switching_tests/bug4876.html</tspan>
+<tspan x="10" y="2778">143.  2017-03-25 16:15:50 +0000      213 byte  lib/test/data/frame_switching_tests/bug4876_ifram\</tspan>
 <tspan x="10" y="2794">e.html</tspan>
-<tspan x="10" y="2810">144.  2017-03-25 14:17:50 +0000     1128 byte  lib/test/data/frame_switching_tests/deletingFrame\</tspan>
+<tspan x="10" y="2810">144.  2017-03-25 16:15:50 +0000     1128 byte  lib/test/data/frame_switching_tests/deletingFrame\</tspan>
 <tspan x="10" y="2826">.html</tspan>
-<tspan x="10" y="2842">145.  2017-03-25 14:17:50 +0000      182 byte  lib/test/data/frame_switching_tests/deletingFrame\</tspan>
+<tspan x="10" y="2842">145.  2017-03-25 16:15:50 +0000      182 byte  lib/test/data/frame_switching_tests/deletingFrame\</tspan>
 <tspan x="10" y="2858">_iframe.html</tspan>
-<tspan x="10" y="2874">146.  2017-03-25 14:17:50 +0000      123 byte  lib/test/data/frame_switching_tests/deletingFrame\</tspan>
+<tspan x="10" y="2874">146.  2017-03-25 16:15:50 +0000      123 byte  lib/test/data/frame_switching_tests/deletingFrame\</tspan>
 <tspan x="10" y="2890">_iframe2.html</tspan>
-<tspan x="10" y="2906">147.  2017-03-25 14:17:50 +0000      437 byte  lib/test/data/frameset.html</tspan>
-<tspan x="10" y="2922">148.  2017-03-25 14:17:50 +0000      145 byte  lib/test/data/framesetPage2.html</tspan>
-<tspan x="10" y="2938">149.  2017-03-25 14:17:50 +0000      129 byte  lib/test/data/framesetPage3.html</tspan>
-<tspan x="10" y="2954">150.  2017-03-25 14:17:50 +0000      418 byte  lib/test/data/globalscope.html</tspan>
-<tspan x="10" y="2970">151.  2017-03-25 14:17:50 +0000      172 byte  lib/test/data/hidden.html</tspan>
-<tspan x="10" y="2986">152.  2017-03-25 14:17:50 +0000     1335 byte  lib/test/data/hidden_partially.html</tspan>
-<tspan x="10" y="3002">153.  2017-03-25 14:17:50 +0000       92 byte  lib/test/data/html5/blue.jpg</tspan>
-<tspan x="10" y="3018">154.  2017-03-25 14:17:50 +0000     2531 byte  lib/test/data/html5/database.js</tspan>
-<tspan x="10" y="3034">155.  2017-03-25 14:17:50 +0000      881 byte  lib/test/data/html5/geolocation.js</tspan>
-<tspan x="10" y="3050">156.  2017-03-25 14:17:50 +0000       92 byte  lib/test/data/html5/green.jpg</tspan>
-<tspan x="10" y="3066">157.  2017-03-25 14:17:50 +0000       92 byte  lib/test/data/html5/red.jpg</tspan>
-<tspan x="10" y="3082">158.  2017-03-25 14:17:50 +0000       61 byte  lib/test/data/html5/status.html</tspan>
-<tspan x="10" y="3098">159.  2017-03-25 14:17:50 +0000      126 byte  lib/test/data/html5/test.appcache</tspan>
-<tspan x="10" y="3114">160.  2017-03-25 14:17:50 +0000       92 byte  lib/test/data/html5/yellow.jpg</tspan>
-<tspan x="10" y="3130">161.  2017-03-25 14:17:50 +0000      917 byte  lib/test/data/html5Page.html</tspan>
-<tspan x="10" y="3146">162.  2017-03-25 14:17:50 +0000      127 byte  lib/test/data/icon.gif</tspan>
-<tspan x="10" y="3162">163.  2017-03-25 14:17:50 +0000       71 byte  lib/test/data/idElements.html</tspan>
-<tspan x="10" y="3178">164.  2017-03-25 14:17:50 +0000      452 byte  lib/test/data/iframeAtBottom.html</tspan>
-<tspan x="10" y="3194">165.  2017-03-25 14:17:50 +0000       77 byte  lib/test/data/iframeWithAlert.html</tspan>
-<tspan x="10" y="3210">166.  2017-03-25 14:17:50 +0000       68 byte  lib/test/data/iframeWithIframe.html</tspan>
-<tspan x="10" y="3226">167.  2017-03-25 14:17:50 +0000      356 byte  lib/test/data/iframes.html</tspan>
-<tspan x="10" y="3242">168.  2017-03-25 14:17:50 +0000      523 byte  lib/test/data/injectableContent.html</tspan>
-<tspan x="10" y="3258">169.  2017-03-25 14:17:50 +0000     1146 byte  lib/test/data/javascriptEnhancedForm.html</tspan>
-<tspan x="10" y="3274">170.  2017-03-25 14:17:50 +0000    11562 byte  lib/test/data/javascriptPage.html</tspan>
-<tspan x="10" y="3290">171.  2017-03-25 14:17:50 +0000   120619 byte  lib/test/data/jquery-1.3.2.js</tspan>
-<tspan x="10" y="3306">172.  2017-03-25 14:17:50 +0000    78601 byte  lib/test/data/js/jquery-1.4.4.min.js</tspan>
-<tspan x="10" y="3322">173.  2017-03-25 14:17:50 +0000   207380 byte  lib/test/data/js/jquery-ui-1.8.10.custom.min.js</tspan>
-<tspan x="10" y="3338">174.  2017-03-25 14:17:50 +0000     1096 byte  lib/test/data/js/skins/lightgray/content.inline.m\</tspan>
+<tspan x="10" y="2906">147.  2017-03-25 16:15:50 +0000      437 byte  lib/test/data/frameset.html</tspan>
+<tspan x="10" y="2922">148.  2017-03-25 16:15:50 +0000      145 byte  lib/test/data/framesetPage2.html</tspan>
+<tspan x="10" y="2938">149.  2017-03-25 16:15:50 +0000      129 byte  lib/test/data/framesetPage3.html</tspan>
+<tspan x="10" y="2954">150.  2017-03-25 16:15:50 +0000      418 byte  lib/test/data/globalscope.html</tspan>
+<tspan x="10" y="2970">151.  2017-03-25 16:15:50 +0000      172 byte  lib/test/data/hidden.html</tspan>
+<tspan x="10" y="2986">152.  2017-03-25 16:15:50 +0000     1335 byte  lib/test/data/hidden_partially.html</tspan>
+<tspan x="10" y="3002">153.  2017-03-25 16:15:50 +0000       92 byte  lib/test/data/html5/blue.jpg</tspan>
+<tspan x="10" y="3018">154.  2017-03-25 16:15:50 +0000     2531 byte  lib/test/data/html5/database.js</tspan>
+<tspan x="10" y="3034">155.  2017-03-25 16:15:50 +0000      881 byte  lib/test/data/html5/geolocation.js</tspan>
+<tspan x="10" y="3050">156.  2017-03-25 16:15:50 +0000       92 byte  lib/test/data/html5/green.jpg</tspan>
+<tspan x="10" y="3066">157.  2017-03-25 16:15:50 +0000       92 byte  lib/test/data/html5/red.jpg</tspan>
+<tspan x="10" y="3082">158.  2017-03-25 16:15:50 +0000       61 byte  lib/test/data/html5/status.html</tspan>
+<tspan x="10" y="3098">159.  2017-03-25 16:15:50 +0000      126 byte  lib/test/data/html5/test.appcache</tspan>
+<tspan x="10" y="3114">160.  2017-03-25 16:15:50 +0000       92 byte  lib/test/data/html5/yellow.jpg</tspan>
+<tspan x="10" y="3130">161.  2017-03-25 16:15:50 +0000      917 byte  lib/test/data/html5Page.html</tspan>
+<tspan x="10" y="3146">162.  2017-03-25 16:15:50 +0000      127 byte  lib/test/data/icon.gif</tspan>
+<tspan x="10" y="3162">163.  2017-03-25 16:15:50 +0000       71 byte  lib/test/data/idElements.html</tspan>
+<tspan x="10" y="3178">164.  2017-03-25 16:15:50 +0000      452 byte  lib/test/data/iframeAtBottom.html</tspan>
+<tspan x="10" y="3194">165.  2017-03-25 16:15:50 +0000       77 byte  lib/test/data/iframeWithAlert.html</tspan>
+<tspan x="10" y="3210">166.  2017-03-25 16:15:50 +0000       68 byte  lib/test/data/iframeWithIframe.html</tspan>
+<tspan x="10" y="3226">167.  2017-03-25 16:15:50 +0000      356 byte  lib/test/data/iframes.html</tspan>
+<tspan x="10" y="3242">168.  2017-03-25 16:15:50 +0000      523 byte  lib/test/data/injectableContent.html</tspan>
+<tspan x="10" y="3258">169.  2017-03-25 16:15:50 +0000     1146 byte  lib/test/data/javascriptEnhancedForm.html</tspan>
+<tspan x="10" y="3274">170.  2017-03-25 16:15:50 +0000    11562 byte  lib/test/data/javascriptPage.html</tspan>
+<tspan x="10" y="3290">171.  2017-03-25 16:15:50 +0000   120619 byte  lib/test/data/jquery-1.3.2.js</tspan>
+<tspan x="10" y="3306">172.  2017-03-25 16:15:50 +0000    78601 byte  lib/test/data/js/jquery-1.4.4.min.js</tspan>
+<tspan x="10" y="3322">173.  2017-03-25 16:15:50 +0000   207380 byte  lib/test/data/js/jquery-ui-1.8.10.custom.min.js</tspan>
+<tspan x="10" y="3338">174.  2017-03-25 16:15:50 +0000     1096 byte  lib/test/data/js/skins/lightgray/content.inline.m\</tspan>
 <tspan x="10" y="3354">in.css</tspan>
-<tspan x="10" y="3370">175.  2017-03-25 14:17:50 +0000     1520 byte  lib/test/data/js/skins/lightgray/content.min.css</tspan>
-<tspan x="10" y="3386">176.  2017-03-25 14:17:50 +0000       67 byte  lib/test/data/js/skins/lightgray/fonts/readme.md</tspan>
-<tspan x="10" y="3402">177.  2017-03-25 14:17:50 +0000    25949 byte  lib/test/data/js/skins/lightgray/fonts/tinymce-sm\</tspan>
+<tspan x="10" y="3370">175.  2017-03-25 16:15:50 +0000     1520 byte  lib/test/data/js/skins/lightgray/content.min.css</tspan>
+<tspan x="10" y="3386">176.  2017-03-25 16:15:50 +0000       67 byte  lib/test/data/js/skins/lightgray/fonts/readme.md</tspan>
+<tspan x="10" y="3402">177.  2017-03-25 16:15:50 +0000    25949 byte  lib/test/data/js/skins/lightgray/fonts/tinymce-sm\</tspan>
 <tspan x="10" y="3418">all.dev.svg</tspan>
-<tspan x="10" y="3434">178.  2017-03-25 14:17:50 +0000    10316 byte  lib/test/data/js/skins/lightgray/fonts/tinymce-sm\</tspan>
+<tspan x="10" y="3434">178.  2017-03-25 16:15:50 +0000    10316 byte  lib/test/data/js/skins/lightgray/fonts/tinymce-sm\</tspan>
 <tspan x="10" y="3450">all.eot</tspan>
-<tspan x="10" y="3466">179.  2017-03-25 14:17:50 +0000    21580 byte  lib/test/data/js/skins/lightgray/fonts/tinymce-sm\</tspan>
+<tspan x="10" y="3466">179.  2017-03-25 16:15:50 +0000    21580 byte  lib/test/data/js/skins/lightgray/fonts/tinymce-sm\</tspan>
 <tspan x="10" y="3482">all.svg</tspan>
-<tspan x="10" y="3498">180.  2017-03-25 14:17:50 +0000    10128 byte  lib/test/data/js/skins/lightgray/fonts/tinymce-sm\</tspan>
+<tspan x="10" y="3498">180.  2017-03-25 16:15:50 +0000    10128 byte  lib/test/data/js/skins/lightgray/fonts/tinymce-sm\</tspan>
 <tspan x="10" y="3514">all.ttf</tspan>
-<tspan x="10" y="3530">181.  2017-03-25 14:17:50 +0000     7848 byte  lib/test/data/js/skins/lightgray/fonts/tinymce-sm\</tspan>
+<tspan x="10" y="3530">181.  2017-03-25 16:15:50 +0000     7848 byte  lib/test/data/js/skins/lightgray/fonts/tinymce-sm\</tspan>
 <tspan x="10" y="3546">all.woff</tspan>
-<tspan x="10" y="3562">182.  2017-03-25 14:17:50 +0000    27063 byte  lib/test/data/js/skins/lightgray/fonts/tinymce.de\</tspan>
+<tspan x="10" y="3562">182.  2017-03-25 16:15:50 +0000    27063 byte  lib/test/data/js/skins/lightgray/fonts/tinymce.de\</tspan>
 <tspan x="10" y="3578">v.svg</tspan>
-<tspan x="10" y="3594">183.  2017-03-25 14:17:50 +0000    10024 byte  lib/test/data/js/skins/lightgray/fonts/tinymce.eo\</tspan>
+<tspan x="10" y="3594">183.  2017-03-25 16:15:50 +0000    10024 byte  lib/test/data/js/skins/lightgray/fonts/tinymce.eo\</tspan>
 <tspan x="10" y="3610">t</tspan>
-<tspan x="10" y="3626">184.  2017-03-25 14:17:50 +0000    20946 byte  lib/test/data/js/skins/lightgray/fonts/tinymce.sv\</tspan>
+<tspan x="10" y="3626">184.  2017-03-25 16:15:50 +0000    20946 byte  lib/test/data/js/skins/lightgray/fonts/tinymce.sv\</tspan>
 <tspan x="10" y="3642">g</tspan>
-<tspan x="10" y="3658">185.  2017-03-25 14:17:50 +0000     9860 byte  lib/test/data/js/skins/lightgray/fonts/tinymce.tt\</tspan>
+<tspan x="10" y="3658">185.  2017-03-25 16:15:50 +0000     9860 byte  lib/test/data/js/skins/lightgray/fonts/tinymce.tt\</tspan>
 <tspan x="10" y="3674">f</tspan>
-<tspan x="10" y="3690">186.  2017-03-25 14:17:50 +0000     7664 byte  lib/test/data/js/skins/lightgray/fonts/tinymce.wo\</tspan>
+<tspan x="10" y="3690">186.  2017-03-25 16:15:50 +0000     7664 byte  lib/test/data/js/skins/lightgray/fonts/tinymce.wo\</tspan>
 <tspan x="10" y="3706">ff</tspan>
-<tspan x="10" y="3722">187.  2017-03-25 14:17:50 +0000       53 byte  lib/test/data/js/skins/lightgray/img/anchor.gif</tspan>
-<tspan x="10" y="3738">188.  2017-03-25 14:17:50 +0000     2608 byte  lib/test/data/js/skins/lightgray/img/loader.gif</tspan>
-<tspan x="10" y="3754">189.  2017-03-25 14:17:50 +0000      152 byte  lib/test/data/js/skins/lightgray/img/object.gif</tspan>
-<tspan x="10" y="3770">190.  2017-03-25 14:17:50 +0000       43 byte  lib/test/data/js/skins/lightgray/img/trans.gif</tspan>
-<tspan x="10" y="3786">191.  2017-03-25 14:17:50 +0000    32691 byte  lib/test/data/js/skins/lightgray/skin.ie7.min.css</tspan>
-<tspan x="10" y="3802">192.  2017-03-25 14:17:50 +0000    32971 byte  lib/test/data/js/skins/lightgray/skin.min.css</tspan>
-<tspan x="10" y="3818">193.  2017-03-25 14:17:50 +0000     6396 byte  lib/test/data/js/themes/modern/theme.min.js</tspan>
-<tspan x="10" y="3834">194.  2017-03-25 14:17:50 +0000   426104 byte  lib/test/data/js/tinymce.min.js</tspan>
-<tspan x="10" y="3850">195.  2017-03-25 14:17:50 +0000     1031 byte  lib/test/data/key_tests/remove_on_keypress.html</tspan>
-<tspan x="10" y="3866">196.  2017-03-25 14:17:50 +0000     1083 byte  lib/test/data/keyboard_shortcut.html</tspan>
-<tspan x="10" y="3882">197.  2017-03-25 14:17:50 +0000      685 byte  lib/test/data/linked_image.html</tspan>
-<tspan x="10" y="3898">198.  2017-03-25 14:17:50 +0000      326 byte  lib/test/data/locators_tests/boolean_attribute_se\</tspan>
+<tspan x="10" y="3722">187.  2017-03-25 16:15:50 +0000       53 byte  lib/test/data/js/skins/lightgray/img/anchor.gif</tspan>
+<tspan x="10" y="3738">188.  2017-03-25 16:15:50 +0000     2608 byte  lib/test/data/js/skins/lightgray/img/loader.gif</tspan>
+<tspan x="10" y="3754">189.  2017-03-25 16:15:50 +0000      152 byte  lib/test/data/js/skins/lightgray/img/object.gif</tspan>
+<tspan x="10" y="3770">190.  2017-03-25 16:15:50 +0000       43 byte  lib/test/data/js/skins/lightgray/img/trans.gif</tspan>
+<tspan x="10" y="3786">191.  2017-03-25 16:15:50 +0000    32691 byte  lib/test/data/js/skins/lightgray/skin.ie7.min.css</tspan>
+<tspan x="10" y="3802">192.  2017-03-25 16:15:50 +0000    32971 byte  lib/test/data/js/skins/lightgray/skin.min.css</tspan>
+<tspan x="10" y="3818">193.  2017-03-25 16:15:50 +0000     6396 byte  lib/test/data/js/themes/modern/theme.min.js</tspan>
+<tspan x="10" y="3834">194.  2017-03-25 16:15:50 +0000   426104 byte  lib/test/data/js/tinymce.min.js</tspan>
+<tspan x="10" y="3850">195.  2017-03-25 16:15:50 +0000     1031 byte  lib/test/data/key_tests/remove_on_keypress.html</tspan>
+<tspan x="10" y="3866">196.  2017-03-25 16:15:50 +0000     1083 byte  lib/test/data/keyboard_shortcut.html</tspan>
+<tspan x="10" y="3882">197.  2017-03-25 16:15:50 +0000      685 byte  lib/test/data/linked_image.html</tspan>
+<tspan x="10" y="3898">198.  2017-03-25 16:15:50 +0000      326 byte  lib/test/data/locators_tests/boolean_attribute_se\</tspan>
 <tspan x="10" y="3914">lected.html</tspan>
-<tspan x="10" y="3930">199.  2017-03-25 14:17:50 +0000      315 byte  lib/test/data/locators_tests/boolean_attribute_se\</tspan>
+<tspan x="10" y="3930">199.  2017-03-25 16:15:50 +0000      315 byte  lib/test/data/locators_tests/boolean_attribute_se\</tspan>
 <tspan x="10" y="3946">lected_html4.html</tspan>
-<tspan x="10" y="3962">200.  2017-03-25 14:17:50 +0000     3432 byte  lib/test/data/longContentPage.html</tspan>
-<tspan x="10" y="3978">201.  2017-03-25 14:17:50 +0000   195507 byte  lib/test/data/macbeth.html</tspan>
-<tspan x="10" y="3994">202.  2017-03-25 14:17:50 +0000    26209 byte  lib/test/data/map.png</tspan>
-<tspan x="10" y="4010">203.  2017-03-25 14:17:50 +0000      706 byte  lib/test/data/map_visibility.html</tspan>
-<tspan x="10" y="4026">204.  2017-03-25 14:17:50 +0000      260 byte  lib/test/data/markerTransparent.png</tspan>
-<tspan x="10" y="4042">205.  2017-03-25 14:17:50 +0000      355 byte  lib/test/data/messages.html</tspan>
-<tspan x="10" y="4058">206.  2017-03-25 14:17:50 +0000      254 byte  lib/test/data/meta-redirect.html</tspan>
-<tspan x="10" y="4074">207.  2017-03-25 14:17:50 +0000      340 byte  lib/test/data/missedJsReference.html</tspan>
-<tspan x="10" y="4090">208.  2017-03-25 14:17:50 +0000      370 byte  lib/test/data/modal_dialogs/modal_1.html</tspan>
-<tspan x="10" y="4106">209.  2017-03-25 14:17:50 +0000      371 byte  lib/test/data/modal_dialogs/modal_2.html</tspan>
-<tspan x="10" y="4122">210.  2017-03-25 14:17:50 +0000      117 byte  lib/test/data/modal_dialogs/modal_3.html</tspan>
-<tspan x="10" y="4138">211.  2017-03-25 14:17:50 +0000      370 byte  lib/test/data/modal_dialogs/modalindex.html</tspan>
-<tspan x="10" y="4154">212.  2017-03-25 14:17:50 +0000      604 byte  lib/test/data/mouseOver.html</tspan>
-<tspan x="10" y="4170">213.  2017-03-25 14:17:50 +0000      860 byte  lib/test/data/mousePositionTracker.html</tspan>
-<tspan x="10" y="4186">214.  2017-03-25 14:17:50 +0000     5186 byte  lib/test/data/nestedElements.html</tspan>
-<tspan x="10" y="4202">215.  2017-03-25 14:17:50 +0000      540 byte  lib/test/data/overflow-body.html</tspan>
-<tspan x="10" y="4218">216.  2017-03-25 14:17:50 +0000     1051 byte  lib/test/data/overflow/x_auto_y_auto.html</tspan>
-<tspan x="10" y="4234">217.  2017-03-25 14:17:50 +0000     1053 byte  lib/test/data/overflow/x_auto_y_hidden.html</tspan>
-<tspan x="10" y="4250">218.  2017-03-25 14:17:50 +0000     1053 byte  lib/test/data/overflow/x_auto_y_scroll.html</tspan>
-<tspan x="10" y="4266">219.  2017-03-25 14:17:50 +0000     1053 byte  lib/test/data/overflow/x_hidden_y_auto.html</tspan>
-<tspan x="10" y="4282">220.  2017-03-25 14:17:50 +0000     1055 byte  lib/test/data/overflow/x_hidden_y_hidden.html</tspan>
-<tspan x="10" y="4298">221.  2017-03-25 14:17:50 +0000     1055 byte  lib/test/data/overflow/x_hidden_y_scroll.html</tspan>
-<tspan x="10" y="4314">222.  2017-03-25 14:17:50 +0000     1053 byte  lib/test/data/overflow/x_scroll_y_auto.html</tspan>
-<tspan x="10" y="4330">223.  2017-03-25 14:17:50 +0000     1055 byte  lib/test/data/overflow/x_scroll_y_hidden.html</tspan>
-<tspan x="10" y="4346">224.  2017-03-25 14:17:50 +0000     1055 byte  lib/test/data/overflow/x_scroll_y_scroll.html</tspan>
-<tspan x="10" y="4362">225.  2017-03-25 14:17:50 +0000      700 byte  lib/test/data/pageWithOnBeforeUnloadMessage.html</tspan>
-<tspan x="10" y="4378">226.  2017-03-25 14:17:50 +0000      120 byte  lib/test/data/pageWithOnLoad.html</tspan>
-<tspan x="10" y="4394">227.  2017-03-25 14:17:50 +0000      121 byte  lib/test/data/pageWithOnUnload.html</tspan>
-<tspan x="10" y="4410">228.  2017-03-25 14:17:50 +0000      121 byte  lib/test/data/page_with_link_to_slow_loading_page\</tspan>
+<tspan x="10" y="3962">200.  2017-03-25 16:15:50 +0000     3432 byte  lib/test/data/longContentPage.html</tspan>
+<tspan x="10" y="3978">201.  2017-03-25 16:15:50 +0000   195507 byte  lib/test/data/macbeth.html</tspan>
+<tspan x="10" y="3994">202.  2017-03-25 16:15:50 +0000    26209 byte  lib/test/data/map.png</tspan>
+<tspan x="10" y="4010">203.  2017-03-25 16:15:50 +0000      706 byte  lib/test/data/map_visibility.html</tspan>
+<tspan x="10" y="4026">204.  2017-03-25 16:15:50 +0000      260 byte  lib/test/data/markerTransparent.png</tspan>
+<tspan x="10" y="4042">205.  2017-03-25 16:15:50 +0000      355 byte  lib/test/data/messages.html</tspan>
+<tspan x="10" y="4058">206.  2017-03-25 16:15:50 +0000      254 byte  lib/test/data/meta-redirect.html</tspan>
+<tspan x="10" y="4074">207.  2017-03-25 16:15:50 +0000      340 byte  lib/test/data/missedJsReference.html</tspan>
+<tspan x="10" y="4090">208.  2017-03-25 16:15:50 +0000      370 byte  lib/test/data/modal_dialogs/modal_1.html</tspan>
+<tspan x="10" y="4106">209.  2017-03-25 16:15:50 +0000      371 byte  lib/test/data/modal_dialogs/modal_2.html</tspan>
+<tspan x="10" y="4122">210.  2017-03-25 16:15:50 +0000      117 byte  lib/test/data/modal_dialogs/modal_3.html</tspan>
+<tspan x="10" y="4138">211.  2017-03-25 16:15:50 +0000      370 byte  lib/test/data/modal_dialogs/modalindex.html</tspan>
+<tspan x="10" y="4154">212.  2017-03-25 16:15:50 +0000      604 byte  lib/test/data/mouseOver.html</tspan>
+<tspan x="10" y="4170">213.  2017-03-25 16:15:50 +0000      860 byte  lib/test/data/mousePositionTracker.html</tspan>
+<tspan x="10" y="4186">214.  2017-03-25 16:15:50 +0000     5186 byte  lib/test/data/nestedElements.html</tspan>
+<tspan x="10" y="4202">215.  2017-03-25 16:15:50 +0000      540 byte  lib/test/data/overflow-body.html</tspan>
+<tspan x="10" y="4218">216.  2017-03-25 16:15:50 +0000     1051 byte  lib/test/data/overflow/x_auto_y_auto.html</tspan>
+<tspan x="10" y="4234">217.  2017-03-25 16:15:50 +0000     1053 byte  lib/test/data/overflow/x_auto_y_hidden.html</tspan>
+<tspan x="10" y="4250">218.  2017-03-25 16:15:50 +0000     1053 byte  lib/test/data/overflow/x_auto_y_scroll.html</tspan>
+<tspan x="10" y="4266">219.  2017-03-25 16:15:50 +0000     1053 byte  lib/test/data/overflow/x_hidden_y_auto.html</tspan>
+<tspan x="10" y="4282">220.  2017-03-25 16:15:50 +0000     1055 byte  lib/test/data/overflow/x_hidden_y_hidden.html</tspan>
+<tspan x="10" y="4298">221.  2017-03-25 16:15:50 +0000     1055 byte  lib/test/data/overflow/x_hidden_y_scroll.html</tspan>
+<tspan x="10" y="4314">222.  2017-03-25 16:15:50 +0000     1053 byte  lib/test/data/overflow/x_scroll_y_auto.html</tspan>
+<tspan x="10" y="4330">223.  2017-03-25 16:15:50 +0000     1055 byte  lib/test/data/overflow/x_scroll_y_hidden.html</tspan>
+<tspan x="10" y="4346">224.  2017-03-25 16:15:50 +0000     1055 byte  lib/test/data/overflow/x_scroll_y_scroll.html</tspan>
+<tspan x="10" y="4362">225.  2017-03-25 16:15:50 +0000      700 byte  lib/test/data/pageWithOnBeforeUnloadMessage.html</tspan>
+<tspan x="10" y="4378">226.  2017-03-25 16:15:50 +0000      120 byte  lib/test/data/pageWithOnLoad.html</tspan>
+<tspan x="10" y="4394">227.  2017-03-25 16:15:50 +0000      121 byte  lib/test/data/pageWithOnUnload.html</tspan>
+<tspan x="10" y="4410">228.  2017-03-25 16:15:50 +0000      121 byte  lib/test/data/page_with_link_to_slow_loading_page\</tspan>
 <tspan x="10" y="4426">.html</tspan>
-<tspan x="10" y="4442">229.  2017-03-25 14:17:50 +0000        4 byte  lib/test/data/plain.txt</tspan>
-<tspan x="10" y="4458">230.  2017-03-25 14:17:50 +0000      742 byte  lib/test/data/proxy/page1.html</tspan>
-<tspan x="10" y="4474">231.  2017-03-25 14:17:50 +0000      822 byte  lib/test/data/proxy/page2.html</tspan>
-<tspan x="10" y="4490">232.  2017-03-25 14:17:50 +0000      233 byte  lib/test/data/proxy/page3.html</tspan>
-<tspan x="10" y="4506">233.  2017-03-25 14:17:50 +0000      799 byte  lib/test/data/readOnlyPage.html</tspan>
-<tspan x="10" y="4522">234.  2017-03-25 14:17:50 +0000      923 byte  lib/test/data/rectangles.html</tspan>
-<tspan x="10" y="4538">235.  2017-03-25 14:17:50 +0000      380 byte  lib/test/data/resultPage.html</tspan>
-<tspan x="10" y="4554">236.  2017-03-25 14:17:50 +0000     6025 byte  lib/test/data/rich_text.html</tspan>
-<tspan x="10" y="4570">237.  2017-03-25 14:17:50 +0000      849 byte  lib/test/data/safari/frames_benchmark.html</tspan>
-<tspan x="10" y="4586">238.  2017-03-25 14:17:50 +0000      226 byte  lib/test/data/screen/screen.css</tspan>
-<tspan x="10" y="4602">239.  2017-03-25 14:17:50 +0000     2207 byte  lib/test/data/screen/screen.html</tspan>
-<tspan x="10" y="4618">240.  2017-03-25 14:17:50 +0000      169 byte  lib/test/data/screen/screen.js</tspan>
-<tspan x="10" y="4634">241.  2017-03-25 14:17:50 +0000     2247 byte  lib/test/data/screen/screen_frame1.html</tspan>
-<tspan x="10" y="4650">242.  2017-03-25 14:17:50 +0000     2247 byte  lib/test/data/screen/screen_frame2.html</tspan>
-<tspan x="10" y="4666">243.  2017-03-25 14:17:50 +0000      252 byte  lib/test/data/screen/screen_frames.html</tspan>
-<tspan x="10" y="4682">244.  2017-03-25 14:17:50 +0000      569 byte  lib/test/data/screen/screen_iframes.html</tspan>
-<tspan x="10" y="4698">245.  2017-03-25 14:17:50 +0000     2180 byte  lib/test/data/screen/screen_too_long.html</tspan>
-<tspan x="10" y="4714">246.  2017-03-25 14:17:50 +0000     2212 byte  lib/test/data/screen/screen_x_long.html</tspan>
-<tspan x="10" y="4730">247.  2017-03-25 14:17:50 +0000     2216 byte  lib/test/data/screen/screen_x_too_long.html</tspan>
-<tspan x="10" y="4746">248.  2017-03-25 14:17:50 +0000     2210 byte  lib/test/data/screen/screen_y_long.html</tspan>
-<tspan x="10" y="4762">249.  2017-03-25 14:17:50 +0000     2213 byte  lib/test/data/screen/screen_y_too_long.html</tspan>
-<tspan x="10" y="4778">250.  2017-03-25 14:17:50 +0000      626 byte  lib/test/data/scroll.html</tspan>
-<tspan x="10" y="4794">251.  2017-03-25 14:17:50 +0000      244 byte  lib/test/data/scroll2.html</tspan>
-<tspan x="10" y="4810">252.  2017-03-25 14:17:50 +0000     5434 byte  lib/test/data/scroll3.html</tspan>
-<tspan x="10" y="4826">253.  2017-03-25 14:17:50 +0000     1260 byte  lib/test/data/scroll4.html</tspan>
-<tspan x="10" y="4842">254.  2017-03-25 14:17:50 +0000      411 byte  lib/test/data/scroll5.html</tspan>
-<tspan x="10" y="4858">255.  2017-03-25 14:17:50 +0000      482 byte  lib/test/data/scrolling_tests/frame_with_height_a\</tspan>
+<tspan x="10" y="4442">229.  2017-03-25 16:15:50 +0000        4 byte  lib/test/data/plain.txt</tspan>
+<tspan x="10" y="4458">230.  2017-03-25 16:15:50 +0000      742 byte  lib/test/data/proxy/page1.html</tspan>
+<tspan x="10" y="4474">231.  2017-03-25 16:15:50 +0000      822 byte  lib/test/data/proxy/page2.html</tspan>
+<tspan x="10" y="4490">232.  2017-03-25 16:15:50 +0000      233 byte  lib/test/data/proxy/page3.html</tspan>
+<tspan x="10" y="4506">233.  2017-03-25 16:15:50 +0000      799 byte  lib/test/data/readOnlyPage.html</tspan>
+<tspan x="10" y="4522">234.  2017-03-25 16:15:50 +0000      923 byte  lib/test/data/rectangles.html</tspan>
+<tspan x="10" y="4538">235.  2017-03-25 16:15:50 +0000      380 byte  lib/test/data/resultPage.html</tspan>
+<tspan x="10" y="4554">236.  2017-03-25 16:15:50 +0000     6025 byte  lib/test/data/rich_text.html</tspan>
+<tspan x="10" y="4570">237.  2017-03-25 16:15:50 +0000      849 byte  lib/test/data/safari/frames_benchmark.html</tspan>
+<tspan x="10" y="4586">238.  2017-03-25 16:15:50 +0000      226 byte  lib/test/data/screen/screen.css</tspan>
+<tspan x="10" y="4602">239.  2017-03-25 16:15:50 +0000     2207 byte  lib/test/data/screen/screen.html</tspan>
+<tspan x="10" y="4618">240.  2017-03-25 16:15:50 +0000      169 byte  lib/test/data/screen/screen.js</tspan>
+<tspan x="10" y="4634">241.  2017-03-25 16:15:50 +0000     2247 byte  lib/test/data/screen/screen_frame1.html</tspan>
+<tspan x="10" y="4650">242.  2017-03-25 16:15:50 +0000     2247 byte  lib/test/data/screen/screen_frame2.html</tspan>
+<tspan x="10" y="4666">243.  2017-03-25 16:15:50 +0000      252 byte  lib/test/data/screen/screen_frames.html</tspan>
+<tspan x="10" y="4682">244.  2017-03-25 16:15:50 +0000      569 byte  lib/test/data/screen/screen_iframes.html</tspan>
+<tspan x="10" y="4698">245.  2017-03-25 16:15:50 +0000     2180 byte  lib/test/data/screen/screen_too_long.html</tspan>
+<tspan x="10" y="4714">246.  2017-03-25 16:15:50 +0000     2212 byte  lib/test/data/screen/screen_x_long.html</tspan>
+<tspan x="10" y="4730">247.  2017-03-25 16:15:50 +0000     2216 byte  lib/test/data/screen/screen_x_too_long.html</tspan>
+<tspan x="10" y="4746">248.  2017-03-25 16:15:50 +0000     2210 byte  lib/test/data/screen/screen_y_long.html</tspan>
+<tspan x="10" y="4762">249.  2017-03-25 16:15:50 +0000     2213 byte  lib/test/data/screen/screen_y_too_long.html</tspan>
+<tspan x="10" y="4778">250.  2017-03-25 16:15:50 +0000      626 byte  lib/test/data/scroll.html</tspan>
+<tspan x="10" y="4794">251.  2017-03-25 16:15:50 +0000      244 byte  lib/test/data/scroll2.html</tspan>
+<tspan x="10" y="4810">252.  2017-03-25 16:15:50 +0000     5434 byte  lib/test/data/scroll3.html</tspan>
+<tspan x="10" y="4826">253.  2017-03-25 16:15:50 +0000     1260 byte  lib/test/data/scroll4.html</tspan>
+<tspan x="10" y="4842">254.  2017-03-25 16:15:50 +0000      411 byte  lib/test/data/scroll5.html</tspan>
+<tspan x="10" y="4858">255.  2017-03-25 16:15:50 +0000      482 byte  lib/test/data/scrolling_tests/frame_with_height_a\</tspan>
 <tspan x="10" y="4874">bove_200.html</tspan>
-<tspan x="10" y="4890">256.  2017-03-25 14:17:50 +0000      474 byte  lib/test/data/scrolling_tests/frame_with_height_a\</tspan>
+<tspan x="10" y="4890">256.  2017-03-25 16:15:50 +0000      474 byte  lib/test/data/scrolling_tests/frame_with_height_a\</tspan>
 <tspan x="10" y="4906">bove_2000.html</tspan>
-<tspan x="10" y="4922">257.  2017-03-25 14:17:50 +0000      225 byte  lib/test/data/scrolling_tests/frame_with_nested_s\</tspan>
+<tspan x="10" y="4922">257.  2017-03-25 16:15:50 +0000      225 byte  lib/test/data/scrolling_tests/frame_with_nested_s\</tspan>
 <tspan x="10" y="4938">crolling_frame.html</tspan>
-<tspan x="10" y="4954">258.  2017-03-25 14:17:50 +0000      274 byte  lib/test/data/scrolling_tests/frame_with_nested_s\</tspan>
+<tspan x="10" y="4954">258.  2017-03-25 16:15:50 +0000      274 byte  lib/test/data/scrolling_tests/frame_with_nested_s\</tspan>
 <tspan x="10" y="4970">crolling_frame_out_of_view.html</tspan>
-<tspan x="10" y="4986">259.  2017-03-25 14:17:50 +0000      179 byte  lib/test/data/scrolling_tests/frame_with_small_he\</tspan>
+<tspan x="10" y="4986">259.  2017-03-25 16:15:50 +0000      179 byte  lib/test/data/scrolling_tests/frame_with_small_he\</tspan>
 <tspan x="10" y="5002">ight.html</tspan>
-<tspan x="10" y="5018">260.  2017-03-25 14:17:50 +0000      351 byte  lib/test/data/scrolling_tests/page_with_double_ov\</tspan>
+<tspan x="10" y="5018">260.  2017-03-25 16:15:50 +0000      351 byte  lib/test/data/scrolling_tests/page_with_double_ov\</tspan>
 <tspan x="10" y="5034">erflow_auto.html</tspan>
-<tspan x="10" y="5050">261.  2017-03-25 14:17:50 +0000      253 byte  lib/test/data/scrolling_tests/page_with_frame_out\</tspan>
+<tspan x="10" y="5050">261.  2017-03-25 16:15:50 +0000      253 byte  lib/test/data/scrolling_tests/page_with_frame_out\</tspan>
 <tspan x="10" y="5066">_of_view.html</tspan>
-<tspan x="10" y="5082">262.  2017-03-25 14:17:50 +0000      224 byte  lib/test/data/scrolling_tests/page_with_nested_sc\</tspan>
+<tspan x="10" y="5082">262.  2017-03-25 16:15:50 +0000      224 byte  lib/test/data/scrolling_tests/page_with_nested_sc\</tspan>
 <tspan x="10" y="5098">rolling_frames.html</tspan>
-<tspan x="10" y="5114">263.  2017-03-25 14:17:50 +0000      285 byte  lib/test/data/scrolling_tests/page_with_nested_sc\</tspan>
+<tspan x="10" y="5114">263.  2017-03-25 16:15:50 +0000      285 byte  lib/test/data/scrolling_tests/page_with_nested_sc\</tspan>
 <tspan x="10" y="5130">rolling_frames_out_of_view.html</tspan>
-<tspan x="10" y="5146">264.  2017-03-25 14:17:50 +0000      232 byte  lib/test/data/scrolling_tests/page_with_non_scrol\</tspan>
+<tspan x="10" y="5146">264.  2017-03-25 16:15:50 +0000      232 byte  lib/test/data/scrolling_tests/page_with_non_scrol\</tspan>
 <tspan x="10" y="5162">ling_frame.html</tspan>
-<tspan x="10" y="5178">265.  2017-03-25 14:17:50 +0000      218 byte  lib/test/data/scrolling_tests/page_with_scrolling\</tspan>
+<tspan x="10" y="5178">265.  2017-03-25 16:15:50 +0000      218 byte  lib/test/data/scrolling_tests/page_with_scrolling\</tspan>
 <tspan x="10" y="5194">_frame.html</tspan>
-<tspan x="10" y="5210">266.  2017-03-25 14:17:50 +0000      267 byte  lib/test/data/scrolling_tests/page_with_scrolling\</tspan>
+<tspan x="10" y="5210">266.  2017-03-25 16:15:50 +0000      267 byte  lib/test/data/scrolling_tests/page_with_scrolling\</tspan>
 <tspan x="10" y="5226">_frame_out_of_view.html</tspan>
-<tspan x="10" y="5242">267.  2017-03-25 14:17:50 +0000      215 byte  lib/test/data/scrolling_tests/page_with_tall_fram\</tspan>
+<tspan x="10" y="5242">267.  2017-03-25 16:15:50 +0000      215 byte  lib/test/data/scrolling_tests/page_with_tall_fram\</tspan>
 <tspan x="10" y="5258">e.html</tspan>
-<tspan x="10" y="5274">268.  2017-03-25 14:17:50 +0000      335 byte  lib/test/data/scrolling_tests/page_with_y_overflo\</tspan>
+<tspan x="10" y="5274">268.  2017-03-25 16:15:50 +0000      335 byte  lib/test/data/scrolling_tests/page_with_y_overflo\</tspan>
 <tspan x="10" y="5290">w_auto.html</tspan>
-<tspan x="10" y="5306">269.  2017-03-25 14:17:50 +0000      128 byte  lib/test/data/scrolling_tests/target_page.html</tspan>
-<tspan x="10" y="5322">270.  2017-03-25 14:17:50 +0000     1776 byte  lib/test/data/selectPage.html</tspan>
-<tspan x="10" y="5338">271.  2017-03-25 14:17:50 +0000     2320 byte  lib/test/data/selectableItems.html</tspan>
-<tspan x="10" y="5354">272.  2017-03-25 14:17:50 +0000      761 byte  lib/test/data/sessionCookie.html</tspan>
-<tspan x="10" y="5370">273.  2017-03-25 14:17:50 +0000     1158 byte  lib/test/data/sessionCookieDest.html</tspan>
-<tspan x="10" y="5386">274.  2017-03-25 14:17:50 +0000       48 byte  lib/test/data/simple.xml</tspan>
-<tspan x="10" y="5402">275.  2017-03-25 14:17:50 +0000     2850 byte  lib/test/data/simpleTest.html</tspan>
-<tspan x="10" y="5418">276.  2017-03-25 14:17:50 +0000      176 byte  lib/test/data/slowLoadingAlert.html</tspan>
-<tspan x="10" y="5434">277.  2017-03-25 14:17:50 +0000      329 byte  lib/test/data/slowLoadingResourcePage.html</tspan>
-<tspan x="10" y="5450">278.  2017-03-25 14:17:50 +0000      381 byte  lib/test/data/slow_loading_iframes.html</tspan>
-<tspan x="10" y="5466">279.  2017-03-25 14:17:50 +0000      537 byte  lib/test/data/styledPage.html</tspan>
-<tspan x="10" y="5482">280.  2017-03-25 14:17:50 +0000     4183 byte  lib/test/data/svgPiechart.xhtml</tspan>
-<tspan x="10" y="5498">281.  2017-03-25 14:17:50 +0000      299 byte  lib/test/data/svgTest.svg</tspan>
-<tspan x="10" y="5514">282.  2017-03-25 14:17:50 +0000      581 byte  lib/test/data/tables.html</tspan>
-<tspan x="10" y="5530">283.  2017-03-25 14:17:50 +0000      211 byte  lib/test/data/tinymce.html</tspan>
-<tspan x="10" y="5546">284.  2017-03-25 14:17:50 +0000      454 byte  lib/test/data/transformable.xml</tspan>
-<tspan x="10" y="5562">285.  2017-03-25 14:17:50 +0000     1047 byte  lib/test/data/transformable.xsl</tspan>
-<tspan x="10" y="5578">286.  2017-03-25 14:17:50 +0000     1888 byte  lib/test/data/transparentUpload.html</tspan>
-<tspan x="10" y="5594">287.  2017-03-25 14:17:50 +0000      101 byte  lib/test/data/underscore.html</tspan>
-<tspan x="10" y="5610">288.  2017-03-25 14:17:50 +0000      150 byte  lib/test/data/unicode_ltr.html</tspan>
-<tspan x="10" y="5626">289.  2017-03-25 14:17:50 +0000     1321 byte  lib/test/data/upload.html</tspan>
-<tspan x="10" y="5642">290.  2017-03-25 14:17:50 +0000      130 byte  lib/test/data/userDefinedProperty.html</tspan>
-<tspan x="10" y="5658">291.  2017-03-25 14:17:50 +0000     1876 byte  lib/test/data/veryLargeCanvas.html</tspan>
-<tspan x="10" y="5674">292.  2017-03-25 14:17:50 +0000      446 byte  lib/test/data/visibility-css.html</tspan>
-<tspan x="10" y="5690">293.  2017-03-25 14:17:50 +0000      202 byte  lib/test/data/win32frameset.html</tspan>
-<tspan x="10" y="5706">294.  2017-03-25 14:17:50 +0000      381 byte  lib/test/data/window_switching_tests/page_with_fr\</tspan>
+<tspan x="10" y="5306">269.  2017-03-25 16:15:50 +0000      128 byte  lib/test/data/scrolling_tests/target_page.html</tspan>
+<tspan x="10" y="5322">270.  2017-03-25 16:15:50 +0000     1776 byte  lib/test/data/selectPage.html</tspan>
+<tspan x="10" y="5338">271.  2017-03-25 16:15:50 +0000     2320 byte  lib/test/data/selectableItems.html</tspan>
+<tspan x="10" y="5354">272.  2017-03-25 16:15:50 +0000      761 byte  lib/test/data/sessionCookie.html</tspan>
+<tspan x="10" y="5370">273.  2017-03-25 16:15:50 +0000     1158 byte  lib/test/data/sessionCookieDest.html</tspan>
+<tspan x="10" y="5386">274.  2017-03-25 16:15:50 +0000       48 byte  lib/test/data/simple.xml</tspan>
+<tspan x="10" y="5402">275.  2017-03-25 16:15:50 +0000     2850 byte  lib/test/data/simpleTest.html</tspan>
+<tspan x="10" y="5418">276.  2017-03-25 16:15:50 +0000      176 byte  lib/test/data/slowLoadingAlert.html</tspan>
+<tspan x="10" y="5434">277.  2017-03-25 16:15:50 +0000      329 byte  lib/test/data/slowLoadingResourcePage.html</tspan>
+<tspan x="10" y="5450">278.  2017-03-25 16:15:50 +0000      381 byte  lib/test/data/slow_loading_iframes.html</tspan>
+<tspan x="10" y="5466">279.  2017-03-25 16:15:50 +0000      537 byte  lib/test/data/styledPage.html</tspan>
+<tspan x="10" y="5482">280.  2017-03-25 16:15:50 +0000     4183 byte  lib/test/data/svgPiechart.xhtml</tspan>
+<tspan x="10" y="5498">281.  2017-03-25 16:15:50 +0000      299 byte  lib/test/data/svgTest.svg</tspan>
+<tspan x="10" y="5514">282.  2017-03-25 16:15:50 +0000      581 byte  lib/test/data/tables.html</tspan>
+<tspan x="10" y="5530">283.  2017-03-25 16:15:50 +0000      211 byte  lib/test/data/tinymce.html</tspan>
+<tspan x="10" y="5546">284.  2017-03-25 16:15:50 +0000      454 byte  lib/test/data/transformable.xml</tspan>
+<tspan x="10" y="5562">285.  2017-03-25 16:15:50 +0000     1047 byte  lib/test/data/transformable.xsl</tspan>
+<tspan x="10" y="5578">286.  2017-03-25 16:15:50 +0000     1888 byte  lib/test/data/transparentUpload.html</tspan>
+<tspan x="10" y="5594">287.  2017-03-25 16:15:50 +0000      101 byte  lib/test/data/underscore.html</tspan>
+<tspan x="10" y="5610">288.  2017-03-25 16:15:50 +0000      150 byte  lib/test/data/unicode_ltr.html</tspan>
+<tspan x="10" y="5626">289.  2017-03-25 16:15:50 +0000     1321 byte  lib/test/data/upload.html</tspan>
+<tspan x="10" y="5642">290.  2017-03-25 16:15:50 +0000      130 byte  lib/test/data/userDefinedProperty.html</tspan>
+<tspan x="10" y="5658">291.  2017-03-25 16:15:50 +0000     1876 byte  lib/test/data/veryLargeCanvas.html</tspan>
+<tspan x="10" y="5674">292.  2017-03-25 16:15:50 +0000      446 byte  lib/test/data/visibility-css.html</tspan>
+<tspan x="10" y="5690">293.  2017-03-25 16:15:50 +0000      202 byte  lib/test/data/win32frameset.html</tspan>
+<tspan x="10" y="5706">294.  2017-03-25 16:15:50 +0000      381 byte  lib/test/data/window_switching_tests/page_with_fr\</tspan>
 <tspan x="10" y="5722">ame.html</tspan>
-<tspan x="10" y="5738">295.  2017-03-25 14:17:50 +0000      133 byte  lib/test/data/window_switching_tests/simple_page.\</tspan>
+<tspan x="10" y="5738">295.  2017-03-25 16:15:50 +0000      133 byte  lib/test/data/window_switching_tests/simple_page.\</tspan>
 <tspan x="10" y="5754">html</tspan>
-<tspan x="10" y="5770">296.  2017-03-25 14:17:50 +0000      474 byte  lib/test/data/xhtmlFormPage.xhtml</tspan>
-<tspan x="10" y="5786">297.  2017-03-25 14:17:50 +0000     1923 byte  lib/test/data/xhtmlTest.html</tspan>
-<tspan x="10" y="5802">298.  2017-03-25 14:17:50 +0000     9943 byte  lib/test/fileserver.js</tspan>
-<tspan x="10" y="5818">299.  2017-03-25 14:17:50 +0000     3579 byte  lib/test/httpserver.js</tspan>
-<tspan x="10" y="5834">300.  2017-03-25 14:17:50 +0000     8404 byte  lib/test/index.js</tspan>
-<tspan x="10" y="5850">301.  2017-03-25 14:17:50 +0000     2126 byte  lib/test/promise.js</tspan>
-<tspan x="10" y="5866">302.  2017-03-25 14:17:50 +0000     1511 byte  lib/test/resources.js</tspan>
-<tspan x="10" y="5882">303.  2017-03-25 14:17:50 +0000    13941 byte  lib/until.js</tspan>
-<tspan x="10" y="5898">304.  2017-03-25 14:17:50 +0000    85880 byte  lib/webdriver.js</tspan>
-<tspan x="10" y="5914">305.  2017-03-25 14:17:50 +0000     3466 byte  net/index.js</tspan>
-<tspan x="10" y="5930">306.  2017-03-25 14:17:50 +0000     6012 byte  net/portprober.js</tspan>
-<tspan x="10" y="5946">307.  2017-03-25 14:17:50 +0000    13076 byte  opera.js</tspan>
-<tspan x="10" y="5962">308.  2017-03-25 14:17:50 +0000     2620 byte  package.json</tspan>
-<tspan x="10" y="5978">309.  2017-03-25 14:17:50 +0000     9406 byte  phantomjs.js</tspan>
-<tspan x="10" y="5994">310.  2017-03-25 14:17:50 +0000     1205 byte  proxy.js</tspan>
-<tspan x="10" y="6010">311.  2017-03-25 14:17:50 +0000    18451 byte  remote/index.js</tspan>
-<tspan x="10" y="6026">312.  2017-03-25 14:17:50 +0000     7789 byte  safari.js</tspan>
-<tspan x="10" y="6042">313.  2017-03-25 14:17:50 +0000     1841 byte  test/actions_test.js</tspan>
-<tspan x="10" y="6058">314.  2017-03-25 14:17:50 +0000     8061 byte  test/chrome/options_test.js</tspan>
-<tspan x="10" y="6074">315.  2017-03-25 14:17:50 +0000     1470 byte  test/chrome/service_test.js</tspan>
-<tspan x="10" y="6090">316.  2017-03-25 14:17:50 +0000     6901 byte  test/cookie_test.js</tspan>
-<tspan x="10" y="6106">317.  2017-03-25 14:17:50 +0000    15144 byte  test/element_finding_test.js</tspan>
-<tspan x="10" y="6122">318.  2017-03-25 14:17:50 +0000    12362 byte  test/execute_script_test.js</tspan>
-<tspan x="10" y="6138">319.  2017-03-25 14:17:50 +0000     1963 byte  test/fingerprint_test.js</tspan>
-<tspan x="10" y="6154">320.  2017-03-25 14:17:50 +0000     3546 byte  test/firefox/extension_test.js</tspan>
-<tspan x="10" y="6170">321.  2017-03-25 14:17:50 +0000     7336 byte  test/firefox/firefox_test.js</tspan>
-<tspan x="10" y="6186">322.  2017-03-25 14:17:50 +0000     7008 byte  test/firefox/profile_test.js</tspan>
-<tspan x="10" y="6202">323.  2017-03-25 14:17:50 +0000     7294 byte  test/http/http_test.js</tspan>
-<tspan x="10" y="6218">324.  2017-03-25 14:17:50 +0000     5332 byte  test/http/util_test.js</tspan>
-<tspan x="10" y="6234">325.  2017-03-25 14:17:50 +0000    10209 byte  test/io_test.js</tspan>
-<tspan x="10" y="6250">326.  2017-03-25 14:17:50 +0000     4886 byte  test/lib/by_test.js</tspan>
-<tspan x="10" y="6266">327.  2017-03-25 14:17:50 +0000     3615 byte  test/lib/capabilities_test.js</tspan>
-<tspan x="10" y="6282">328.  2017-03-25 14:17:50 +0000    12077 byte  test/lib/error_test.js</tspan>
-<tspan x="10" y="6298">329.  2017-03-25 14:17:50 +0000     5026 byte  test/lib/events_test.js</tspan>
-<tspan x="10" y="6314">330.  2017-03-25 14:17:50 +0000    25140 byte  test/lib/http_test.js</tspan>
-<tspan x="10" y="6330">331.  2017-03-25 14:17:50 +0000     9184 byte  test/lib/logging_test.js</tspan>
-<tspan x="10" y="6346">332.  2017-03-25 14:17:50 +0000     2919 byte  test/lib/promise_aplus_test.js</tspan>
-<tspan x="10" y="6362">333.  2017-03-25 14:17:50 +0000    27820 byte  test/lib/promise_error_test.js</tspan>
-<tspan x="10" y="6378">334.  2017-03-25 14:17:50 +0000    69598 byte  test/lib/promise_flow_test.js</tspan>
-<tspan x="10" y="6394">335.  2017-03-25 14:17:50 +0000     8752 byte  test/lib/promise_generator_test.js</tspan>
-<tspan x="10" y="6410">336.  2017-03-25 14:17:50 +0000    35947 byte  test/lib/promise_test.js</tspan>
-<tspan x="10" y="6426">337.  2017-03-25 14:17:50 +0000     2531 byte  test/lib/testutil.js</tspan>
-<tspan x="10" y="6442">338.  2017-03-25 14:17:50 +0000    15810 byte  test/lib/until_test.js</tspan>
-<tspan x="10" y="6458">339.  2017-03-25 14:17:50 +0000    71231 byte  test/lib/webdriver_test.js</tspan>
-<tspan x="10" y="6474">340.  2017-03-25 14:17:50 +0000     6132 byte  test/logging_test.js</tspan>
-<tspan x="10" y="6490">341.  2017-03-25 14:17:50 +0000     1968 byte  test/net/index_test.js</tspan>
-<tspan x="10" y="6506">342.  2017-03-25 14:17:50 +0000     3593 byte  test/net/portprober_test.js</tspan>
-<tspan x="10" y="6522">343.  2017-03-25 14:17:50 +0000     5671 byte  test/page_loading_test.js</tspan>
-<tspan x="10" y="6538">344.  2017-03-25 14:17:50 +0000     1839 byte  test/phantomjs/execute_phantomjs_test.js</tspan>
-<tspan x="10" y="6554">345.  2017-03-25 14:17:50 +0000     6318 byte  test/proxy_test.js</tspan>
-<tspan x="10" y="6570">346.  2017-03-25 14:17:50 +0000     1898 byte  test/rect_test.js</tspan>
-<tspan x="10" y="6586">347.  2017-03-25 14:17:50 +0000     3583 byte  test/remote_test.js</tspan>
-<tspan x="10" y="6602">348.  2017-03-25 14:17:50 +0000     3528 byte  test/safari_test.js</tspan>
-<tspan x="10" y="6618">349.  2017-03-25 14:17:50 +0000     1762 byte  test/session_test.js</tspan>
-<tspan x="10" y="6634">350.  2017-03-25 14:17:50 +0000     2262 byte  test/stale_element_test.js</tspan>
-<tspan x="10" y="6650">351.  2017-03-25 14:17:50 +0000     1286 byte  test/tag_name_test.js</tspan>
-<tspan x="10" y="6666">352.  2017-03-25 14:17:50 +0000    11211 byte  test/testing/assert_test.js</tspan>
-<tspan x="10" y="6682">353.  2017-03-25 14:17:50 +0000     7048 byte  test/testing/index_test.js</tspan>
-<tspan x="10" y="6698">354.  2017-03-25 14:17:50 +0000     2718 byte  test/upload_test.js</tspan>
-<tspan x="10" y="6714">355.  2017-03-25 14:17:50 +0000     5598 byte  test/window_test.js</tspan>
-<tspan x="10" y="6730">356.  2017-03-25 14:17:50 +0000    12153 byte  testing/assert.js</tspan>
-<tspan x="10" y="6746">357.  2017-03-25 14:17:50 +0000    11072 byte  testing/index.js</tspan>
-<tspan x="10" y="6762">358.  2017-03-25 14:17:50 +0000  3475084 byte  .</tspan>
+<tspan x="10" y="5770">296.  2017-03-25 16:15:50 +0000      474 byte  lib/test/data/xhtmlFormPage.xhtml</tspan>
+<tspan x="10" y="5786">297.  2017-03-25 16:15:50 +0000     1923 byte  lib/test/data/xhtmlTest.html</tspan>
+<tspan x="10" y="5802">298.  2017-03-25 16:15:50 +0000     9943 byte  lib/test/fileserver.js</tspan>
+<tspan x="10" y="5818">299.  2017-03-25 16:15:50 +0000     3579 byte  lib/test/httpserver.js</tspan>
+<tspan x="10" y="5834">300.  2017-03-25 16:15:50 +0000     8404 byte  lib/test/index.js</tspan>
+<tspan x="10" y="5850">301.  2017-03-25 16:15:50 +0000     2126 byte  lib/test/promise.js</tspan>
+<tspan x="10" y="5866">302.  2017-03-25 16:15:50 +0000     1511 byte  lib/test/resources.js</tspan>
+<tspan x="10" y="5882">303.  2017-03-25 16:15:50 +0000    13941 byte  lib/until.js</tspan>
+<tspan x="10" y="5898">304.  2017-03-25 16:15:50 +0000    85880 byte  lib/webdriver.js</tspan>
+<tspan x="10" y="5914">305.  2017-03-25 16:15:50 +0000     3466 byte  net/index.js</tspan>
+<tspan x="10" y="5930">306.  2017-03-25 16:15:50 +0000     6012 byte  net/portprober.js</tspan>
+<tspan x="10" y="5946">307.  2017-03-25 16:15:50 +0000    13076 byte  opera.js</tspan>
+<tspan x="10" y="5962">308.  2017-03-25 16:15:50 +0000     2620 byte  package.json</tspan>
+<tspan x="10" y="5978">309.  2017-03-25 16:15:50 +0000     9406 byte  phantomjs.js</tspan>
+<tspan x="10" y="5994">310.  2017-03-25 16:15:50 +0000     1205 byte  proxy.js</tspan>
+<tspan x="10" y="6010">311.  2017-03-25 16:15:50 +0000    18451 byte  remote/index.js</tspan>
+<tspan x="10" y="6026">312.  2017-03-25 16:15:50 +0000     7789 byte  safari.js</tspan>
+<tspan x="10" y="6042">313.  2017-03-25 16:15:50 +0000     1841 byte  test/actions_test.js</tspan>
+<tspan x="10" y="6058">314.  2017-03-25 16:15:50 +0000     8061 byte  test/chrome/options_test.js</tspan>
+<tspan x="10" y="6074">315.  2017-03-25 16:15:50 +0000     1470 byte  test/chrome/service_test.js</tspan>
+<tspan x="10" y="6090">316.  2017-03-25 16:15:50 +0000     6901 byte  test/cookie_test.js</tspan>
+<tspan x="10" y="6106">317.  2017-03-25 16:15:50 +0000    15144 byte  test/element_finding_test.js</tspan>
+<tspan x="10" y="6122">318.  2017-03-25 16:15:50 +0000    12362 byte  test/execute_script_test.js</tspan>
+<tspan x="10" y="6138">319.  2017-03-25 16:15:50 +0000     1963 byte  test/fingerprint_test.js</tspan>
+<tspan x="10" y="6154">320.  2017-03-25 16:15:50 +0000     3546 byte  test/firefox/extension_test.js</tspan>
+<tspan x="10" y="6170">321.  2017-03-25 16:15:50 +0000     7336 byte  test/firefox/firefox_test.js</tspan>
+<tspan x="10" y="6186">322.  2017-03-25 16:15:50 +0000     7008 byte  test/firefox/profile_test.js</tspan>
+<tspan x="10" y="6202">323.  2017-03-25 16:15:50 +0000     7294 byte  test/http/http_test.js</tspan>
+<tspan x="10" y="6218">324.  2017-03-25 16:15:50 +0000     5332 byte  test/http/util_test.js</tspan>
+<tspan x="10" y="6234">325.  2017-03-25 16:15:50 +0000    10209 byte  test/io_test.js</tspan>
+<tspan x="10" y="6250">326.  2017-03-25 16:15:50 +0000     4886 byte  test/lib/by_test.js</tspan>
+<tspan x="10" y="6266">327.  2017-03-25 16:15:50 +0000     3615 byte  test/lib/capabilities_test.js</tspan>
+<tspan x="10" y="6282">328.  2017-03-25 16:15:50 +0000    12077 byte  test/lib/error_test.js</tspan>
+<tspan x="10" y="6298">329.  2017-03-25 16:15:50 +0000     5026 byte  test/lib/events_test.js</tspan>
+<tspan x="10" y="6314">330.  2017-03-25 16:15:50 +0000    25140 byte  test/lib/http_test.js</tspan>
+<tspan x="10" y="6330">331.  2017-03-25 16:15:50 +0000     9184 byte  test/lib/logging_test.js</tspan>
+<tspan x="10" y="6346">332.  2017-03-25 16:15:50 +0000     2919 byte  test/lib/promise_aplus_test.js</tspan>
+<tspan x="10" y="6362">333.  2017-03-25 16:15:50 +0000    27820 byte  test/lib/promise_error_test.js</tspan>
+<tspan x="10" y="6378">334.  2017-03-25 16:15:50 +0000    69598 byte  test/lib/promise_flow_test.js</tspan>
+<tspan x="10" y="6394">335.  2017-03-25 16:15:50 +0000     8752 byte  test/lib/promise_generator_test.js</tspan>
+<tspan x="10" y="6410">336.  2017-03-25 16:15:50 +0000    35947 byte  test/lib/promise_test.js</tspan>
+<tspan x="10" y="6426">337.  2017-03-25 16:15:50 +0000     2531 byte  test/lib/testutil.js</tspan>
+<tspan x="10" y="6442">338.  2017-03-25 16:15:50 +0000    15810 byte  test/lib/until_test.js</tspan>
+<tspan x="10" y="6458">339.  2017-03-25 16:15:50 +0000    71231 byte  test/lib/webdriver_test.js</tspan>
+<tspan x="10" y="6474">340.  2017-03-25 16:15:50 +0000     6132 byte  test/logging_test.js</tspan>
+<tspan x="10" y="6490">341.  2017-03-25 16:15:50 +0000     1968 byte  test/net/index_test.js</tspan>
+<tspan x="10" y="6506">342.  2017-03-25 16:15:50 +0000     3593 byte  test/net/portprober_test.js</tspan>
+<tspan x="10" y="6522">343.  2017-03-25 16:15:50 +0000     5671 byte  test/page_loading_test.js</tspan>
+<tspan x="10" y="6538">344.  2017-03-25 16:15:50 +0000     1839 byte  test/phantomjs/execute_phantomjs_test.js</tspan>
+<tspan x="10" y="6554">345.  2017-03-25 16:15:50 +0000     6318 byte  test/proxy_test.js</tspan>
+<tspan x="10" y="6570">346.  2017-03-25 16:15:50 +0000     1898 byte  test/rect_test.js</tspan>
+<tspan x="10" y="6586">347.  2017-03-25 16:15:50 +0000     3583 byte  test/remote_test.js</tspan>
+<tspan x="10" y="6602">348.  2017-03-25 16:15:50 +0000     3528 byte  test/safari_test.js</tspan>
+<tspan x="10" y="6618">349.  2017-03-25 16:15:50 +0000     1762 byte  test/session_test.js</tspan>
+<tspan x="10" y="6634">350.  2017-03-25 16:15:50 +0000     2262 byte  test/stale_element_test.js</tspan>
+<tspan x="10" y="6650">351.  2017-03-25 16:15:50 +0000     1286 byte  test/tag_name_test.js</tspan>
+<tspan x="10" y="6666">352.  2017-03-25 16:15:50 +0000    11211 byte  test/testing/assert_test.js</tspan>
+<tspan x="10" y="6682">353.  2017-03-25 16:15:50 +0000     7048 byte  test/testing/index_test.js</tspan>
+<tspan x="10" y="6698">354.  2017-03-25 16:15:50 +0000     2718 byte  test/upload_test.js</tspan>
+<tspan x="10" y="6714">355.  2017-03-25 16:15:50 +0000     5598 byte  test/window_test.js</tspan>
+<tspan x="10" y="6730">356.  2017-03-25 16:15:50 +0000    12153 byte  testing/assert.js</tspan>
+<tspan x="10" y="6746">357.  2017-03-25 16:15:50 +0000    11072 byte  testing/index.js</tspan>
+<tspan x="10" y="6762">358.  2017-03-25 16:15:50 +0000  3475084 byte  .</tspan>
 </text>
 </svg>
