@@ -1,11 +1,13 @@
-# api documentation for  [selenium-webdriver (v3.3.0)](https://github.com/SeleniumHQ/selenium)  [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-selenium-webdriver.svg)](https://travis-ci.org/npmdoc/node-npmdoc-selenium-webdriver)
+# api documentation for  [selenium-webdriver (v3.3.0)](https://github.com/SeleniumHQ/selenium)  [![npm package](https://img.shields.io/npm/v/npmdoc-selenium-webdriver.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-selenium-webdriver) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-selenium-webdriver.svg)](https://travis-ci.org/npmdoc/node-npmdoc-selenium-webdriver)
 #### The official WebDriver JavaScript bindings from the Selenium project
 
 [![NPM](https://nodei.co/npm/selenium-webdriver.png?downloads=true)](https://www.npmjs.com/package/selenium-webdriver)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-selenium-webdriver/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-selenium_webdriver_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-selenium-webdriver/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-selenium-webdriver/build/screenCapture.buildNpmdoc.browser.%2Fhome%2Ftravis%2Fbuild%2Fnpmdoc%2Fnode-npmdoc-selenium-webdriver%2Ftmp%2Fbuild%2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-selenium-webdriver/build/apidoc.html)
 
-![package-listing](https://npmdoc.github.io/node-npmdoc-selenium-webdriver/build/screen-capture.npmPackageListing.svg)
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-selenium-webdriver/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-selenium-webdriver/build/screenCapture.npmPackageDependencyTree.svg)
 
 
 
@@ -89,23 +91,36 @@
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.</span>WebElement (!IThenable<string>|string)](#apidoc.element.selenium-webdriver.WebElement)
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.</span>WebElementCondition (!WebDriver)](#apidoc.element.selenium-webdriver.WebElementCondition)
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.</span>WebElementPromise (driver, el)](#apidoc.element.selenium-webdriver.WebElementPromise)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.</span>assert (value)](#apidoc.element.selenium-webdriver.assert)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.</span>exec (command, opt_options)](#apidoc.element.selenium-webdriver.exec)
 1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>Browser
 1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>Button
 1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>Capability
 1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>Key
 1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>actions
+1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>binary
 1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>by
 1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>capabilities
+1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>chrome
 1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>command
+1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>edge
 1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>error
 1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>events
+1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>extension
 1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>http
+1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>ie
 1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>input
 1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>logging
+1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>opera
+1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>phantomjs
+1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>portprober
+1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>profile
 1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>promise
 1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>proxy
+1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>safari
 1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>session
 1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>until
+1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>util
 1.  object <span class="apidocSignatureSpan">selenium-webdriver.</span>webdriver
 
 #### [module selenium-webdriver.Key](#apidoc.module.selenium-webdriver.Key)
@@ -175,6 +190,14 @@
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.actions.</span>ActionSequence (driver)](#apidoc.element.selenium-webdriver.actions.ActionSequence)
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.actions.</span>TouchSequence (driver)](#apidoc.element.selenium-webdriver.actions.TouchSequence)
 
+#### [module selenium-webdriver.assert](#apidoc.module.selenium-webdriver.assert)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.</span>assert (value)](#apidoc.element.selenium-webdriver.assert.assert)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.assert.</span>Assertion (subject, opt_invert)](#apidoc.element.selenium-webdriver.assert.Assertion)
+
+#### [module selenium-webdriver.binary](#apidoc.module.selenium-webdriver.binary)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.binary.</span>Binary (string|Channel)](#apidoc.element.selenium-webdriver.binary.Binary)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.binary.</span>Channel (darwin, win32)](#apidoc.element.selenium-webdriver.binary.Channel)
+
 #### [module selenium-webdriver.by](#apidoc.module.selenium-webdriver.by)
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.by.</span>By (using, value)](#apidoc.element.selenium-webdriver.by.By)
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.by.</span>checkedLocator (locator)](#apidoc.element.selenium-webdriver.by.checkedLocator)
@@ -185,10 +208,24 @@
 1.  object <span class="apidocSignatureSpan">selenium-webdriver.capabilities.</span>Browser
 1.  object <span class="apidocSignatureSpan">selenium-webdriver.capabilities.</span>Capability
 
+#### [module selenium-webdriver.chrome](#apidoc.module.selenium-webdriver.chrome)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.chrome.</span>Driver (Capabilities|Options)](#apidoc.element.selenium-webdriver.chrome.Driver)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.chrome.</span>Options ()](#apidoc.element.selenium-webdriver.chrome.Options)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.chrome.</span>ServiceBuilder (opt_exe)](#apidoc.element.selenium-webdriver.chrome.ServiceBuilder)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.chrome.</span>getDefaultService ()](#apidoc.element.selenium-webdriver.chrome.getDefaultService)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.chrome.</span>setDefaultService (service)](#apidoc.element.selenium-webdriver.chrome.setDefaultService)
+
 #### [module selenium-webdriver.command](#apidoc.module.selenium-webdriver.command)
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.command.</span>Command (name)](#apidoc.element.selenium-webdriver.command.Command)
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.command.</span>Executor (command)](#apidoc.element.selenium-webdriver.command.Executor)
 1.  object <span class="apidocSignatureSpan">selenium-webdriver.command.</span>Name
+
+#### [module selenium-webdriver.edge](#apidoc.module.selenium-webdriver.edge)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.edge.</span>Driver (capabilities.Capabilities|Options)](#apidoc.element.selenium-webdriver.edge.Driver)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.edge.</span>Options ()](#apidoc.element.selenium-webdriver.edge.Options)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.edge.</span>ServiceBuilder (opt_exe)](#apidoc.element.selenium-webdriver.edge.ServiceBuilder)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.edge.</span>getDefaultService ()](#apidoc.element.selenium-webdriver.edge.getDefaultService)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.edge.</span>setDefaultService (service)](#apidoc.element.selenium-webdriver.edge.setDefaultService)
 
 #### [module selenium-webdriver.error](#apidoc.module.selenium-webdriver.error)
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.error.</span>ElementNotSelectableError (opt_error)](#apidoc.element.selenium-webdriver.error.ElementNotSelectableError)
@@ -227,12 +264,25 @@
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.events.</span>EventEmitter (type, var_args)](#apidoc.element.selenium-webdriver.events.EventEmitter)
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.events.</span>Listener (Object|undefined)](#apidoc.element.selenium-webdriver.events.Listener)
 
+#### [module selenium-webdriver.exec](#apidoc.module.selenium-webdriver.exec)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.</span>exec (command, opt_options)](#apidoc.element.selenium-webdriver.exec.exec)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.exec.</span>Command (string)](#apidoc.element.selenium-webdriver.exec.Command)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.exec.</span>Result (code, signal)](#apidoc.element.selenium-webdriver.exec.Result)
+
+#### [module selenium-webdriver.extension](#apidoc.module.selenium-webdriver.extension)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.extension.</span>install (extension, dir)](#apidoc.element.selenium-webdriver.extension.install)
+
 #### [module selenium-webdriver.http](#apidoc.module.selenium-webdriver.http)
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.http.</span>Client (httpRequest)](#apidoc.element.selenium-webdriver.http.Client)
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.http.</span>Executor (Client|IThenable<!Client>)](#apidoc.element.selenium-webdriver.http.Executor)
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.http.</span>Request (method, path, opt_data)](#apidoc.element.selenium-webdriver.http.Request)
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.http.</span>Response (status, headers, body)](#apidoc.element.selenium-webdriver.http.Response)
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.http.</span>buildPath (path, parameters)](#apidoc.element.selenium-webdriver.http.buildPath)
+
+#### [module selenium-webdriver.ie](#apidoc.module.selenium-webdriver.ie)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.ie.</span>Driver (capabilities.Capabilities|Options)](#apidoc.element.selenium-webdriver.ie.Driver)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.ie.</span>Options ()](#apidoc.element.selenium-webdriver.ie.Options)
+1.  object <span class="apidocSignatureSpan">selenium-webdriver.ie.</span>Level
 
 #### [module selenium-webdriver.input](#apidoc.module.selenium-webdriver.input)
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.input.</span>FileDetector (driver, path)](#apidoc.element.selenium-webdriver.input.FileDetector)
@@ -251,6 +301,25 @@
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.logging.</span>installConsoleHandler ()](#apidoc.element.selenium-webdriver.logging.installConsoleHandler)
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.logging.</span>removeConsoleHandler (opt_logger)](#apidoc.element.selenium-webdriver.logging.removeConsoleHandler)
 1.  object <span class="apidocSignatureSpan">selenium-webdriver.logging.</span>Type
+
+#### [module selenium-webdriver.opera](#apidoc.module.selenium-webdriver.opera)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.opera.</span>Driver (capabilities.Capabilities|Options)](#apidoc.element.selenium-webdriver.opera.Driver)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.opera.</span>Options ()](#apidoc.element.selenium-webdriver.opera.Options)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.opera.</span>ServiceBuilder (opt_exe)](#apidoc.element.selenium-webdriver.opera.ServiceBuilder)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.opera.</span>getDefaultService ()](#apidoc.element.selenium-webdriver.opera.getDefaultService)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.opera.</span>setDefaultService (service)](#apidoc.element.selenium-webdriver.opera.setDefaultService)
+
+#### [module selenium-webdriver.phantomjs](#apidoc.module.selenium-webdriver.phantomjs)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.phantomjs.</span>Driver (opt_capabilities, opt_flow, opt_logFile)](#apidoc.element.selenium-webdriver.phantomjs.Driver)
+
+#### [module selenium-webdriver.portprober](#apidoc.module.selenium-webdriver.portprober)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.portprober.</span>findFreePort (opt_host)](#apidoc.element.selenium-webdriver.portprober.findFreePort)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.portprober.</span>isFree (port, opt_host)](#apidoc.element.selenium-webdriver.portprober.isFree)
+
+#### [module selenium-webdriver.profile](#apidoc.module.selenium-webdriver.profile)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.profile.</span>Profile (opt_dir)](#apidoc.element.selenium-webdriver.profile.Profile)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.profile.</span>decode (data)](#apidoc.element.selenium-webdriver.profile.decode)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.profile.</span>loadUserPrefs (f)](#apidoc.element.selenium-webdriver.profile.loadUserPrefs)
 
 #### [module selenium-webdriver.promise](#apidoc.module.selenium-webdriver.promise)
 1.  boolean <span class="apidocSignatureSpan">selenium-webdriver.promise.</span>LONG_STACK_TRACES
@@ -292,6 +361,11 @@
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.proxy.</span>socks (host, username, password)](#apidoc.element.selenium-webdriver.proxy.socks)
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.proxy.</span>system ()](#apidoc.element.selenium-webdriver.proxy.system)
 
+#### [module selenium-webdriver.safari](#apidoc.module.selenium-webdriver.safari)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.safari.</span>Driver (Options|Capabilities)](#apidoc.element.selenium-webdriver.safari.Driver)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.safari.</span>Options ()](#apidoc.element.selenium-webdriver.safari.Options)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.safari.</span>ServiceBuilder (opt_exe)](#apidoc.element.selenium-webdriver.safari.ServiceBuilder)
+
 #### [module selenium-webdriver.session](#apidoc.module.selenium-webdriver.session)
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.session.</span>Session (Object|Capabilities)](#apidoc.element.selenium-webdriver.session.Session)
 
@@ -316,6 +390,11 @@
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.until.</span>urlContains (substrUrl)](#apidoc.element.selenium-webdriver.until.urlContains)
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.until.</span>urlIs (url)](#apidoc.element.selenium-webdriver.until.urlIs)
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.until.</span>urlMatches (regex)](#apidoc.element.selenium-webdriver.until.urlMatches)
+
+#### [module selenium-webdriver.util](#apidoc.module.selenium-webdriver.util)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.util.</span>getStatus (url)](#apidoc.element.selenium-webdriver.util.getStatus)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.util.</span>waitForServer (url, timeout, opt_cancelToken)](#apidoc.element.selenium-webdriver.util.waitForServer)
+1.  [function <span class="apidocSignatureSpan">selenium-webdriver.util.</span>waitForUrl (url, timeout, opt_cancelToken)](#apidoc.element.selenium-webdriver.util.waitForUrl)
 
 #### [module selenium-webdriver.webdriver](#apidoc.module.selenium-webdriver.webdriver)
 1.  [function <span class="apidocSignatureSpan">selenium-webdriver.webdriver.</span>Alert (driver, text)](#apidoc.element.selenium-webdriver.webdriver.Alert)
@@ -1706,6 +1785,61 @@ class WebElementPromise extends WebElement {
 n/a
 ```
 
+#### <a name="apidoc.element.selenium-webdriver.assert"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.</span>assert (value)](#apidoc.element.selenium-webdriver.assert)
+- description and source-code
+```javascript
+function assertThat(value) {
+  return new Assertion(value);
+}
+```
+- example usage
+```shell
+n/a
+```
+
+#### <a name="apidoc.element.selenium-webdriver.exec"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.</span>exec (command, opt_options)](#apidoc.element.selenium-webdriver.exec)
+- description and source-code
+```javascript
+function exec(command, opt_options) {
+  var options = opt_options || {};
+
+  var proc = childProcess.spawn(command, options.args || [], {
+    env: options.env || process.env,
+    stdio: options.stdio || 'ignore'
+  });
+
+  // This process should not wait on the spawned child, however, we do
+  // want to ensure the child is killed when this process exits.
+  proc.unref();
+  process.once('exit', onProcessExit);
+
+  let result = new Promise(resolve => {
+    proc.once('exit', (code, signal) => {
+      proc = null;
+      process.removeListener('exit', onProcessExit);
+      resolve(new Result(code, signal));
+    });
+  });
+  return new Command(result, killCommand);
+
+  function onProcessExit() {
+    killCommand('SIGTERM');
+  }
+
+  function killCommand(signal) {
+    process.removeListener('exit', onProcessExit);
+    if (proc) {
+      proc.kill(signal);
+      proc = null;
+    }
+  }
+}
+```
+- example usage
+```shell
+n/a
+```
+
 
 
 # <a name="apidoc.module.selenium-webdriver.Key"></a>[module selenium-webdriver.Key](#apidoc.module.selenium-webdriver.Key)
@@ -2050,6 +2184,344 @@ executeScript(script, var_args) {
     script = 'return (' + script + ').apply(null, arguments);';
   }
 ...
+```
+
+
+
+# <a name="apidoc.module.selenium-webdriver.assert"></a>[module selenium-webdriver.assert](#apidoc.module.selenium-webdriver.assert)
+
+#### <a name="apidoc.element.selenium-webdriver.assert.assert"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.</span>assert (value)](#apidoc.element.selenium-webdriver.assert.assert)
+- description and source-code
+```javascript
+function assertThat(value) {
+  return new Assertion(value);
+}
+```
+- example usage
+```shell
+n/a
+```
+
+#### <a name="apidoc.element.selenium-webdriver.assert.Assertion"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.assert.</span>Assertion (subject, opt_invert)](#apidoc.element.selenium-webdriver.assert.Assertion)
+- description and source-code
+```javascript
+class Assertion {
+<span class="apidocCodeCommentSpan">  /**
+   * @param {?} subject The subject of this assertion.
+   * @param {boolean=} opt_invert Whether to invert any assertions performed by
+   *     this instance.
+   */
+</span>  constructor(subject, opt_invert) {
+    /** @private {?} */
+    this.subject_ = subject;
+    /** @private {boolean} */
+    this.invert_ = !!opt_invert;
+  }
+
+  /**
+   * @param {number} expected The minimum permissible value (inclusive).
+   * @param {string=} opt_message An optional failure message.
+   * @return {(Promise|undefined)} The result of this assertion, if the subject
+   *     is a promised-value. Otherwise, the assertion is performed immediately
+   *     and nothing is returned.
+   */
+  atLeast(expected, opt_message) {
+    checkNumber(expected);
+    return evaluate(this.subject_, function(actual) {
+      if (!isNumber(actual) || actual < expected) {
+        assert.fail(actual, expected, opt_message, '>=');
+      }
+    });
+  }
+
+  /**
+   * @param {number} expected The maximum permissible value (inclusive).
+   * @param {string=} opt_message An optional failure message.
+   * @return {(Promise|undefined)} The result of this assertion, if the subject
+   *     is a promised-value. Otherwise, the assertion is performed immediately
+   *     and nothing is returned.
+   */
+  atMost(expected, opt_message) {
+    checkNumber(expected);
+    return evaluate(this.subject_, function (actual) {
+      if (!isNumber(actual) || actual > expected) {
+        assert.fail(actual, expected, opt_message, '<=');
+      }
+    });
+  }
+
+  /**
+   * @param {number} expected The maximum permissible value (exclusive).
+   * @param {string=} opt_message An optional failure message.
+   * @return {(Promise|undefined)} The result of this assertion, if the subject
+   *     is a promised-value. Otherwise, the assertion is performed immediately
+   *     and nothing is returned.
+   */
+  greaterThan(expected, opt_message) {
+    checkNumber(expected);
+    return evaluate(this.subject_, function(actual) {
+      if (!isNumber(actual) || actual <= expected) {
+        assert.fail(actual, expected, opt_message, '>');
+      }
+    });
+  }
+
+  /**
+   * @param {number} expected The minimum permissible value (exclusive).
+   * @param {string=} opt_message An optional failure message.
+   * @return {(Promise|undefined)} The result of this assertion, if the subject
+   *     is a promised-value. Otherwise, the assertion is performed immediately
+   *     and nothing is returned.
+   */
+  lessThan(expected, opt_message) {
+    checkNumber(expected);
+    return evaluate(this.subject_,  function (actual) {
+      if (!isNumber(actual) || actual >= expected) {
+        assert.fail(actual, expected, opt_message, '<');
+      }
+    });
+  }
+
+  /**
+   * @param {number} expected The desired value.
+   * @param {number} epsilon The maximum distance from the desired value.
+   * @param {string=} opt_message An optional failure message.
+   * @return {(Promise|undefined)} The result of this assertion, if the subject
+   *     is a promised-value. Otherwise, the assertion is performed immediately
+   *     and nothing is returned.
+   */
+  closeTo(expected, epsilon, opt_message) {
+    checkNumber(expected);
+    checkNumber(epsilon);
+    return evaluate(this.subject_, function(actual) {
+      checkNumber(actual);
+      if (Math.abs(expected - actual) > epsilon) {
+        assert.fail(opt_message || '${actual} === ${expected} (± ${epsilon})');
+      }
+    });
+  }
+
+  /**
+   * @param {function(new: ?)} ctor The exptected type's constructor.
+   * @param {string=} opt_message An optional failure message.
+   * @return {(Promise|undefined)} The result of this assertion, if the subject
+   *     is a promised-value. Otherwise, the assertion is performed immediately
+   *     and nothing is returned.
+   */
+  instanceOf(ctor, opt_message) {
+    checkFunction(ctor);
+    return evaluate(this.subject_, function(actual) {
+      if (!(actual instanceof ctor)) {
+        assert.fail(
+            opt_message
+                || '${describe(actual)} instanceof ${ctor.name || ctor}');
+      }
+    });
+  }
+
+  /**
+   * @param {string=} opt_ ...
+```
+- example usage
+```shell
+n/a
+```
+
+
+
+# <a name="apidoc.module.selenium-webdriver.binary"></a>[module selenium-webdriver.binary](#apidoc.module.selenium-webdriver.binary)
+
+#### <a name="apidoc.element.selenium-webdriver.binary.Binary"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.binary.</span>Binary (string|Channel)](#apidoc.element.selenium-webdriver.binary.Binary)
+- description and source-code
+```javascript
+class Binary {
+<span class="apidocCodeCommentSpan">  /**
+   * @param {?(string|Channel)=} opt_exeOrChannel Either the path to a specific
+   *     Firefox binary to use, or a {@link Channel} instance that describes
+   *     how to locate the desired Firefox version.
+   */
+</span>  constructor(opt_exeOrChannel) {
+    /** @private {?(string|Channel)} */
+    this.exe_ = opt_exeOrChannel || null;
+
+    /** @private {!Array.<string>} */
+    this.args_ = [];
+
+    /** @private {!Object<string, string>} */
+    this.env_ = {};
+    Object.assign(this.env_, process.env, {
+      MOZ_CRASHREPORTER_DISABLE: '1',
+      MOZ_NO_REMOTE: '1',
+      NO_EM_RESTART: '1'
+    });
+
+    /** @private {boolean} */
+    this.devEdition_ = false;
+  }
+
+  /**
+   * @return {(string|undefined)} The path to the Firefox executable to use, or
+   *     'undefined' if WebDriver should attempt to locate Firefox automatically
+   *     on the current system.
+   */
+  getExe() {
+    return typeof this.exe_ === 'string' ? this.exe_ : undefined;
+  }
+
+  /**
+   * Add arguments to the command line used to start Firefox.
+   * @param {...(string|!Array.<string>)} var_args Either the arguments to add
+   *     as varargs, or the arguments as an array.
+   */
+  addArguments(var_args) {
+    for (var i = 0; i < arguments.length; i++) {
+      if (Array.isArray(arguments[i])) {
+        this.args_ = this.args_.concat(arguments[i]);
+      } else {
+        this.args_.push(arguments[i]);
+      }
+    }
+  }
+
+  /**
+   * @return {!Array<string>} The command line arguments to use when starting
+   *     the browser.
+   */
+  getArguments() {
+    return this.args_;
+  }
+
+  /**
+   * Specifies whether to use Firefox Developer Edition instead of the normal
+   * stable channel. Setting this option has no effect if this instance was
+   * created with a path to a specific Firefox binary.
+   *
+   * This method has no effect on Unix systems where the Firefox application
+   * has the same (default) name regardless of version.
+   *
+   * @param {boolean=} opt_use Whether to use the developer edition. Defaults to
+   *     true.
+   * @deprecated Use the {@link Channel} class to indicate the desired Firefox
+   *     version when creating a new binary: 'new Binary(Channel.AURORA)'.
+   */
+  useDevEdition(opt_use) {
+    this.devEdition_ = opt_use === undefined || !!opt_use;
+  }
+
+  /**
+   * Returns a promise for the Firefox executable used by this instance. The
+   * returned promise will be immediately resolved if the user supplied an
+   * executable path when this instance was created. Otherwise, an attempt will
+   * be made to find Firefox on the current system.
+   *
+   * @return {!Promise<string>} a promise for the path to the Firefox executable
+   *     used by this instance.
+   */
+  locate() {
+    if (typeof this.exe_ === 'string') {
+      return Promise.resolve(this.exe_);
+    } else if (this.exe_ instanceof Channel) {
+      return this.exe_.locate();
+    }
+    let channel = this.devEdition_ ? Channel.AURORA : Channel.RELEASE;
+    return channel.locate();
+  }
+
+  /**
+   * Launches Firefox and returns a promise that will be fulfilled when the
+   * process terminates.
+   * @param {string} profile Path to the profile directory to use.
+   * @return {!Promise<!exec.Command>} A promise for the handle to the started
+   *     subprocess.
+   */
+  launch(profile) {
+    let env = {};
+    Object.assign(env, this.env_, {XRE_PROFILE_PATH: profile});
+
+    let args = ['-foreground'].concat(this.args_);
+
+    return this.locate().then(function(firefox) {
+      if (process.platform === 'win32' || process.platform === 'darwin') {
+        return exec(firefox, {args: args, env: env});
+      }
+      return installNoFocusLibs(profile).then(function(ldLibraryPath) {
+        env['LD_LIBRARY_PATH'] = ldLibraryPath + ':' + env['LD_LIBRARY_PATH'];
+        env['LD_PRELOAD'] = X_IGNORE_NO_FOCUS_LIB;
+        return exec(firefox, {args: args, env: env});
+      });
+    });
+  }
+
+  /**
+   * Returns a promise for the wire representation of this binary. Note: the
+   * FirefoxDriver only supports passing the path to the binary executable over
+   * the wire; all command line arguments and ...
+```
+- example usage
+```shell
+n/a
+```
+
+#### <a name="apidoc.element.selenium-webdriver.binary.Channel"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.binary.</span>Channel (darwin, win32)](#apidoc.element.selenium-webdriver.binary.Channel)
+- description and source-code
+```javascript
+class Channel {
+<span class="apidocCodeCommentSpan">  /**
+   * @param {string} darwin The path to check when running on MacOS.
+   * @param {string} win32 The path to check when running on Windows.
+   */
+</span>  constructor(darwin, win32) {
+    /** @private @const */ this.darwin_ = darwin;
+    /** @private @const */ this.win32_ = win32;
+    /** @private {Promise<string>} */
+    this.found_ = null;
+  }
+
+  /**
+   * Attempts to locate the Firefox executable for this release channel. This
+   * will first check the default installation location for the channel before
+   * checking the user's PATH. The returned promise will be rejected if Firefox
+   * can not be found.
+   *
+   * @return {!Promise<string>} A promise for the location of the located
+   *     Firefox executable.
+   */
+  locate() {
+    if (this.found_) {
+      return this.found_;
+    }
+
+    let found;
+    switch (process.platform) {
+      case 'darwin':
+        found = io.exists(this.darwin_)
+            .then(exists => exists ? this.darwin_ : io.findInPath('firefox'));
+        break;
+
+      case 'win32':
+        found = findInProgramFiles(this.win32_)
+            .then(found => found || io.findInPath('firefox.exe'));
+        break;
+
+      default:
+        found = Promise.resolve(io.findInPath('firefox'));
+        break;
+    }
+
+    this.found_ = found.then(found => {
+      if (found) {
+        // TODO: verify version info.
+        return found;
+      }
+      throw Error('Could not locate Firefox on the current system');
+    });
+    return this.found_;
+  }
+}
+```
+- example usage
+```shell
+n/a
 ```
 
 
@@ -2414,6 +2886,352 @@ n/a
 
 
 
+# <a name="apidoc.module.selenium-webdriver.chrome"></a>[module selenium-webdriver.chrome](#apidoc.module.selenium-webdriver.chrome)
+
+#### <a name="apidoc.element.selenium-webdriver.chrome.Driver"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.chrome.</span>Driver (Capabilities|Options)](#apidoc.element.selenium-webdriver.chrome.Driver)
+- description and source-code
+```javascript
+class Driver extends webdriver.WebDriver {
+
+<span class="apidocCodeCommentSpan">  /**
+   * Creates a new session with the ChromeDriver.
+   *
+   * @param {(Capabilities|Options)=} opt_config The configuration options.
+   * @param {(remote.DriverService|http.Executor)=} opt_serviceExecutor Either
+   *     a  DriverService to use for the remote end, or a preconfigured executor
+   *     for an externally managed endpoint. If neither is provided, the
+   *     {@linkplain ##getDefaultService default service} will be used by
+   *     default.
+   * @param {promise.ControlFlow=} opt_flow The control flow to use, or 'null'
+   *     to use the currently active flow.
+   * @return {!Driver} A new driver instance.
+   */
+</span>  static createSession(opt_config, opt_serviceExecutor, opt_flow) {
+    let executor;
+    if (opt_serviceExecutor instanceof http.Executor) {
+      executor = opt_serviceExecutor;
+      configureExecutor(executor);
+    } else {
+      let service = opt_serviceExecutor || getDefaultService();
+      executor = createExecutor(service.start());
+    }
+
+    let caps =
+        opt_config instanceof Options ? opt_config.toCapabilities() :
+        (opt_config || Capabilities.chrome());
+
+    return /** @type {!Driver} */(
+        webdriver.WebDriver.createSession(executor, caps, opt_flow, this));
+  }
+
+  /**
+   * This function is a no-op as file detectors are not supported by this
+   * implementation.
+   * @override
+   */
+  setFileDetector() {}
+
+  /**
+   * Schedules a command to launch Chrome App with given ID.
+   * @param {string} id ID of the App to launch.
+   * @return {!promise.Thenable<void>} A promise that will be resolved
+   *     when app is launched.
+   */
+  launchApp(id) {
+    return this.schedule(
+        new command.Command(Command.LAUNCH_APP).setParameter('id', id),
+        'Driver.launchApp()');
+  }
+}
+```
+- example usage
+```shell
+n/a
+```
+
+#### <a name="apidoc.element.selenium-webdriver.chrome.Options"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.chrome.</span>Options ()](#apidoc.element.selenium-webdriver.chrome.Options)
+- description and source-code
+```javascript
+class Options {
+  constructor() {
+<span class="apidocCodeCommentSpan">    /** @private {!Object} */
+</span>    this.options_ = {};
+
+    /** @private {!Array<(string|!Buffer)>} */
+    this.extensions_ = [];
+
+    /** @private {?logging.Preferences} */
+    this.logPrefs_ = null;
+
+    /** @private {?./lib/capabilities.ProxyConfig} */
+    this.proxy_ = null;
+  }
+
+  /**
+   * Extracts the ChromeDriver specific options from the given capabilities
+   * object.
+   * @param {!Capabilities} caps The capabilities object.
+   * @return {!Options} The ChromeDriver options.
+   */
+  static fromCapabilities(caps) {
+    let options = new Options();
+
+    let o = caps.get(OPTIONS_CAPABILITY_KEY);
+    if (o instanceof Options) {
+      options = o;
+    } else if (o) {
+      options.
+          addArguments(o.args || []).
+          addExtensions(o.extensions || []).
+          detachDriver(o.detach).
+          excludeSwitches(o.excludeSwitches || []).
+          setChromeBinaryPath(o.binary).
+          setChromeLogFile(o.logPath).
+          setChromeMinidumpPath(o.minidumpPath).
+          setLocalState(o.localState).
+          setMobileEmulation(o.mobileEmulation).
+          setUserPreferences(o.prefs).
+          setPerfLoggingPrefs(o.perfLoggingPrefs);
+    }
+
+    if (caps.has(Capability.PROXY)) {
+      options.setProxy(caps.get(Capability.PROXY));
+    }
+
+    if (caps.has(Capability.LOGGING_PREFS)) {
+      options.setLoggingPrefs(
+          caps.get(Capability.LOGGING_PREFS));
+    }
+
+    return options;
+  }
+
+  /**
+   * Add additional command line arguments to use when launching the Chrome
+   * browser.  Each argument may be specified with or without the "--" prefix
+   * (e.g. "--foo" and "foo"). Arguments with an associated value should be
+   * delimited by an "=": "foo=bar".
+   * @param {...(string|!Array<string>)} var_args The arguments to add.
+   * @return {!Options} A self reference.
+   */
+  addArguments(var_args) {
+    let args = this.options_.args || [];
+    args = args.concat.apply(args, arguments);
+    if (args.length) {
+      this.options_.args = args;
+    }
+    return this;
+  }
+
+  /**
+   * List of Chrome command line switches to exclude that ChromeDriver by default
+   * passes when starting Chrome.  Do not prefix switches with "--".
+   *
+   * @param {...(string|!Array<string>)} var_args The switches to exclude.
+   * @return {!Options} A self reference.
+   */
+  excludeSwitches(var_args) {
+    let switches = this.options_.excludeSwitches || [];
+    switches = switches.concat.apply(switches, arguments);
+    if (switches.length) {
+      this.options_.excludeSwitches = switches;
+    }
+    return this;
+  }
+
+  /**
+   * Add additional extensions to install when launching Chrome. Each extension
+   * should be specified as the path to the packed CRX file, or a Buffer for an
+   * extension.
+   * @param {...(string|!Buffer|!Array<(string|!Buffer)>)} var_args The
+   *     extensions to add.
+   * @return {!Options} A self reference.
+   */
+  addExtensions(var_args) {
+    this.extensions_ =
+        this.extensions_.concat.apply(this.extensions_, arguments);
+    return this;
+  }
+
+  /**
+   * Sets the path to the Chrome binary to use. On Mac OS X, this path should
+   * reference the actual Chrome executable, not just the application binary
+   * (e.g. "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome").
+   *
+   * The binary path be absolute or relative to the chromedriver server
+   * executable, but it must exist on the machine that will launch Chrome.
+   *
+   * @param {string} path The path to the Chrome binary to use.
+   * @return {!Options} A self reference.
+   */
+  setChromeBinaryPath(path) {
+    this.options_.binary = path;
+    return this;
+  }
+
+  /**
+   * Sets whether to leave the started Chrome browser running if the controlling
+   * ChromeDriver service is killed before {@link webdriver.WebDriver#quit()} is
+   * called.
+   * @param {boolean} detach Whether to leave the browser running if the
+   *     chromedriver service is killed before the session.
+   * @return {!Options} A self reference.
+   */
+  detachDriver(detach) {
+    this.options_.detach = detach;
+    return this;
+  } ...
+```
+- example usage
+```shell
+...
+*     let chrome = require('selenium-webdriver/chrome');
+*
+*     let service = new chrome.ServiceBuilder()
+*         .loggingTo('/my/log/file.txt')
+*         .enableVerboseLogging()
+*         .build();
+*
+*     let options = new chrome.Options();
+*     // configure browser options ...
+*
+*     let driver = chrome.Driver.createSession(options, service);
+*
+* Users should only instantiate the {@link Driver} class directly when they
+* need a custom driver service configuration (as shown above). For normal
+* operation, users should start Chrome using the
+...
+```
+
+#### <a name="apidoc.element.selenium-webdriver.chrome.ServiceBuilder"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.chrome.</span>ServiceBuilder (opt_exe)](#apidoc.element.selenium-webdriver.chrome.ServiceBuilder)
+- description and source-code
+```javascript
+class ServiceBuilder extends remote.DriverService.Builder {
+<span class="apidocCodeCommentSpan">  /**
+   * @param {string=} opt_exe Path to the server executable to use. If omitted,
+   *     the builder will attempt to locate the chromedriver on the current
+   *     PATH.
+   * @throws {Error} If provided executable does not exist, or the chromedriver
+   *     cannot be found on the PATH.
+   */
+</span>  constructor(opt_exe) {
+    let exe = opt_exe || io.findInPath(CHROMEDRIVER_EXE, true);
+    if (!exe) {
+      throw Error(
+          'The ChromeDriver could not be found on the current PATH. Please ' +
+          'download the latest version of the ChromeDriver from ' +
+          'http://chromedriver.storage.googleapis.com/index.html and ensure ' +
+          'it can be found on your PATH.');
+    }
+
+    super(exe);
+    this.setLoopback(true);  // Required
+  }
+
+  /**
+   * Sets which port adb is listening to. _The ChromeDriver will connect to adb
+   * if an {@linkplain Options#androidPackage Android session} is requested, but
+   * adb **must** be started beforehand._
+   *
+   * @param {number} port Which port adb is running on.
+   * @return {!ServiceBuilder} A self reference.
+   */
+  setAdbPort(port) {
+    return this.addArguments('--adb-port=' + port);
+  }
+
+  /**
+   * Sets the path of the log file the driver should log to. If a log file is
+   * not specified, the driver will log to stderr.
+   * @param {string} path Path of the log file to use.
+   * @return {!ServiceBuilder} A self reference.
+   */
+  loggingTo(path) {
+    return this.addArguments('--log-path=' + path);
+  }
+
+  /**
+   * Enables verbose logging.
+   * @return {!ServiceBuilder} A self reference.
+   */
+  enableVerboseLogging() {
+    return this.addArguments('--verbose');
+  }
+
+  /**
+   * Sets the number of threads the driver should use to manage HTTP requests.
+   * By default, the driver will use 4 threads.
+   * @param {number} n The number of threads to use.
+   * @return {!ServiceBuilder} A self reference.
+   */
+  setNumHttpThreads(n) {
+    return this.addArguments('--http-threads=' + n);
+  }
+
+  /**
+   * @override
+   */
+  setPath(path) {
+    super.setPath(path);
+    return this.addArguments('--url-base=' + path);
+  }
+}
+```
+- example usage
+```shell
+...
+* with {@link #setDefaultService setDefaultService()}.
+*
+* You may also create a {@link Driver} with its own driver service. This is
+* useful if you need to capture the server's log output for a specific session:
+*
+*     let chrome = require('selenium-webdriver/chrome');
+*
+*     let service = new chrome.ServiceBuilder()
+*         .loggingTo('/my/log/file.txt')
+*         .enableVerboseLogging()
+*         .build();
+*
+*     let options = new chrome.Options();
+*     // configure browser options ...
+*
+...
+```
+
+#### <a name="apidoc.element.selenium-webdriver.chrome.getDefaultService"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.chrome.</span>getDefaultService ()](#apidoc.element.selenium-webdriver.chrome.getDefaultService)
+- description and source-code
+```javascript
+function getDefaultService() {
+  if (!defaultService) {
+    defaultService = new ServiceBuilder().build();
+  }
+  return defaultService;
+}
+```
+- example usage
+```shell
+n/a
+```
+
+#### <a name="apidoc.element.selenium-webdriver.chrome.setDefaultService"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.chrome.</span>setDefaultService (service)](#apidoc.element.selenium-webdriver.chrome.setDefaultService)
+- description and source-code
+```javascript
+function setDefaultService(service) {
+  if (defaultService && defaultService.isRunning()) {
+    throw Error(
+        'The previously configured ChromeDriver service is still running. ' +
+        'You must shut it down before you may adjust its configuration.');
+  }
+  defaultService = service;
+}
+```
+- example usage
+```shell
+n/a
+```
+
+
+
 # <a name="apidoc.module.selenium-webdriver.command"></a>[module selenium-webdriver.command](#apidoc.module.selenium-webdriver.command)
 
 #### <a name="apidoc.element.selenium-webdriver.command.Command"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.command.</span>Command (name)](#apidoc.element.selenium-webdriver.command.Command)
@@ -2475,21 +3293,20 @@ class Command {
 - example usage
 ```shell
 ...
-   *     is defined as a {@link ./webdriver.WebElement}, this parameter defines
-   *     an offset within that element. The offset should be specified in pixels
-   *     relative to the top-left corner of the element's bounding box. If
-   *     omitted, the element's center will be used as the target offset.
-   * @return {!ActionSequence} A self reference.
+   * Schedules a command to launch Chrome App with given ID.
+   * @param {string} id ID of the App to launch.
+   * @return {!promise.Thenable<void>} A promise that will be resolved
+   *     when app is launched.
    */
-  mouseMove(location, opt_offset) {
-let cmd = new command.Command(command.Name.MOVE_TO);
+  launchApp(id) {
+    return this.schedule(
+        new command.Command(Command.LAUNCH_APP).setParameter('id', id),
+        'Driver.launchApp()');
+  }
+}
 
-if (typeof location.x === 'number') {
-  setOffset(/** @type {{x: number, y: number}} */(location));
-} else {
-  cmd.setParameter('element', location.getId());
-  if (opt_offset) {
-    setOffset(opt_offset);
+
+// PUBLIC API
 ...
 ```
 
@@ -2528,6 +3345,249 @@ if (browser === Browser.CHROME) {
       driver, capabilities, executor, this.flow_);
 }
 ...
+```
+
+
+
+# <a name="apidoc.module.selenium-webdriver.edge"></a>[module selenium-webdriver.edge](#apidoc.module.selenium-webdriver.edge)
+
+#### <a name="apidoc.element.selenium-webdriver.edge.Driver"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.edge.</span>Driver (capabilities.Capabilities|Options)](#apidoc.element.selenium-webdriver.edge.Driver)
+- description and source-code
+```javascript
+class Driver extends webdriver.WebDriver {
+<span class="apidocCodeCommentSpan">  /**
+   * Creates a new browser session for Microsoft's Edge browser.
+   *
+   * @param {(capabilities.Capabilities|Options)=} opt_config The configuration
+   *     options.
+   * @param {remote.DriverService=} opt_service The session to use; will use
+   *     the {@linkplain #getDefaultService default service} by default.
+   * @param {promise.ControlFlow=} opt_flow The control flow to use, or
+   *     {@code null} to use the currently active flow.
+   * @return {!Driver} A new driver instance.
+   */
+</span>  static createSession(opt_config, opt_service, opt_flow) {
+    var service = opt_service || getDefaultService();
+    var client = service.start().then(url => new http.HttpClient(url));
+    var executor = new http.Executor(client);
+
+    var caps =
+        opt_config instanceof Options ? opt_config.toCapabilities() :
+        (opt_config || capabilities.Capabilities.edge());
+
+    return /** @type {!Driver} */(webdriver.WebDriver.createSession(
+        executor, caps, opt_flow, this, () => service.kill()));
+  }
+
+  /**
+   * This function is a no-op as file detectors are not supported by this
+   * implementation.
+   * @override
+   */
+  setFileDetector() {}
+}
+```
+- example usage
+```shell
+n/a
+```
+
+#### <a name="apidoc.element.selenium-webdriver.edge.Options"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.edge.</span>Options ()](#apidoc.element.selenium-webdriver.edge.Options)
+- description and source-code
+```javascript
+class Options {
+  constructor() {
+<span class="apidocCodeCommentSpan">    /** @private {!Object} */
+</span>    this.options_ = {};
+
+    /** @private {?capabilities.ProxyConfig} */
+    this.proxy_ = null;
+  }
+
+  /**
+   * Extracts the MicrosoftEdgeDriver specific options from the given
+   * capabilities object.
+   * @param {!capabilities.Capabilities} caps The capabilities object.
+   * @return {!Options} The MicrosoftEdgeDriver options.
+   */
+  static fromCapabilities(caps) {
+    var options = new Options();
+    var map = options.options_;
+
+    Object.keys(CAPABILITY_KEY).forEach(function(key) {
+      key = CAPABILITY_KEY[key];
+      if (caps.has(key)) {
+        map[key] = caps.get(key);
+      }
+    });
+
+    if (caps.has(capabilities.Capability.PROXY)) {
+      options.setProxy(caps.get(capabilities.Capability.PROXY));
+    }
+
+    return options;
+  }
+
+  /**
+   * Sets the proxy settings for the new session.
+   * @param {capabilities.ProxyConfig} proxy The proxy configuration to use.
+   * @return {!Options} A self reference.
+   */
+  setProxy(proxy) {
+    this.proxy_ = proxy;
+    return this;
+  }
+
+  /**
+   * Sets the page load strategy for Edge.
+   * Supported values are "normal", "eager", and "none";
+   *
+   * @param {string} pageLoadStrategy The page load strategy to use.
+   * @return {!Options} A self reference.
+   */
+  setPageLoadStrategy(pageLoadStrategy) {
+    this.options_[CAPABILITY_KEY.PAGE_LOAD_STRATEGY] =
+      pageLoadStrategy.toLowerCase();
+    return this;
+  }
+
+  /**
+   * Converts this options instance to a {@link capabilities.Capabilities}
+   * object.
+   * @param {capabilities.Capabilities=} opt_capabilities The capabilities to
+   *     merge these options into, if any.
+   * @return {!capabilities.Capabilities} The capabilities.
+   */
+  toCapabilities(opt_capabilities) {
+    var caps = opt_capabilities || capabilities.Capabilities.edge();
+    if (this.proxy_) {
+      caps.set(capabilities.Capability.PROXY, this.proxy_);
+    }
+    Object.keys(this.options_).forEach(function(key) {
+      caps.set(key, this.options_[key]);
+    }, this);
+    return caps;
+  }
+
+  /**
+   * Converts this instance to its JSON wire protocol representation. Note this
+   * function is an implementation not intended for general use.
+   * @return {{pageLoadStrategy: (string|undefined)}}
+   *   The JSON wire protocol representation of this instance.
+   */
+  [Symbols.serialize]() {
+    var json = {};
+    for (var key in this.options_) {
+      if (this.options_[key] != null) {
+        json[key] = this.options_[key];
+      }
+    }
+    return json;
+  }
+}
+```
+- example usage
+```shell
+...
+*     let chrome = require('selenium-webdriver/chrome');
+*
+*     let service = new chrome.ServiceBuilder()
+*         .loggingTo('/my/log/file.txt')
+*         .enableVerboseLogging()
+*         .build();
+*
+*     let options = new chrome.Options();
+*     // configure browser options ...
+*
+*     let driver = chrome.Driver.createSession(options, service);
+*
+* Users should only instantiate the {@link Driver} class directly when they
+* need a custom driver service configuration (as shown above). For normal
+* operation, users should start Chrome using the
+...
+```
+
+#### <a name="apidoc.element.selenium-webdriver.edge.ServiceBuilder"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.edge.</span>ServiceBuilder (opt_exe)](#apidoc.element.selenium-webdriver.edge.ServiceBuilder)
+- description and source-code
+```javascript
+class ServiceBuilder extends remote.DriverService.Builder {
+<span class="apidocCodeCommentSpan">  /**
+   * @param {string=} opt_exe Path to the server executable to use. If omitted,
+   *   the builder will attempt to locate the MicrosoftEdgeDriver on the current
+   *   PATH.
+   * @throws {Error} If provided executable does not exist, or the
+   *   MicrosoftEdgeDriver cannot be found on the PATH.
+   */
+</span>  constructor(opt_exe) {
+    let exe = opt_exe || io.findInPath(EDGEDRIVER_EXE, true);
+    if (!exe) {
+      throw Error(
+        'The ' + EDGEDRIVER_EXE + ' could not be found on the current PATH. ' +
+        'Please download the latest version of the MicrosoftEdgeDriver from ' +
+        'https://www.microsoft.com/en-us/download/details.aspx?id=48212 and ' +
+        'ensure it can be found on your PATH.');
+    }
+
+    super(exe);
+
+    // Binding to the loopback address will fail if not running with
+    // administrator privileges. Since we cannot test for that in script
+    // (or can we?), force the DriverService to use "localhost".
+    this.setHostname('localhost');
+  }
+}
+```
+- example usage
+```shell
+...
+* with {@link #setDefaultService setDefaultService()}.
+*
+* You may also create a {@link Driver} with its own driver service. This is
+* useful if you need to capture the server's log output for a specific session:
+*
+*     let chrome = require('selenium-webdriver/chrome');
+*
+*     let service = new chrome.ServiceBuilder()
+*         .loggingTo('/my/log/file.txt')
+*         .enableVerboseLogging()
+*         .build();
+*
+*     let options = new chrome.Options();
+*     // configure browser options ...
+*
+...
+```
+
+#### <a name="apidoc.element.selenium-webdriver.edge.getDefaultService"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.edge.</span>getDefaultService ()](#apidoc.element.selenium-webdriver.edge.getDefaultService)
+- description and source-code
+```javascript
+function getDefaultService() {
+  if (!defaultService) {
+    defaultService = new ServiceBuilder().build();
+  }
+  return defaultService;
+}
+```
+- example usage
+```shell
+n/a
+```
+
+#### <a name="apidoc.element.selenium-webdriver.edge.setDefaultService"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.edge.</span>setDefaultService (service)](#apidoc.element.selenium-webdriver.edge.setDefaultService)
+- description and source-code
+```javascript
+function setDefaultService(service) {
+  if (defaultService && defaultService.isRunning()) {
+    throw Error(
+      'The previously configured EdgeDriver service is still running. ' +
+      'You must shut it down before you may adjust its configuration.');
+  }
+  defaultService = service;
+}
+```
+- example usage
+```shell
+n/a
 ```
 
 
@@ -3327,6 +4387,179 @@ n/a
 
 
 
+# <a name="apidoc.module.selenium-webdriver.exec"></a>[module selenium-webdriver.exec](#apidoc.module.selenium-webdriver.exec)
+
+#### <a name="apidoc.element.selenium-webdriver.exec.exec"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.</span>exec (command, opt_options)](#apidoc.element.selenium-webdriver.exec.exec)
+- description and source-code
+```javascript
+function exec(command, opt_options) {
+  var options = opt_options || {};
+
+  var proc = childProcess.spawn(command, options.args || [], {
+    env: options.env || process.env,
+    stdio: options.stdio || 'ignore'
+  });
+
+  // This process should not wait on the spawned child, however, we do
+  // want to ensure the child is killed when this process exits.
+  proc.unref();
+  process.once('exit', onProcessExit);
+
+  let result = new Promise(resolve => {
+    proc.once('exit', (code, signal) => {
+      proc = null;
+      process.removeListener('exit', onProcessExit);
+      resolve(new Result(code, signal));
+    });
+  });
+  return new Command(result, killCommand);
+
+  function onProcessExit() {
+    killCommand('SIGTERM');
+  }
+
+  function killCommand(signal) {
+    process.removeListener('exit', onProcessExit);
+    if (proc) {
+      proc.kill(signal);
+      proc = null;
+    }
+  }
+}
+```
+- example usage
+```shell
+n/a
+```
+
+#### <a name="apidoc.element.selenium-webdriver.exec.Command"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.exec.</span>Command (string)](#apidoc.element.selenium-webdriver.exec.Command)
+- description and source-code
+```javascript
+class Command {
+<span class="apidocCodeCommentSpan">  /**
+   * @param {!Promise<!Result>} result The command result.
+   * @param {function(string)} onKill The function to call when {@link #kill()}
+   *     is called.
+   */
+</span>  constructor(result, onKill) {
+    COMMAND_RESULT.set(this, result);
+    KILL_HOOK.set(this, onKill);
+  }
+
+  /**
+   * @return {!Promise<!Result>} A promise for the result of this
+   *     command.
+   */
+  result() {
+    return /** @type {!Promise<!Result>} */(COMMAND_RESULT.get(this));
+  }
+
+  /**
+   * Sends a signal to the underlying process.
+   * @param {string=} opt_signal The signal to send; defaults to 'SIGTERM'.
+   */
+  kill(opt_signal) {
+    KILL_HOOK.get(this)(opt_signal || 'SIGTERM');
+  }
+}
+```
+- example usage
+```shell
+...
+   * Schedules a command to launch Chrome App with given ID.
+   * @param {string} id ID of the App to launch.
+   * @return {!promise.Thenable<void>} A promise that will be resolved
+   *     when app is launched.
+   */
+  launchApp(id) {
+    return this.schedule(
+        new command.Command(Command.LAUNCH_APP).setParameter('id', id),
+        'Driver.launchApp()');
+  }
+}
+
+
+// PUBLIC API
+...
+```
+
+#### <a name="apidoc.element.selenium-webdriver.exec.Result"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.exec.</span>Result (code, signal)](#apidoc.element.selenium-webdriver.exec.Result)
+- description and source-code
+```javascript
+class Result {
+<span class="apidocCodeCommentSpan">  /**
+   * @param {?number} code The exit code, or {@code null} if the command did not
+   *     exit normally.
+   * @param {?string} signal The signal used to kill the command, or
+   *     {@code null}.
+   */
+</span>  constructor(code, signal) {
+    /** @type {?number} */
+    this.code = code;
+
+    /** @type {?string} */
+    this.signal = signal;
+  }
+
+  /** @override */
+  toString() {
+    return 'Result(code=${this.code}, signal=${this.signal})';
+  }
+}
+```
+- example usage
+```shell
+n/a
+```
+
+
+
+# <a name="apidoc.module.selenium-webdriver.extension"></a>[module selenium-webdriver.extension](#apidoc.module.selenium-webdriver.extension)
+
+#### <a name="apidoc.element.selenium-webdriver.extension.install"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.extension.</span>install (extension, dir)](#apidoc.element.selenium-webdriver.extension.install)
+- description and source-code
+```javascript
+function install(extension, dir) {
+  return getDetails(extension).then(function(details) {
+    var dst = path.join(dir, details.id);
+    if (extension.slice(-4) === '.xpi') {
+      if (!details.unpack) {
+        return io.copy(extension, dst + '.xpi').then(() => details.id);
+      } else {
+        return Promise.resolve().then(function() {
+          // TODO: find an async library for inflating a zip archive.
+          new AdmZip(extension).extractAllTo(dst, true);
+          return details.id;
+        });
+      }
+    } else {
+      return io.copyDir(extension, dst).then(() => details.id);
+    }
+  });
+}
+```
+- example usage
+```shell
+...
+        }
+      } else {
+        install(extensions[next++]);
+      }
+    }
+
+    function install(ext) {
+      extension.install(ext, extensionDir).then(function(id) {
+        hasWebDriver = hasWebDriver || (id === WEBDRIVER_EXTENSION_NAME);
+        installNext();
+      }, reject);
+    }
+  });
+}
+...
+```
+
+
+
 # <a name="apidoc.module.selenium-webdriver.http"></a>[module selenium-webdriver.http](#apidoc.module.selenium-webdriver.http)
 
 #### <a name="apidoc.element.selenium-webdriver.http.Client"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.http.</span>Client (httpRequest)](#apidoc.element.selenium-webdriver.http.Client)
@@ -3556,6 +4789,196 @@ function buildPath(path, parameters) {
 - example usage
 ```shell
 n/a
+```
+
+
+
+# <a name="apidoc.module.selenium-webdriver.ie"></a>[module selenium-webdriver.ie](#apidoc.module.selenium-webdriver.ie)
+
+#### <a name="apidoc.element.selenium-webdriver.ie.Driver"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.ie.</span>Driver (capabilities.Capabilities|Options)](#apidoc.element.selenium-webdriver.ie.Driver)
+- description and source-code
+```javascript
+class Driver extends webdriver.WebDriver {
+<span class="apidocCodeCommentSpan">  /**
+   * Creates a new session for Microsoft's Internet Explorer.
+   *
+   * @param {(capabilities.Capabilities|Options)=} opt_config The configuration
+   *     options.
+   * @param {promise.ControlFlow=} opt_flow The control flow to use,
+   *     or {@code null} to use the currently active flow.
+   * @return {!Driver} A new driver instance.
+   */
+</span>  static createSession(opt_config, opt_flow) {
+    var caps = opt_config instanceof Options ?
+        opt_config.toCapabilities() :
+        (opt_config || capabilities.Capabilities.ie());
+
+    var service = createServiceFromCapabilities(caps);
+    var client = service.start().then(url => new http.HttpClient(url));
+    var executor = new http.Executor(client);
+
+    return /** @type {!Driver} */(webdriver.WebDriver.createSession(
+        executor, caps, opt_flow, this, () => service.kill()));
+  }
+
+  /**
+   * This function is a no-op as file detectors are not supported by this
+   * implementation.
+   * @override
+   */
+  setFileDetector() {}
+}
+```
+- example usage
+```shell
+n/a
+```
+
+#### <a name="apidoc.element.selenium-webdriver.ie.Options"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.ie.</span>Options ()](#apidoc.element.selenium-webdriver.ie.Options)
+- description and source-code
+```javascript
+class Options {
+  constructor() {
+<span class="apidocCodeCommentSpan">    /** @private {!Object<(boolean|number|string|!Array<string>)>} */
+</span>    this.options_ = {};
+
+    /** @private {(capabilities.ProxyConfig|null)} */
+    this.proxy_ = null;
+  }
+
+  /**
+   * Extracts the IEDriver specific options from the given capabilities
+   * object.
+   * @param {!capabilities.Capabilities} caps The capabilities object.
+   * @return {!Options} The IEDriver options.
+   */
+  static fromCapabilities(caps) {
+    var options = new Options();
+    var map = options.options_;
+
+    Object.keys(Key).forEach(function(key) {
+      key = Key[key];
+      if (caps.has(key)) {
+        map[key] = caps.get(key);
+      }
+    });
+
+    if (caps.has(capabilities.Capability.PROXY)) {
+      options.setProxy(caps.get(capabilities.Capability.PROXY));
+    }
+
+    return options;
+  }
+
+  /**
+   * Whether to disable the protected mode settings check when the session is
+   * created. Disbling this setting may lead to significant instability as the
+   * browser may become unresponsive/hang. Only "best effort" support is provided
+   * when using this capability.
+   *
+   * For more information, refer to the IEDriver's
+   * [required system configuration](http://goo.gl/eH0Yi3).
+   *
+   * @param {boolean} ignoreSettings Whether to ignore protected mode settings.
+   * @return {!Options} A self reference.
+   */
+  introduceFlakinessByIgnoringProtectedModeSettings(ignoreSettings) {
+    this.options_[Key.IGNORE_PROTECTED_MODE_SETTINGS] = !!ignoreSettings;
+    return this;
+  }
+
+  /**
+   * Indicates whether to skip the check that the browser's zoom level is set to
+   * 100%.
+   *
+   * @param {boolean} ignore Whether to ignore the browser's zoom level settings.
+   * @return {!Options} A self reference.
+   */
+  ignoreZoomSetting(ignore) {
+    this.options_[Key.IGNORE_ZOOM_SETTING] = !!ignore;
+    return this;
+  }
+
+  /**
+   * Sets the initial URL loaded when IE starts. This is intended to be used with
+   * {@link #ignoreProtectedModeSettings} to allow the user to initialize IE in
+   * the proper Protected Mode zone. Setting this option may cause browser
+   * instability or flaky and unresponsive code. Only "best effort" support is
+   * provided when using this option.
+   *
+   * @param {string} url The initial browser URL.
+   * @return {!Options} A self reference.
+   */
+  initialBrowserUrl(url) {
+    this.options_[Key.INITIAL_BROWSER_URL] = url;
+    return this;
+  }
+
+  /**
+   * Configures whether to enable persistent mouse hovering (true by default).
+   * Persistent hovering is achieved by continuously firing mouse over events at
+   * the last location the mouse cursor has been moved to.
+   *
+   * @param {boolean} enable Whether to enable persistent hovering.
+   * @return {!Options} A self reference.
+   */
+  enablePersistentHover(enable) {
+    this.options_[Key.ENABLE_PERSISTENT_HOVER] = !!enable;
+    return this;
+  }
+
+  /**
+   * Configures whether the driver should attempt to remove obsolete
+   * {@linkplain webdriver.WebElement WebElements} from its internal cache on
+   * page navigation (true by default). Disabling this option will cause the
+   * driver to run with a larger memory footprint.
+   *
+   * @param {boolean} enable Whether to enable element reference cleanup.
+   * @return {!Options} A self reference.
+   */
+  enableElementCacheCleanup(enable) {
+    this.options_[Key.ENABLE_ELEMENT_CACHE_CLEANUP] = !!enable;
+    return this;
+  }
+
+  /**
+   * Configures whether to require the IE window to have input focus before
+   * performing any user interactions (i.e. mouse or keyboard events). This
+   * option is disabled by default, but delivers much more accurate interaction
+   * events when enabled.
+   *
+   * @param {boolean} require Whether to require window focus.
+   * @return {!Options} A self reference.
+   */
+  requireWindowFocus(require) {
+    this.options_[Key.REQUIRE_WINDOW_FOCUS] = !!require;
+    return this;
+  }
+
+  /**
+   * Configures the timeout, in milliseconds, that the driver will attempt to
+   * located and attach to a newly opened instance of Internet Explorer. The
+   * default is zero, which indicates ...
+```
+- example usage
+```shell
+...
+*     let chrome = require('selenium-webdriver/chrome');
+*
+*     let service = new chrome.ServiceBuilder()
+*         .loggingTo('/my/log/file.txt')
+*         .enableVerboseLogging()
+*         .build();
+*
+*     let options = new chrome.Options();
+*     // configure browser options ...
+*
+*     let driver = chrome.Driver.createSession(options, service);
+*
+* Users should only instantiate the {@link Driver} class directly when they
+* need a custom driver service configuration (as shown above). For normal
+* operation, users should start Chrome using the
+...
 ```
 
 
@@ -4028,6 +5451,729 @@ n/a
 function removeConsoleHandler(opt_logger) {
   let logger = opt_logger || logManager.root_;
   logger.removeHandler(consoleHandler);
+}
+```
+- example usage
+```shell
+n/a
+```
+
+
+
+# <a name="apidoc.module.selenium-webdriver.opera"></a>[module selenium-webdriver.opera](#apidoc.module.selenium-webdriver.opera)
+
+#### <a name="apidoc.element.selenium-webdriver.opera.Driver"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.opera.</span>Driver (capabilities.Capabilities|Options)](#apidoc.element.selenium-webdriver.opera.Driver)
+- description and source-code
+```javascript
+class Driver extends webdriver.WebDriver {
+<span class="apidocCodeCommentSpan">  /**
+   * Creates a new session for Opera.
+   *
+   * @param {(capabilities.Capabilities|Options)=} opt_config The configuration
+   *     options.
+   * @param {remote.DriverService=} opt_service The session to use; will use
+   *     the {@link getDefaultService default service} by default.
+   * @param {promise.ControlFlow=} opt_flow The control flow to use,
+   *     or {@code null} to use the currently active flow.
+   * @return {!Driver} A new driver instance.
+   */
+</span>  static createSession(opt_config, opt_service, opt_flow) {
+    var service = opt_service || getDefaultService();
+    var client = service.start().then(url => new http.HttpClient(url));
+    var executor = new http.Executor(client);
+
+    var caps =
+        opt_config instanceof Options ? opt_config.toCapabilities() :
+        (opt_config || capabilities.Capabilities.opera());
+
+    // On Linux, the OperaDriver does not look for Opera on the PATH, so we
+    // must explicitly find it. See: operachromiumdriver #9.
+    if (process.platform === 'linux') {
+      var options = Options.fromCapabilities(caps);
+      if (!options.binary_) {
+        let exe = io.findInPath('opera', true);
+        if (!exe) {
+          throw Error(
+              'The opera executable could not be found on the current PATH');
+        }
+        options.setOperaBinaryPath(exe);
+      }
+      caps = options.toCapabilities(caps);
+    }
+
+    return /** @type {!Driver} */(
+        webdriver.WebDriver.createSession(executor, caps, opt_flow, this));
+  }
+
+  /**
+   * This function is a no-op as file detectors are not supported by this
+   * implementation.
+   * @override
+   */
+  setFileDetector() {}
+}
+```
+- example usage
+```shell
+n/a
+```
+
+#### <a name="apidoc.element.selenium-webdriver.opera.Options"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.opera.</span>Options ()](#apidoc.element.selenium-webdriver.opera.Options)
+- description and source-code
+```javascript
+class Options {
+  constructor() {
+<span class="apidocCodeCommentSpan">    /** @private {!Array.<string>} */
+</span>    this.args_ = [];
+
+    /** @private {?string} */
+    this.binary_ = null;
+
+    /** @private {!Array.<(string|!Buffer)>} */
+    this.extensions_ = [];
+
+    /** @private {./lib/logging.Preferences} */
+    this.logPrefs_ = null;
+
+    /** @private {?capabilities.ProxyConfig} */
+    this.proxy_ = null;
+  }
+
+  /**
+   * Extracts the OperaDriver specific options from the given capabilities
+   * object.
+   * @param {!capabilities.Capabilities} caps The capabilities object.
+   * @return {!Options} The OperaDriver options.
+   */
+  static fromCapabilities(caps) {
+    var options;
+    var o = caps.get(OPTIONS_CAPABILITY_KEY);
+    if (o instanceof Options) {
+      options = o;
+    } else if (o) {
+      options = new Options()
+          .addArguments(o.args || [])
+          .addExtensions(o.extensions || [])
+          .setOperaBinaryPath(o.binary);
+    } else {
+      options = new Options;
+    }
+
+    if (caps.has(capabilities.Capability.PROXY)) {
+      options.setProxy(caps.get(capabilities.Capability.PROXY));
+    }
+
+    if (caps.has(capabilities.Capability.LOGGING_PREFS)) {
+      options.setLoggingPrefs(
+          caps.get(capabilities.Capability.LOGGING_PREFS));
+    }
+
+    return options;
+  }
+
+  /**
+   * Add additional command line arguments to use when launching the Opera
+   * browser.  Each argument may be specified with or without the "--" prefix
+   * (e.g. "--foo" and "foo"). Arguments with an associated value should be
+   * delimited by an "=": "foo=bar".
+   * @param {...(string|!Array.<string>)} var_args The arguments to add.
+   * @return {!Options} A self reference.
+   */
+  addArguments(var_args) {
+    this.args_ = this.args_.concat.apply(this.args_, arguments);
+    return this;
+  }
+
+  /**
+   * Add additional extensions to install when launching Opera. Each extension
+   * should be specified as the path to the packed CRX file, or a Buffer for an
+   * extension.
+   * @param {...(string|!Buffer|!Array.<(string|!Buffer)>)} var_args The
+   *     extensions to add.
+   * @return {!Options} A self reference.
+   */
+  addExtensions(var_args) {
+    this.extensions_ = this.extensions_.concat.apply(
+        this.extensions_, arguments);
+    return this;
+  }
+
+  /**
+   * Sets the path to the Opera binary to use. On Mac OS X, this path should
+   * reference the actual Opera executable, not just the application binary. The
+   * binary path be absolute or relative to the operadriver server executable, but
+   * it must exist on the machine that will launch Opera.
+   *
+   * @param {string} path The path to the Opera binary to use.
+   * @return {!Options} A self reference.
+   */
+  setOperaBinaryPath(path) {
+    this.binary_ = path;
+    return this;
+  }
+
+  /**
+   * Sets the logging preferences for the new session.
+   * @param {!./lib/logging.Preferences} prefs The logging preferences.
+   * @return {!Options} A self reference.
+   */
+  setLoggingPrefs(prefs) {
+    this.logPrefs_ = prefs;
+    return this;
+  }
+
+  /**
+   * Sets the proxy settings for the new session.
+   * @param {capabilities.ProxyConfig} proxy The proxy configuration to use.
+   * @return {!Options} A self reference.
+   */
+  setProxy(proxy) {
+    this.proxy_ = proxy;
+    return this;
+  }
+
+  /**
+   * Converts this options instance to a {@link capabilities.Capabilities}
+   *     object.
+   * @param {capabilities.Capabilities=} opt_capabilities The capabilities to
+   *     merge these options into, if any.
+   * @return {!capabilities.Capabilities} The capabilities.
+   */
+  toCapabilities(opt_capabilities) {
+    var caps = opt_capabilities || capabilities.Capabilities.opera();
+    caps.
+        set(capabilities.Capability.PROXY, this.proxy_).
+        set(capabilities.Capability.LOGGING_PREFS, this.logPrefs_).
+        set(OPTIONS_CAPABILITY_KEY, this);
+    return caps;
+  }
+
+  /**
+   * Converts this instance to its JSON wire protocol representation. Note this
+   * function is an implementation not intended for general use.
+   * @return {!Object} The JSON wire protocol representation of this instance.
+   */
+  [Symbols. ...
+```
+- example usage
+```shell
+...
+*     let chrome = require('selenium-webdriver/chrome');
+*
+*     let service = new chrome.ServiceBuilder()
+*         .loggingTo('/my/log/file.txt')
+*         .enableVerboseLogging()
+*         .build();
+*
+*     let options = new chrome.Options();
+*     // configure browser options ...
+*
+*     let driver = chrome.Driver.createSession(options, service);
+*
+* Users should only instantiate the {@link Driver} class directly when they
+* need a custom driver service configuration (as shown above). For normal
+* operation, users should start Chrome using the
+...
+```
+
+#### <a name="apidoc.element.selenium-webdriver.opera.ServiceBuilder"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.opera.</span>ServiceBuilder (opt_exe)](#apidoc.element.selenium-webdriver.opera.ServiceBuilder)
+- description and source-code
+```javascript
+class ServiceBuilder extends remote.DriverService.Builder {
+<span class="apidocCodeCommentSpan">  /**
+   * @param {string=} opt_exe Path to the server executable to use. If omitted,
+   *     the builder will attempt to locate the operadriver on the current
+   *     PATH.
+   * @throws {Error} If provided executable does not exist, or the operadriver
+   *     cannot be found on the PATH.
+   */
+</span>  constructor(opt_exe) {
+    let exe = opt_exe || io.findInPath(OPERADRIVER_EXE, true);
+    if (!exe) {
+      throw Error(
+          'The OperaDriver could not be found on the current PATH. Please ' +
+          'download the latest version of the OperaDriver from ' +
+          'https://github.com/operasoftware/operachromiumdriver/releases and ' +
+          'ensure it can be found on your PATH.');
+    }
+
+    super(exe);
+    this.setLoopback(true);
+  }
+
+  /**
+   * Sets the path of the log file the driver should log to. If a log file is
+   * not specified, the driver will log to stderr.
+   * @param {string} path Path of the log file to use.
+   * @return {!ServiceBuilder} A self reference.
+   */
+  loggingTo(path) {
+    return this.addArguments('--log-path=' + path);
+  }
+
+  /**
+   * Enables verbose logging.
+   * @return {!ServiceBuilder} A self reference.
+   */
+  enableVerboseLogging() {
+    return this.addArguments('--verbose');
+  }
+
+  /**
+   * Silence sthe drivers output.
+   * @return {!ServiceBuilder} A self reference.
+   */
+  silent() {
+    return this.addArguments('--silent');
+  }
+}
+```
+- example usage
+```shell
+...
+* with {@link #setDefaultService setDefaultService()}.
+*
+* You may also create a {@link Driver} with its own driver service. This is
+* useful if you need to capture the server's log output for a specific session:
+*
+*     let chrome = require('selenium-webdriver/chrome');
+*
+*     let service = new chrome.ServiceBuilder()
+*         .loggingTo('/my/log/file.txt')
+*         .enableVerboseLogging()
+*         .build();
+*
+*     let options = new chrome.Options();
+*     // configure browser options ...
+*
+...
+```
+
+#### <a name="apidoc.element.selenium-webdriver.opera.getDefaultService"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.opera.</span>getDefaultService ()](#apidoc.element.selenium-webdriver.opera.getDefaultService)
+- description and source-code
+```javascript
+function getDefaultService() {
+  if (!defaultService) {
+    defaultService = new ServiceBuilder().build();
+  }
+  return defaultService;
+}
+```
+- example usage
+```shell
+n/a
+```
+
+#### <a name="apidoc.element.selenium-webdriver.opera.setDefaultService"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.opera.</span>setDefaultService (service)](#apidoc.element.selenium-webdriver.opera.setDefaultService)
+- description and source-code
+```javascript
+function setDefaultService(service) {
+  if (defaultService && defaultService.isRunning()) {
+    throw Error(
+        'The previously configured OperaDriver service is still running. ' +
+        'You must shut it down before you may adjust its configuration.');
+  }
+  defaultService = service;
+}
+```
+- example usage
+```shell
+n/a
+```
+
+
+
+# <a name="apidoc.module.selenium-webdriver.phantomjs"></a>[module selenium-webdriver.phantomjs](#apidoc.module.selenium-webdriver.phantomjs)
+
+#### <a name="apidoc.element.selenium-webdriver.phantomjs.Driver"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.phantomjs.</span>Driver (opt_capabilities, opt_flow, opt_logFile)](#apidoc.element.selenium-webdriver.phantomjs.Driver)
+- description and source-code
+```javascript
+class Driver extends webdriver.WebDriver {
+<span class="apidocCodeCommentSpan">  /**
+   * Creates a new PhantomJS session.
+   *
+   * @param {capabilities.Capabilities=} opt_capabilities The desired
+   *     capabilities.
+   * @param {promise.ControlFlow=} opt_flow The control flow to use,
+   *     or {@code null} to use the currently active flow.
+   * @param {string=} opt_logFile Path to the log file for the phantomjs
+   *     executable's output. For convenience, this may be set at runtime with
+   *     the 'SELENIUM_PHANTOMJS_LOG' environment variable.
+   * @return {!Driver} A new driver reference.
+   */
+</span>  static createSession(opt_capabilities, opt_flow, opt_logFile) {
+    // TODO: add an Options class for consistency with the other driver types.
+
+    var caps = opt_capabilities || capabilities.Capabilities.phantomjs();
+    var exe = findExecutable(caps.get(BINARY_PATH_CAPABILITY));
+    var args = [];
+
+    var logPrefs = caps.get(capabilities.Capability.LOGGING_PREFS);
+    if (logPrefs instanceof logging.Preferences) {
+      logPrefs = logPrefs.toJSON();
+    }
+
+    if (logPrefs && logPrefs[logging.Type.DRIVER]) {
+      let level = WEBDRIVER_TO_PHANTOMJS_LEVEL.get(
+          logPrefs[logging.Type.DRIVER]);
+      if (level) {
+        args.push('--webdriver-loglevel=' + level);
+      }
+    }
+
+    opt_logFile = process.env['SELENIUM_PHANTOMJS_LOG'] || opt_logFile;
+    if (typeof opt_logFile === 'string') {
+      args.push('--webdriver-logfile=' + opt_logFile);
+    }
+
+    var proxy = caps.get(capabilities.Capability.PROXY);
+    if (proxy) {
+      switch (proxy.proxyType) {
+        case 'manual':
+          if (proxy.httpProxy) {
+            args.push(
+                '--proxy-type=http',
+                '--proxy=' + proxy.httpProxy);
+            console.log(args);
+          }
+          break;
+        case 'pac':
+          throw Error('PhantomJS does not support Proxy PAC files');
+        case 'system':
+          args.push('--proxy-type=system');
+          break;
+        case 'direct':
+          args.push('--proxy-type=none');
+          break;
+      }
+    }
+    args = args.concat(caps.get(CLI_ARGS_CAPABILITY) || []);
+
+    var port = portprober.findFreePort();
+    var service = new remote.DriverService(exe, {
+      port: port,
+      args: Promise.resolve(port).then(function(port) {
+        args.push('--webdriver=' + port);
+        return args;
+      })
+    });
+
+    var executor = createExecutor(service.start());
+    return /** @type {!Driver} */(webdriver.WebDriver.createSession(
+        executor, caps, opt_flow, this, () => service.kill()));
+  }
+
+  /**
+   * This function is a no-op as file detectors are not supported by this
+   * implementation.
+   * @override
+   */
+  setFileDetector() {}
+
+  /**
+   * Executes a PhantomJS fragment. This method is similar to
+   * {@link #executeScript}, except it exposes the
+   * <a href="http://phantomjs.org/api/">PhantomJS API</a> to the injected
+   * script.
+   *
+   * <p>The injected script will execute in the context of PhantomJS's
+   * {@code page} variable. If a page has not been loaded before calling this
+   * method, one will be created.</p>
+   *
+   * <p>Be sure to wrap callback definitions in a try/catch block, as failures
+   * may cause future WebDriver calls to fail.</p>
+   *
+   * <p>Certain callbacks are used by GhostDriver (the PhantomJS WebDriver
+   * implementation) and overriding these may cause the script to fail. It is
+   * recommended that you check for existing callbacks before defining your own.
+   * </p>
+   *
+   * As with {@link #executeScript}, the injected script may be defined as
+   * a string for an anonymous function body (e.g. "return 123;"), or as a
+   * function. If a function is provided, it will be decompiled to its original
+   * source. Note that injecting functions is provided as a convenience to
+   * simplify defining complex scripts. Care must be taken that the function
+   * only references variables that will be defined in the page's scope and
+   * that the function does not override {@code Function.prototype.toString}
+   * (overriding toString() will interfere with how the function is
+   * de ...
+```
+- example usage
+```shell
+n/a
+```
+
+
+
+# <a name="apidoc.module.selenium-webdriver.portprober"></a>[module selenium-webdriver.portprober](#apidoc.module.selenium-webdriver.portprober)
+
+#### <a name="apidoc.element.selenium-webdriver.portprober.findFreePort"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.portprober.</span>findFreePort (opt_host)](#apidoc.element.selenium-webdriver.portprober.findFreePort)
+- description and source-code
+```javascript
+function findFreePort(opt_host) {
+  return findSystemPortRange().then(function(range) {
+    var attempts = 0;
+    return new Promise((resolve, reject) => {
+      findPort();
+
+      function findPort() {
+        attempts += 1;
+        if (attempts > 10) {
+          reject(Error('Unable to find a free port'));
+        }
+
+        var port = Math.floor(
+            Math.random() * (range.max - range.min) + range.min);
+        isFree(port, opt_host).then(function(isFree) {
+          if (isFree) {
+            resolve(port);
+          } else {
+            findPort();
+          }
+        });
+      }
+    });
+  });
+}
+```
+- example usage
+```shell
+...
+if (capabilities.has(Key.EXTRACT_PATH)) {
+  args.push('--extract-path=' + capabilities.get(Key.EXTRACT_PATH));
+}
+if (capabilities.get(Key.SILENT)) {
+  args.push('--silent');
+}
+
+var port = portprober.findFreePort();
+return new remote.DriverService(exe, {
+  loopback: true,
+  port: port,
+  args: port.then(function(port) {
+    return args.concat('--port=' + port);
+  }),
+  stdio: 'ignore'
+...
+```
+
+#### <a name="apidoc.element.selenium-webdriver.portprober.isFree"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.portprober.</span>isFree (port, opt_host)](#apidoc.element.selenium-webdriver.portprober.isFree)
+- description and source-code
+```javascript
+function isFree(port, opt_host) {
+  return new Promise((resolve, reject) => {
+    let server = net.createServer().on('error', function(e) {
+      if (e.code === 'EADDRINUSE') {
+        resolve(false);
+      } else {
+        reject(e);
+      }
+    });
+
+    server.listen(port, opt_host, function() {
+      server.close(() => resolve(true));
+    });
+  });
+}
+```
+- example usage
+```shell
+n/a
+```
+
+
+
+# <a name="apidoc.module.selenium-webdriver.profile"></a>[module selenium-webdriver.profile](#apidoc.module.selenium-webdriver.profile)
+
+#### <a name="apidoc.element.selenium-webdriver.profile.Profile"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.profile.</span>Profile (opt_dir)](#apidoc.element.selenium-webdriver.profile.Profile)
+- description and source-code
+```javascript
+class Profile {
+<span class="apidocCodeCommentSpan">  /**
+   * @param {string=} opt_dir Path to an existing Firefox profile directory to
+   *     use a template for this profile. If not specified, a blank profile will
+   *     be used.
+   */
+</span>  constructor(opt_dir) {
+    /** @private {!Object} */
+    this.preferences_ = {};
+
+    /** @private {boolean} */
+    this.nativeEventsEnabled_ = true;
+
+    /** @private {(string|undefined)} */
+    this.template_ = opt_dir;
+
+    /** @private {number} */
+    this.port_ = 0;
+
+    /** @private {!Array<string>} */
+    this.extensions_ = [];
+  }
+
+  /**
+   * @return {(string|undefined)} Path to an existing Firefox profile directory
+   *     to use as a template when writing this Profile to disk.
+   */
+  getTemplateDir() {
+    return this.template_;
+  }
+
+  /**
+   * Registers an extension to be included with this profile.
+   * @param {string} extension Path to the extension to include, as either an
+   *     unpacked extension directory or the path to a xpi file.
+   */
+  addExtension(extension) {
+    this.extensions_.push(extension);
+  }
+
+  /**
+   * @return {!Array<string>} A list of extensions to install in this profile.
+   */
+  getExtensions() {
+    return this.extensions_;
+  }
+
+  /**
+   * Sets a desired preference for this profile.
+   * @param {string} key The preference key.
+   * @param {(string|number|boolean)} value The preference value.
+   * @throws {Error} If attempting to set a frozen preference.
+   */
+  setPreference(key, value) {
+    var frozen = getDefaultPreferences()['frozen'];
+    if (frozen.hasOwnProperty(key) && frozen[key] !== value) {
+      throw Error('You may not set ' + key + '=' + JSON.stringify(value)
+          + '; value is frozen for proper WebDriver functionality ('
+          + key + '=' + JSON.stringify(frozen[key]) + ')');
+    }
+    this.preferences_[key] = value;
+  }
+
+  /**
+   * Returns the currently configured value of a profile preference. This does
+   * not include any defaults defined in the profile's template directory user.js
+   * file (if a template were specified on construction).
+   * @param {string} key The desired preference.
+   * @return {(string|number|boolean|undefined)} The current value of the
+   *     requested preference.
+   */
+  getPreference(key) {
+    return this.preferences_[key];
+  }
+
+  /**
+   * @return {!Object} A copy of all currently configured preferences.
+   */
+  getPreferences() {
+    return Object.assign({}, this.preferences_);
+  }
+
+  /**
+   * Specifies which host the driver should listen for commands on. If not
+   * specified, the driver will default to "localhost". This option should be
+   * specified when "localhost" is not mapped to the loopback address
+   * (127.0.0.1) in '/etc/hosts'.
+   *
+   * @param {string} host the host the driver should listen for commands on
+   */
+  setHost(host) {
+    this.preferences_['webdriver_firefox_allowed_hosts'] = host;
+  }
+
+  /**
+   * @return {number} The port this profile is currently configured to use, or
+   *     0 if the port will be selected at random when the profile is written
+   *     to disk.
+   */
+  getPort() {
+    return this.port_;
+  }
+
+  /**
+   * Sets the port to use for the WebDriver extension loaded by this profile.
+   * @param {number} port The desired port, or 0 to use any free port.
+   */
+  setPort(port) {
+    this.port_ = port;
+  }
+
+  /**
+   * @return {boolean} Whether the FirefoxDriver is configured to automatically
+   *     accept untrusted SSL certificates.
+   */
+  acceptUntrustedCerts() {
+    return !!this.preferences_['webdriver_accept_untrusted_certs'];
+  }
+
+  /**
+   * Sets whether the FirefoxDriver should automatically accept untrusted SSL
+   * certificates.
+   * @param {boolean} value .
+   */
+  setAcceptUntrustedCerts(value) {
+    this.preferences_['webdriver_accept_untrusted_certs'] = !!value;
+  }
+
+  /**
+   * Sets whether to assume untrusted certificates come from untrusted issuers.
+   * @param {boolean} value .
+   */
+  setAssumeUntrustedCertIssuer(value) {
+    this.preferences_['webdriver_assume_untrusted_issuer'] = !!value;
+  }
+
+  /**
+   * @return {boolean} Whether to assume untrusted certs come from ...
+```
+- example usage
+```shell
+n/a
+```
+
+#### <a name="apidoc.element.selenium-webdriver.profile.decode"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.profile.</span>decode (data)](#apidoc.element.selenium-webdriver.profile.decode)
+- description and source-code
+```javascript
+function decode(data) {
+  return io.tmpFile().then(function(file) {
+    var buf = new Buffer(data, 'base64');
+    return io.write(file, buf)
+        .then(io.tmpDir)
+        .then(function(dir) {
+          var zip = new AdmZip(file);
+          zip.extractAllTo(dir);  // Sync only? Why?? :-(
+          return dir;
+        });
+  });
+}
+```
+- example usage
+```shell
+n/a
+```
+
+#### <a name="apidoc.element.selenium-webdriver.profile.loadUserPrefs"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.profile.</span>loadUserPrefs (f)](#apidoc.element.selenium-webdriver.profile.loadUserPrefs)
+- description and source-code
+```javascript
+function loadUserPrefs(f) {
+  return io.read(f).then(
+      function onSuccess(contents) {
+        var prefs = {};
+        var context = vm.createContext({
+          'user_pref': function(key, value) {
+            prefs[key] = value;
+          }
+        });
+        vm.runInContext(contents.toString(), context, f);
+        return prefs;
+      },
+      function onError(err) {
+        if (err && err.code === 'ENOENT') {
+          return {};
+        }
+        throw err;
+      });
 }
 ```
 - example usage
@@ -5178,21 +7324,21 @@ function map(arr, fn, opt_self) {
 - example usage
 ```shell
 ...
-perform() {
-  // Make a protected copy of the scheduled actions. This will protect against
-  // users defining additional commands before this sequence is actually
-  // executed.
-  let actions = this.actions_.concat();
-  let driver = this.driver_;
-  return driver.controlFlow().execute(function() {
-    let results = actions.map(action => {
-      return driver.schedule(action.command, action.description);
-    });
-    return Promise.all(results);
-  }, 'ActionSequence.perform');
+let json = {};
+for (let key in this.options_) {
+  if (this.options_[key] != null) {
+    json[key] = this.options_[key];
+  }
 }
-
-/**
+if (this.extensions_.length) {
+  json.extensions = this.extensions_.map(function(extension) {
+    if (Buffer.isBuffer(extension)) {
+      return extension.toString('base64');
+    }
+    return io.read(/** @type {string} */(extension))
+        .then(buffer => buffer.toString('base64'));
+  });
+}
 ...
 ```
 
@@ -5356,6 +7502,232 @@ system = function () {
 - example usage
 ```shell
 n/a
+```
+
+
+
+# <a name="apidoc.module.selenium-webdriver.safari"></a>[module selenium-webdriver.safari](#apidoc.module.selenium-webdriver.safari)
+
+#### <a name="apidoc.element.selenium-webdriver.safari.Driver"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.safari.</span>Driver (Options|Capabilities)](#apidoc.element.selenium-webdriver.safari.Driver)
+- description and source-code
+```javascript
+class Driver extends webdriver.WebDriver {
+<span class="apidocCodeCommentSpan">  /**
+   * Creates a new Safari session.
+   *
+   * @param {(Options|Capabilities)=} opt_config The configuration
+   *     options for the new session.
+   * @param {promise.ControlFlow=} opt_flow The control flow to create
+   *     the driver under.
+   * @return {!Driver} A new driver instance.
+   */
+</span>  static createSession(opt_config, opt_flow) {
+    let caps, exe;
+
+    if (opt_config instanceof Options) {
+      caps = opt_config.toCapabilities();
+    } else {
+      caps = opt_config || Capabilities.safari();
+    }
+
+    if (useTechnologyPreview(caps.get(OPTIONS_CAPABILITY_KEY))) {
+      exe = SAFARIDRIVER_TECHNOLOGY_PREVIEW_EXE;
+    }
+
+    let service = new ServiceBuilder(exe).build();
+    let executor = new http.Executor(
+        service.start().then(url => new http.HttpClient(url)));
+
+    return /** @type {!Driver} */(webdriver.WebDriver.createSession(
+        executor, caps, opt_flow, this, () => service.kill()));
+  }
+}
+```
+- example usage
+```shell
+n/a
+```
+
+#### <a name="apidoc.element.selenium-webdriver.safari.Options"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.safari.</span>Options ()](#apidoc.element.selenium-webdriver.safari.Options)
+- description and source-code
+```javascript
+class Options {
+  constructor() {
+<span class="apidocCodeCommentSpan">    /** @private {Object<string, *>} */
+</span>    this.options_ = null;
+
+    /** @private {./lib/logging.Preferences} */
+    this.logPrefs_ = null;
+
+    /** @private {?./lib/capabilities.ProxyConfig} */
+    this.proxy_ = null;
+  }
+
+  /**
+   * Extracts the SafariDriver specific options from the given capabilities
+   * object.
+   * @param {!Capabilities} capabilities The capabilities object.
+   * @return {!Options} The SafariDriver options.
+   */
+  static fromCapabilities(capabilities) {
+    var options = new Options();
+    var o = capabilities.get(OPTIONS_CAPABILITY_KEY);
+
+    if (o instanceof Options) {
+      options = o;
+    } else if (o) {
+      options.setCleanSession(o.cleanSession);
+      options.setTechnologyPreview(o[TECHNOLOGY_PREVIEW_OPTIONS_KEY]);
+    }
+
+    if (capabilities.has(Capability.PROXY)) {
+      options.setProxy(capabilities.get(Capability.PROXY));
+    }
+
+    if (capabilities.has(Capability.LOGGING_PREFS)) {
+      options.setLoggingPrefs(capabilities.get(Capability.LOGGING_PREFS));
+    }
+
+    return options;
+  }
+
+  /**
+   * Sets whether to force Safari to start with a clean session. Enabling this
+   * option will cause all global browser data to be deleted.
+   * @param {boolean} clean Whether to make sure the session has no cookies,
+   *     cache entries, local storage, or databases.
+   * @return {!Options} A self reference.
+   */
+  setCleanSession(clean) {
+    if (!this.options_) {
+      this.options_ = {};
+    }
+    this.options_['cleanSession'] = clean;
+    return this;
+  }
+
+  /**
+   * Sets the logging preferences for the new session.
+   * @param {!./lib/logging.Preferences} prefs The logging preferences.
+   * @return {!Options} A self reference.
+   */
+  setLoggingPrefs(prefs) {
+    this.logPrefs_ = prefs;
+    return this;
+  }
+
+  /**
+   * Sets the proxy to use.
+   *
+   * @param {./lib/capabilities.ProxyConfig} proxy The proxy configuration to use.
+   * @return {!Options} A self reference.
+   */
+  setProxy(proxy) {
+    this.proxy_ = proxy;
+    return this;
+  }
+
+  /**
+   * Instruct the SafariDriver to use the Safari Technology Preview if true.
+   * Otherwise, use the release version of Safari. Defaults to using the release version of Safari.
+   *
+   * @param {boolean} useTechnologyPreview
+   * @return {!Options} A self reference.
+   */
+  setTechnologyPreview(useTechnologyPreview) {
+    if (!this.options_) {
+      this.options_ = {};
+    }
+
+    this.options_[TECHNOLOGY_PREVIEW_OPTIONS_KEY] = !!useTechnologyPreview;
+    return this;
+  }
+
+  /**
+   * Converts this options instance to a {@link Capabilities} object.
+   * @param {Capabilities=} opt_capabilities The capabilities to
+   *     merge these options into, if any.
+   * @return {!Capabilities} The capabilities.
+   */
+  toCapabilities(opt_capabilities) {
+    var caps = opt_capabilities || Capabilities.safari();
+    if (this.logPrefs_) {
+      caps.set(Capability.LOGGING_PREFS, this.logPrefs_);
+    }
+    if (this.proxy_) {
+      caps.set(Capability.PROXY, this.proxy_);
+    }
+    if (this.options_) {
+      caps.set(OPTIONS_CAPABILITY_KEY, this);
+    }
+    return caps;
+  }
+
+  /**
+   * Converts this instance to its JSON wire protocol representation. Note this
+   * function is an implementation detail not intended for general use.
+   * @return {!Object<string, *>} The JSON wire protocol representation of this
+   *     instance.
+   */
+  [Symbols.serialize]() {
+    return this.options_ || {};
+  }
+}
+```
+- example usage
+```shell
+...
+*     let chrome = require('selenium-webdriver/chrome');
+*
+*     let service = new chrome.ServiceBuilder()
+*         .loggingTo('/my/log/file.txt')
+*         .enableVerboseLogging()
+*         .build();
+*
+*     let options = new chrome.Options();
+*     // configure browser options ...
+*
+*     let driver = chrome.Driver.createSession(options, service);
+*
+* Users should only instantiate the {@link Driver} class directly when they
+* need a custom driver service configuration (as shown above). For normal
+* operation, users should start Chrome using the
+...
+```
+
+#### <a name="apidoc.element.selenium-webdriver.safari.ServiceBuilder"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.safari.</span>ServiceBuilder (opt_exe)](#apidoc.element.selenium-webdriver.safari.ServiceBuilder)
+- description and source-code
+```javascript
+class ServiceBuilder extends remote.DriverService.Builder {
+<span class="apidocCodeCommentSpan">  /**
+   * @param {string=} opt_exe Path to the server executable to use. If omitted,
+   *     the builder will attempt to locate the safaridriver on the system PATH.
+   */
+</span>  constructor(opt_exe) {
+    super(opt_exe || findSafariDriver());
+    this.setLoopback(true);  // Required.
+  }
+}
+```
+- example usage
+```shell
+...
+* with {@link #setDefaultService setDefaultService()}.
+*
+* You may also create a {@link Driver} with its own driver service. This is
+* useful if you need to capture the server's log output for a specific session:
+*
+*     let chrome = require('selenium-webdriver/chrome');
+*
+*     let service = new chrome.ServiceBuilder()
+*         .loggingTo('/my/log/file.txt')
+*         .enableVerboseLogging()
+*         .build();
+*
+*     let options = new chrome.Options();
+*     // configure browser options ...
+*
+...
 ```
 
 
@@ -5801,6 +8173,136 @@ function urlMatches(regex) {
     return driver.getCurrentUrl().then(function(url) {
       return regex.test(url);
     });
+  });
+}
+```
+- example usage
+```shell
+n/a
+```
+
+
+
+# <a name="apidoc.module.selenium-webdriver.util"></a>[module selenium-webdriver.util](#apidoc.module.selenium-webdriver.util)
+
+#### <a name="apidoc.element.selenium-webdriver.util.getStatus"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.util.</span>getStatus (url)](#apidoc.element.selenium-webdriver.util.getStatus)
+- description and source-code
+```javascript
+function getStatus(url) {
+  var client = new HttpClient(url);
+  var executor = new Executor(client);
+  var command = new Command(CommandName.GET_SERVER_STATUS);
+  return executor.execute(command);
+}
+```
+- example usage
+```shell
+n/a
+```
+
+#### <a name="apidoc.element.selenium-webdriver.util.waitForServer"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.util.</span>waitForServer (url, timeout, opt_cancelToken)](#apidoc.element.selenium-webdriver.util.waitForServer)
+- description and source-code
+```javascript
+waitForServer = function (url, timeout, opt_cancelToken) {
+  return new Promise((onResolve, onReject) => {
+    let start = Date.now();
+
+    let done = false;
+    let resolve = (status) => {
+      done = true;
+      onResolve(status);
+    };
+    let reject = (err) => {
+      done = true;
+      onReject(err);
+    };
+
+    if (opt_cancelToken) {
+      opt_cancelToken.then(_ => reject(new promise.CancellationError));
+    }
+
+    checkServerStatus();
+    function checkServerStatus() {
+      return getStatus(url).then(status => resolve(status), onError);
+    }
+
+    function onError(e) {
+      // Some servers don't support the status command. If they are able to
+      // response with an error, then can consider the server ready.
+      if (e instanceof error.UnsupportedOperationError) {
+        resolve({});
+        return;
+      }
+
+      if (Date.now() - start > timeout) {
+        reject(Error('Timed out waiting for the WebDriver server at ' + url));
+      } else {
+        setTimeout(function() {
+          if (!done) {
+            checkServerStatus();
+          }
+        }, 50);
+      }
+    }
+  });
+}
+```
+- example usage
+```shell
+n/a
+```
+
+#### <a name="apidoc.element.selenium-webdriver.util.waitForUrl"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.util.</span>waitForUrl (url, timeout, opt_cancelToken)](#apidoc.element.selenium-webdriver.util.waitForUrl)
+- description and source-code
+```javascript
+waitForUrl = function (url, timeout, opt_cancelToken) {
+  return new Promise((onResolve, onReject) => {
+    let client = new HttpClient(url);
+    let request = new HttpRequest('GET', '');
+    let start = Date.now();
+
+    let done = false;
+    let resolve = () => {
+      done = true;
+      onResolve();
+    };
+    let reject = (err) => {
+      done = true;
+      onReject(err);
+    };
+
+    if (opt_cancelToken) {
+      opt_cancelToken.then(_ => reject(new promise.CancellationError));
+    }
+
+    testUrl();
+
+    function testUrl() {
+      client.send(request).then(onResponse, onError);
+    }
+
+    function onError() {
+      if (Date.now() - start > timeout) {
+        reject(Error('Timed out waiting for the URL to return 2xx: ' + url));
+      } else {
+        setTimeout(function() {
+          if (!done) {
+            testUrl();
+          }
+        }, 50);
+      }
+    }
+
+    function onResponse(response) {
+      if (done) {
+        return;
+      }
+      if (response.status > 199 && response.status < 300) {
+        resolve();
+        return;
+      }
+      onError();
+    }
   });
 }
 ```
@@ -6393,7 +8895,23 @@ class Options {
 ```
 - example usage
 ```shell
-n/a
+...
+*     let chrome = require('selenium-webdriver/chrome');
+*
+*     let service = new chrome.ServiceBuilder()
+*         .loggingTo('/my/log/file.txt')
+*         .enableVerboseLogging()
+*         .build();
+*
+*     let options = new chrome.Options();
+*     // configure browser options ...
+*
+*     let driver = chrome.Driver.createSession(options, service);
+*
+* Users should only instantiate the {@link Driver} class directly when they
+* need a custom driver service configuration (as shown above). For normal
+* operation, users should start Chrome using the
+...
 ```
 
 #### <a name="apidoc.element.selenium-webdriver.webdriver.TargetLocator"></a>[function <span class="apidocSignatureSpan">selenium-webdriver.webdriver.</span>TargetLocator (driver)](#apidoc.element.selenium-webdriver.webdriver.TargetLocator)
